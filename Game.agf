@@ -6,7 +6,7 @@
       <GameName>Whistleblower</GameName>
       <UniqueID>111712</UniqueID>
       <GUIDAsString>{f4b98d0e-a4c6-49bb-87bf-fbc58f724d31}</GUIDAsString>
-      <ColorDepth>HighColor</ColorDepth>
+      <ColorDepth>TrueColor</ColorDepth>
       <Resolution>R1024x768</Resolution>
       <GraphicsDriver>DX5</GraphicsDriver>
       <CompressSprites>False</CompressSprites>
@@ -2423,34 +2423,34 @@ return
           <Sprite Slot="2" Width="11" Height="4" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
           <Sprite Slot="3" Width="11" Height="11" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
           <Sprite Slot="5" Width="36" Height="26" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-          <Sprite Slot="6" Width="246" Height="456" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="6" Width="246" Height="456" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
             <Source>
-              <FileName>C:\Users\robert\Downloads\Calendar.png</FileName>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Calendar.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="7" Width="246" Height="410" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="7" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
             <Source>
-              <FileName>C:\Users\robert\Downloads\Chat.png</FileName>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Chat.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="8" Width="857" Height="985" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="8" Width="857" Height="985" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
             <Source>
-              <FileName>C:\Users\robert\Downloads\Classified.png</FileName>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Classified.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="9" Width="1536" Height="1152" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="9" Width="1536" Height="1152" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
             <Source>
-              <FileName>C:\Users\robert\Downloads\Desktop.png</FileName>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Desktop.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="10" Width="532" Height="601" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="10" Width="532" Height="601" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
             <Source>
-              <FileName>C:\Users\robert\Downloads\Dossier.png</FileName>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Dossier.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="11" Width="342" Height="407" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="11" Width="342" Height="407" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
             <Source>
-              <FileName>C:\Users\robert\Downloads\NewsArticle.png</FileName>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\NewsArticle.png</FileName>
             </Source>
           </Sprite>
         </Sprites>
