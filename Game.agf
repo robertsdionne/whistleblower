@@ -612,6 +612,10 @@
             <Number>1</Number>
             <Description IsNull="True" />
           </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>2</Number>
+            <Description IsNull="True" />
+          </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
     </Rooms>
@@ -1627,6 +1631,77 @@
               </GUIListBox>
             </Controls>
           </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>192</Height>
+              <Width>256</Width>
+              <Left>384</Left>
+              <Top>288</Top>
+              <Clickable>True</Clickable>
+              <Visibility>Normal</Visibility>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>46518</BorderColor>
+              <Transparency>100</Transparency>
+              <BackgroundColor>8</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <ID>7</ID>
+              <Name>gLogin</Name>
+            </NormalGUI>
+            <Controls>
+              <GUIButton>
+                <OnClick>Button1_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>Login</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>128</Width>
+                <Left>112</Left>
+                <Top>148</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>Button1</Name>
+              </GUIButton>
+              <GUILabel>
+                <TextAlignment>TopLeft</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>2</Font>
+                <Text>Username:</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>128</Width>
+                <Left>14</Left>
+                <Top>32</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
+                <Name>Label3</Name>
+              </GUILabel>
+              <GUITextBox>
+                <OnActivate>TextBox1_OnActivate</OnActivate>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <ShowBorder>True</ShowBorder>
+                <Text />
+                <Height>64</Height>
+                <Locked>False</Locked>
+                <Width>224</Width>
+                <Left>14</Left>
+                <Top>64</Top>
+                <ZOrder>2</ZOrder>
+                <ID>2</ID>
+                <Name>TextBox1</Name>
+              </GUITextBox>
+            </Controls>
+          </GUIMain>
         </GUIs>
       </GUIFolder>
     </GUIs>
@@ -2339,7 +2414,13 @@ return
       <PaletteEntry Index="255" Type="Background" Red="120" Green="120" Blue="120" />
     </Palette>
     <GlobalVariables>
-      <Variables />
+      <Variables>
+        <GlobalVariable>
+          <Name>username</Name>
+          <Type>String</Type>
+          <DefaultValue>Agent</DefaultValue>
+        </GlobalVariable>
+      </Variables>
     </GlobalVariables>
     <Sprites>
       <SpriteFolder Name="Main">
