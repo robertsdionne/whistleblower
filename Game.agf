@@ -1634,29 +1634,29 @@
           <GUIMain>
             <NormalGUI>
               <OnClick />
-              <Height>192</Height>
-              <Width>256</Width>
-              <Left>384</Left>
-              <Top>288</Top>
+              <Height>376</Height>
+              <Width>280</Width>
+              <Left>372</Left>
+              <Top>246</Top>
               <Clickable>True</Clickable>
-              <Visibility>Normal</Visibility>
+              <Visibility>NormalButInitiallyOff</Visibility>
               <PopupYPos>0</PopupYPos>
               <ZOrder>0</ZOrder>
-              <BorderColor>46518</BorderColor>
+              <BorderColor>65535</BorderColor>
               <Transparency>100</Transparency>
-              <BackgroundColor>8</BackgroundColor>
-              <BackgroundImage>0</BackgroundImage>
+              <BackgroundColor>16904</BackgroundColor>
+              <BackgroundImage>12</BackgroundImage>
               <ID>7</ID>
               <Name>gLogin</Name>
             </NormalGUI>
             <Controls>
               <GUIButton>
-                <OnClick>Button1_OnClick</OnClick>
+                <OnClick>LoginButton_OnClick</OnClick>
                 <ClickAction>RunScript</ClickAction>
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
                 <TextAlignment>Centred</TextAlignment>
-                <TextColor>0</TextColor>
+                <TextColor>65535</TextColor>
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
@@ -1665,40 +1665,40 @@
                 <Height>32</Height>
                 <Locked>False</Locked>
                 <Width>128</Width>
-                <Left>112</Left>
-                <Top>148</Top>
+                <Left>124</Left>
+                <Top>324</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
-                <Name>Button1</Name>
+                <Name>LoginButton</Name>
               </GUIButton>
               <GUILabel>
                 <TextAlignment>TopLeft</TextAlignment>
-                <TextColor>0</TextColor>
+                <TextColor>65535</TextColor>
                 <Font>2</Font>
                 <Text>Username:</Text>
                 <Height>32</Height>
                 <Locked>False</Locked>
                 <Width>128</Width>
-                <Left>14</Left>
-                <Top>32</Top>
+                <Left>28</Left>
+                <Top>226</Top>
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
-                <Name>Label3</Name>
+                <Name>UserNameLabel</Name>
               </GUILabel>
               <GUITextBox>
-                <OnActivate>TextBox1_OnActivate</OnActivate>
-                <TextColor>0</TextColor>
+                <OnActivate />
+                <TextColor>65535</TextColor>
                 <Font>0</Font>
                 <ShowBorder>True</ShowBorder>
                 <Text />
                 <Height>64</Height>
                 <Locked>False</Locked>
                 <Width>224</Width>
-                <Left>14</Left>
-                <Top>64</Top>
+                <Left>28</Left>
+                <Top>244</Top>
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
-                <Name>TextBox1</Name>
+                <Name>UserName</Name>
               </GUITextBox>
             </Controls>
           </GUIMain>
@@ -2010,10 +2010,10 @@ return
     <Cursors>
       <MouseCursor>
         <ID>0</ID>
-        <HotspotX>8</HotspotX>
-        <HotspotY>9</HotspotY>
+        <HotspotX>0</HotspotX>
+        <HotspotY>0</HotspotY>
         <StandardMode>True</StandardMode>
-        <Image>2054</Image>
+        <Image>2061</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -2022,10 +2022,10 @@ return
       </MouseCursor>
       <MouseCursor>
         <ID>1</ID>
-        <HotspotX>8</HotspotX>
-        <HotspotY>8</HotspotY>
+        <HotspotX>0</HotspotX>
+        <HotspotY>0</HotspotY>
         <StandardMode>True</StandardMode>
-        <Image>2056</Image>
+        <Image>2061</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -2034,10 +2034,10 @@ return
       </MouseCursor>
       <MouseCursor>
         <ID>2</ID>
-        <HotspotX>8</HotspotX>
-        <HotspotY>8</HotspotY>
+        <HotspotX>0</HotspotX>
+        <HotspotY>0</HotspotY>
         <StandardMode>True</StandardMode>
-        <Image>2057</Image>
+        <Image>2061</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -2046,10 +2046,10 @@ return
       </MouseCursor>
       <MouseCursor>
         <ID>3</ID>
-        <HotspotX>8</HotspotX>
-        <HotspotY>8</HotspotY>
+        <HotspotX>0</HotspotX>
+        <HotspotY>0</HotspotY>
         <StandardMode>True</StandardMode>
-        <Image>2058</Image>
+        <Image>2061</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -2058,10 +2058,10 @@ return
       </MouseCursor>
       <MouseCursor>
         <ID>4</ID>
-        <HotspotX>8</HotspotX>
-        <HotspotY>8</HotspotY>
+        <HotspotX>0</HotspotX>
+        <HotspotY>0</HotspotY>
         <StandardMode>False</StandardMode>
-        <Image>2059</Image>
+        <Image>2061</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -2532,6 +2532,16 @@ return
           <Sprite Slot="11" Width="342" Height="407" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
             <Source>
               <FileName>C:\Users\robert\Dropbox\Whistleblower\NewsArticle.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="12" Width="280" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\LOGINgui.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="13" Width="280" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\ArkLogo.png</FileName>
             </Source>
           </Sprite>
         </Sprites>
