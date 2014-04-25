@@ -616,6 +616,10 @@
             <Number>2</Number>
             <Description IsNull="True" />
           </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>3</Number>
+            <Description IsNull="True" />
+          </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
     </Rooms>
@@ -631,7 +635,7 @@
               <Left>0</Left>
               <Top>0</Top>
               <Clickable>True</Clickable>
-              <Visibility>Normal</Visibility>
+              <Visibility>NormalButInitiallyOff</Visibility>
               <PopupYPos>0</PopupYPos>
               <ZOrder>0</ZOrder>
               <BorderColor>1</BorderColor>
