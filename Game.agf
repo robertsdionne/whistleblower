@@ -2635,29 +2635,23 @@ return
           <ScriptAndHeader>
             <ScriptAndHeader_Header>
               <Script>
-                <FileName>KeyboardMovement_102.ash</FileName>
-                <Name>KeyboardMovement</Name>
-                <Description>Allows to move the player character using the keyboard.
-
-See KeyboardMovement.txt for details.
-</Description>
-                <Author>Rui "Brisby" Pires / strazer</Author>
-                <Version>1.02</Version>
-                <Key>160503183</Key>
+                <FileName>Login.ash</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>1101323377</Key>
                 <IsHeader>True</IsHeader>
               </Script>
             </ScriptAndHeader_Header>
             <ScriptAndHeader_Script>
               <Script>
-                <FileName>KeyboardMovement_102.asc</FileName>
-                <Name>KeyboardMovement</Name>
-                <Description>Allows to move the player character using the keyboard.
-
-See KeyboardMovement.txt for details.
-</Description>
-                <Author>Rui "Brisby" Pires / strazer</Author>
-                <Version>1.02</Version>
-                <Key>160503183</Key>
+                <FileName>Login.asc</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>1101323377</Key>
                 <IsHeader>False</IsHeader>
               </Script>
             </ScriptAndHeader_Script>
