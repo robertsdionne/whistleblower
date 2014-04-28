@@ -620,6 +620,18 @@
             <Number>3</Number>
             <Description IsNull="True" />
           </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>4</Number>
+            <Description IsNull="True" />
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>5</Number>
+            <Description IsNull="True" />
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>6</Number>
+            <Description IsNull="True" />
+          </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
     </Rooms>
@@ -2546,6 +2558,46 @@ return
           <Sprite Slot="13" Width="280" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
             <Source>
               <FileName>C:\Users\robert\Dropbox\Whistleblower\ArkLogo.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="14" Width="64" Height="64" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\icons\chat.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="15" Width="64" Height="64" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\icons\documents.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="16" Width="64" Height="64" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\icons\mail.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="17" Width="64" Height="64" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\icons\work.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="18" Width="320" Height="320" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\windows\chat.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="19" Width="480" Height="480" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\windows\documents.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="20" Width="480" Height="640" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\windows\mail.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="21" Width="480" Height="640" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\windows\work.png</FileName>
             </Source>
           </Sprite>
         </Sprites>
