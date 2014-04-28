@@ -2697,6 +2697,30 @@ return
           <ScriptAndHeader>
             <ScriptAndHeader_Header>
               <Script>
+                <FileName>UserName.ash</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>980576553</Key>
+                <IsHeader>True</IsHeader>
+              </Script>
+            </ScriptAndHeader_Header>
+            <ScriptAndHeader_Script>
+              <Script>
+                <FileName>UserName.asc</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>980576553</Key>
+                <IsHeader>False</IsHeader>
+              </Script>
+            </ScriptAndHeader_Script>
+          </ScriptAndHeader>
+          <ScriptAndHeader>
+            <ScriptAndHeader_Header>
+              <Script>
                 <FileName>News.ash</FileName>
                 <Name />
                 <Description />
