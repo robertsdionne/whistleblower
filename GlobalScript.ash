@@ -4,3 +4,13 @@
 // scripts.
 
 import function MaybeLogin();
+
+import function MaybeClose(Object *o);
+
+import function OpenMail();
+
+import function OpenDocuments();
+
+import function OpenWork();
+
+import function OpenChat();
