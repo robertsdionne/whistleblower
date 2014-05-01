@@ -663,7 +663,7 @@
               <Left>0</Left>
               <Top>0</Top>
               <Clickable>True</Clickable>
-              <Visibility>MouseYPos</Visibility>
+              <Visibility>NormalButInitiallyOff</Visibility>
               <PopupYPos>13</PopupYPos>
               <ZOrder>1</ZOrder>
               <BorderColor>1</BorderColor>
