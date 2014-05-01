@@ -2436,6 +2436,11 @@ return
           <Type>String</Type>
           <DefaultValue>Agent</DefaultValue>
         </GlobalVariable>
+        <GlobalVariable>
+          <Name>z_index</Name>
+          <Type>int</Type>
+          <DefaultValue>0</DefaultValue>
+        </GlobalVariable>
       </Variables>
     </GlobalVariables>
     <Sprites>
