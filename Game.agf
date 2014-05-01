@@ -617,10 +617,6 @@
             <Description IsNull="True" />
           </UnloadedRoom>
           <UnloadedRoom>
-            <Number>3</Number>
-            <Description IsNull="True" />
-          </UnloadedRoom>
-          <UnloadedRoom>
             <Number>4</Number>
             <Description IsNull="True" />
           </UnloadedRoom>
@@ -1972,6 +1968,46 @@
               <Event Index="7" />
             </Interactions>
           </Character>
+          <Character>
+            <ID>1</ID>
+            <ScriptName>cNewsFeed</ScriptName>
+            <RealName xml:space="preserve">News Feed</RealName>
+            <NormalView>3</NormalView>
+            <SpeechView>2</SpeechView>
+            <IdleView>0</IdleView>
+            <ThinkingView>0</ThinkingView>
+            <BlinkingView>0</BlinkingView>
+            <StartingRoom>2</StartingRoom>
+            <StartX>160</StartX>
+            <StartY>120</StartY>
+            <UniformMovementSpeed>True</UniformMovementSpeed>
+            <MovementSpeed>3</MovementSpeed>
+            <MovementSpeedX>0</MovementSpeedX>
+            <MovementSpeedY>0</MovementSpeedY>
+            <AnimationDelay>4</AnimationDelay>
+            <SpeechAnimationDelay>5</SpeechAnimationDelay>
+            <SpeechColor>33823</SpeechColor>
+            <Solid>True</Solid>
+            <Clickable>True</Clickable>
+            <UseRoomAreaScaling>True</UseRoomAreaScaling>
+            <UseRoomAreaLighting>True</UseRoomAreaLighting>
+            <TurnBeforeWalking>True</TurnBeforeWalking>
+            <DiagonalLoops>True</DiagonalLoops>
+            <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
+            <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
+            <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+              <Event Index="5" />
+              <Event Index="6" />
+              <Event Index="7" />
+            </Interactions>
+          </Character>
         </Characters>
       </CharacterFolder>
     </Characters>
@@ -2605,6 +2641,16 @@ return
               <FileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\windows\work.png</FileName>
             </Source>
           </Sprite>
+          <Sprite Slot="22" Width="32" Height="32" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\news_character_sprite.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="23" Width="128" Height="128" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\windows\news.png</FileName>
+            </Source>
+          </Sprite>
         </Sprites>
       </SpriteFolder>
     </Sprites>
@@ -2680,7 +2726,7 @@ return
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>6</Image>
+                    <Image>23</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
@@ -2689,12 +2735,60 @@ return
               </Loop>
             </Loops>
           </View>
+          <View>
+            <ID>3</ID>
+            <Name>Empty</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>22</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>1</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>0</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>2</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>0</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>3</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames />
+              </Loop>
+            </Loops>
+          </View>
         </Views>
       </ViewFolder>
     </Views>
-    <DeletedViews>
-      <ViewID>3</ViewID>
-    </DeletedViews>
+    <DeletedViews />
     <Scripts>
       <ScriptFolder Name="Main">
         <SubFolders />
