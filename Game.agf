@@ -639,7 +639,7 @@
               <BackgroundColor>7</BackgroundColor>
               <BackgroundImage>-1</BackgroundImage>
               <ID>0</ID>
-              <Name>gInventory</Name>
+              <Name>Inventory</Name>
             </NormalGUI>
             <Controls>
               <GUIInventory>
@@ -778,7 +778,7 @@
               <BackgroundColor>16904</BackgroundColor>
               <BackgroundImage>12</BackgroundImage>
               <ID>1</ID>
-              <Name>gLogin</Name>
+              <Name>Login</Name>
             </NormalGUI>
             <Controls>
               <GUIButton>
@@ -849,7 +849,7 @@
               <BackgroundColor>8</BackgroundColor>
               <BackgroundImage>20</BackgroundImage>
               <ID>2</ID>
-              <Name>gMail1</Name>
+              <Name>Mail1</Name>
             </NormalGUI>
             <Controls>
               <GUILabel>
@@ -867,7 +867,7 @@
                 <Name>Label3</Name>
               </GUILabel>
               <GUIButton>
-                <OnClick>gMailNextButton1_OnClick</OnClick>
+                <OnClick>MailNextButton1_OnClick</OnClick>
                 <ClickAction>RunScript</ClickAction>
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
@@ -975,7 +975,7 @@
               <BackgroundColor>8</BackgroundColor>
               <BackgroundImage>20</BackgroundImage>
               <ID>3</ID>
-              <Name>gMail2</Name>
+              <Name>Mail2</Name>
             </NormalGUI>
             <Controls>
               <GUILabel>
@@ -1101,7 +1101,7 @@
               <BackgroundColor>8</BackgroundColor>
               <BackgroundImage>20</BackgroundImage>
               <ID>4</ID>
-              <Name>gMail3</Name>
+              <Name>Mail3</Name>
             </NormalGUI>
             <Controls>
               <GUIButton>
@@ -1213,7 +1213,7 @@
               <BackgroundColor>8</BackgroundColor>
               <BackgroundImage>20</BackgroundImage>
               <ID>5</ID>
-              <Name>gMail4</Name>
+              <Name>Mail4</Name>
             </NormalGUI>
             <Controls>
               <GUIButton>
@@ -1353,7 +1353,7 @@
               <BackgroundColor>8</BackgroundColor>
               <BackgroundImage>0</BackgroundImage>
               <ID>6</ID>
-              <Name>gDocument1</Name>
+              <Name>Document1</Name>
             </NormalGUI>
             <Controls>
               <GUIButton>
@@ -1395,7 +1395,7 @@
               <BackgroundColor>8</BackgroundColor>
               <BackgroundImage>0</BackgroundImage>
               <ID>7</ID>
-              <Name>gDocument2</Name>
+              <Name>Document2</Name>
             </NormalGUI>
             <Controls>
               <GUIButton>
@@ -1437,7 +1437,7 @@
               <BackgroundColor>8</BackgroundColor>
               <BackgroundImage>0</BackgroundImage>
               <ID>8</ID>
-              <Name>gDocument3</Name>
+              <Name>Document3</Name>
             </NormalGUI>
             <Controls>
               <GUIButton>
@@ -2227,7 +2227,7 @@ return
           <DefaultValue>0</DefaultValue>
         </GlobalVariable>
         <GlobalVariable>
-          <Name>gMail</Name>
+          <Name>Mail</Name>
           <Type>GUI*</Type>
           <DefaultValue />
         </GlobalVariable>
@@ -2574,7 +2574,7 @@ return
           <ScriptAndHeader>
             <ScriptAndHeader_Header>
               <Script>
-                <FileName>UserName.ash</FileName>
+                <FileName>Username.ash</FileName>
                 <Name />
                 <Description />
                 <Author />
@@ -2585,7 +2585,7 @@ return
             </ScriptAndHeader_Header>
             <ScriptAndHeader_Script>
               <Script>
-                <FileName>UserName.asc</FileName>
+                <FileName>Username.asc</FileName>
                 <Name />
                 <Description />
                 <Author />
