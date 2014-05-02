@@ -7,6 +7,8 @@ import function MaybeLogin();
 
 import function MaybeClose(Object *o);
 
+import function Raise(GUI *g);
+
 import function OpenMail();
 
 import function OpenDocuments();
