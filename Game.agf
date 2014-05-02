@@ -836,8 +836,8 @@
           <GUIMain>
             <NormalGUI>
               <OnClick />
-              <Height>640</Height>
-              <Width>480</Width>
+              <Height>653</Height>
+              <Width>612</Width>
               <Left>241</Left>
               <Top>64</Top>
               <Clickable>True</Clickable>
@@ -846,22 +846,22 @@
               <ZOrder>0</ZOrder>
               <BorderColor>65535</BorderColor>
               <Transparency>0</Transparency>
-              <BackgroundColor>8</BackgroundColor>
-              <BackgroundImage>20</BackgroundImage>
+              <BackgroundColor>65535</BackgroundColor>
+              <BackgroundImage>24</BackgroundImage>
               <ID>2</ID>
               <Name>Mail1</Name>
             </NormalGUI>
             <Controls>
               <GUILabel>
                 <TextAlignment>TopLeft</TextAlignment>
-                <TextColor>0</TextColor>
+                <TextColor>65535</TextColor>
                 <Font>0</Font>
-                <Text xml:space="preserve">Hello Employee ID ____(Player Input)____,</Text>
+                <Text>Player</Text>
                 <Height>40</Height>
                 <Locked>False</Locked>
-                <Width>416</Width>
-                <Left>32</Left>
-                <Top>128</Top>
+                <Width>256</Width>
+                <Left>184</Left>
+                <Top>171</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
                 <Name>Label3</Name>
@@ -881,40 +881,12 @@
                 <Height>32</Height>
                 <Locked>False</Locked>
                 <Width>128</Width>
-                <Left>320</Left>
+                <Left>452</Left>
                 <Top>592</Top>
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
-                <Name>gMailNextButton1</Name>
+                <Name>MailNextButton1</Name>
               </GUIButton>
-              <GUILabel>
-                <TextAlignment>TopLeft</TextAlignment>
-                <TextColor>0</TextColor>
-                <Font>0</Font>
-                <Text xml:space="preserve">It is the ARK program's pleasure to extend our congratulations to you on your retirement and emigration. Attached is your ticket for ARK Wave 52. Your departure date is February 15th 2061 at 0800 hours. Please complete your working week, after which you may take your leave and prepare for your departure from our beautiful, dying planet.   </Text>
-                <Height>192</Height>
-                <Locked>False</Locked>
-                <Width>416</Width>
-                <Left>32</Left>
-                <Top>184</Top>
-                <ZOrder>2</ZOrder>
-                <ID>2</ID>
-                <Name>Label6</Name>
-              </GUILabel>
-              <GUILabel>
-                <TextAlignment>TopLeft</TextAlignment>
-                <TextColor>0</TextColor>
-                <Font>0</Font>
-                <Text xml:space="preserve">ARK Wave 52 has now reached its full capacity. You will be joining your fellow employees at ARK Corporation along with one thousand citizens who are on our priority list to emigrate on the date printed above. This ticket is provided to you as a part of the contract agreed upon at the time of your employment. </Text>
-                <Height>172</Height>
-                <Locked>False</Locked>
-                <Width>416</Width>
-                <Left>32</Left>
-                <Top>392</Top>
-                <ZOrder>3</ZOrder>
-                <ID>3</ID>
-                <Name>Label7</Name>
-              </GUILabel>
               <GUIButton>
                 <OnClick>CloseButton_OnClick</OnClick>
                 <ClickAction>RunScript</ClickAction>
@@ -930,40 +902,19 @@
                 <Height>32</Height>
                 <Locked>False</Locked>
                 <Width>32</Width>
-                <Left>448</Left>
-                <Top>0</Top>
-                <ZOrder>4</ZOrder>
-                <ID>4</ID>
+                <Left>560</Left>
+                <Top>1</Top>
+                <ZOrder>2</ZOrder>
+                <ID>2</ID>
                 <Name>MailCloseButton1</Name>
-              </GUIButton>
-              <GUIButton>
-                <OnClick />
-                <ClickAction>RunScript</ClickAction>
-                <NewModeNumber>0</NewModeNumber>
-                <ClipImage>False</ClipImage>
-                <TextAlignment>Centred</TextAlignment>
-                <TextColor>33808</TextColor>
-                <Font>0</Font>
-                <PushedImage>0</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>0</Image>
-                <Text>&lt;-</Text>
-                <Height>32</Height>
-                <Locked>False</Locked>
-                <Width>64</Width>
-                <Left>240</Left>
-                <Top>592</Top>
-                <ZOrder>5</ZOrder>
-                <ID>5</ID>
-                <Name>Button1</Name>
               </GUIButton>
             </Controls>
           </GUIMain>
           <GUIMain>
             <NormalGUI>
               <OnClick />
-              <Height>640</Height>
-              <Width>480</Width>
+              <Height>653</Height>
+              <Width>612</Width>
               <Left>241</Left>
               <Top>64</Top>
               <Clickable>True</Clickable>
@@ -972,47 +923,12 @@
               <ZOrder>0</ZOrder>
               <BorderColor>65535</BorderColor>
               <Transparency>0</Transparency>
-              <BackgroundColor>8</BackgroundColor>
-              <BackgroundImage>20</BackgroundImage>
+              <BackgroundColor>65535</BackgroundColor>
+              <BackgroundImage>25</BackgroundImage>
               <ID>3</ID>
               <Name>Mail2</Name>
             </NormalGUI>
             <Controls>
-              <GUILabel>
-                <TextAlignment>TopLeft</TextAlignment>
-                <TextColor>0</TextColor>
-                <Font>0</Font>
-                <Text xml:space="preserve">The ARK program began when Earth was declared officially uninhabitable in the winter of 2043 and has since transported over 3 million people out of the planet. As the program reaches its goal and makes its final journey, we would like to thank you for your heroic service. It has been a pleasure to have you on our team in this vital and difficult endeavor to save humanity. We hope your emigration is a safe and comfortable one.</Text>
-                <Height>256</Height>
-                <Locked>False</Locked>
-                <Width>416</Width>
-                <Left>32</Left>
-                <Top>128</Top>
-                <ZOrder>0</ZOrder>
-                <ID>0</ID>
-                <Name>Label8</Name>
-              </GUILabel>
-              <GUIButton>
-                <OnClick>MailNextButton2_OnClick</OnClick>
-                <ClickAction>RunScript</ClickAction>
-                <NewModeNumber>0</NewModeNumber>
-                <ClipImage>False</ClipImage>
-                <TextAlignment>Centred</TextAlignment>
-                <TextColor>65535</TextColor>
-                <Font>0</Font>
-                <PushedImage>0</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>0</Image>
-                <Text xml:space="preserve">Next -&gt;</Text>
-                <Height>32</Height>
-                <Locked>False</Locked>
-                <Width>128</Width>
-                <Left>320</Left>
-                <Top>592</Top>
-                <ZOrder>1</ZOrder>
-                <ID>1</ID>
-                <Name>MailNextButton2</Name>
-              </GUIButton>
               <GUIButton>
                 <OnClick>MailPrevButton2_OnClick</OnClick>
                 <ClickAction>RunScript</ClickAction>
@@ -1024,14 +940,14 @@
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
-                <Text>&lt;-</Text>
+                <Text xml:space="preserve">&lt;- Prev</Text>
                 <Height>32</Height>
                 <Locked>False</Locked>
-                <Width>64</Width>
-                <Left>240</Left>
+                <Width>128</Width>
+                <Left>452</Left>
                 <Top>592</Top>
-                <ZOrder>2</ZOrder>
-                <ID>2</ID>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
                 <Name>MailPrevButton2</Name>
               </GUIButton>
               <GUIButton>
@@ -1049,40 +965,12 @@
                 <Height>32</Height>
                 <Locked>False</Locked>
                 <Width>32</Width>
-                <Left>448</Left>
-                <Top>0</Top>
-                <ZOrder>3</ZOrder>
-                <ID>3</ID>
+                <Left>560</Left>
+                <Top>1</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
                 <Name>MailCloseButton2</Name>
               </GUIButton>
-              <GUILabel>
-                <TextAlignment>TopLeft</TextAlignment>
-                <TextColor>0</TextColor>
-                <Font>0</Font>
-                <Text xml:space="preserve">We also encourage that you say goodbye to any relations, colleagues, or intimates that remain on Earth, listed here:</Text>
-                <Height>80</Height>
-                <Locked>False</Locked>
-                <Width>416</Width>
-                <Left>32</Left>
-                <Top>400</Top>
-                <ZOrder>4</ZOrder>
-                <ID>4</ID>
-                <Name>Label9</Name>
-              </GUILabel>
-              <GUILabel>
-                <TextAlignment>TopLeft</TextAlignment>
-                <TextColor>0</TextColor>
-                <Font>0</Font>
-                <Text xml:space="preserve">(Your records show that you do not have any relations left on Earth)</Text>
-                <Height>48</Height>
-                <Locked>False</Locked>
-                <Width>416</Width>
-                <Left>32</Left>
-                <Top>496</Top>
-                <ZOrder>5</ZOrder>
-                <ID>5</ID>
-                <Name>Label10</Name>
-              </GUILabel>
             </Controls>
           </GUIMain>
           <GUIMain>
@@ -1144,7 +1032,7 @@
                 <Top>592</Top>
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
-                <Name>MailButtonPrev3</Name>
+                <Name>MailPrevButton3</Name>
               </GUIButton>
               <GUIButton>
                 <OnClick>MailNextButton3_OnClick</OnClick>
@@ -1165,7 +1053,7 @@
                 <Top>592</Top>
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
-                <Name>MailButtonNext3</Name>
+                <Name>MailNextButton3</Name>
               </GUIButton>
               <GUILabel>
                 <TextAlignment>TopLeft</TextAlignment>
@@ -1235,7 +1123,7 @@
                 <Top>592</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
-                <Name>MailButtonNext4</Name>
+                <Name>MailNextButton4</Name>
               </GUIButton>
               <GUIButton>
                 <OnClick>CloseButton_OnClick</OnClick>
@@ -1277,7 +1165,7 @@
                 <Top>592</Top>
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
-                <Name>MailButtonPrev4</Name>
+                <Name>MailPrevButton4</Name>
               </GUIButton>
               <GUILabel>
                 <TextAlignment>TopLeft</TextAlignment>
@@ -1339,7 +1227,7 @@
           </GUIMain>
           <GUIMain>
             <NormalGUI>
-              <OnClick>gDocument_OnClick</OnClick>
+              <OnClick>Document_OnClick</OnClick>
               <Height>480</Height>
               <Width>480</Width>
               <Left>229</Left>
@@ -1381,7 +1269,7 @@
           </GUIMain>
           <GUIMain>
             <NormalGUI>
-              <OnClick>gDocument_OnClick</OnClick>
+              <OnClick>Document_OnClick</OnClick>
               <Height>480</Height>
               <Width>480</Width>
               <Left>478</Left>
@@ -1423,7 +1311,7 @@
           </GUIMain>
           <GUIMain>
             <NormalGUI>
-              <OnClick>gDocument_OnClick</OnClick>
+              <OnClick>Document_OnClick</OnClick>
               <Height>480</Height>
               <Width>480</Width>
               <Left>341</Left>
@@ -1460,6 +1348,972 @@
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
                 <Name>DocumentCloseButton3</Name>
+              </GUIButton>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>640</Height>
+              <Width>480</Width>
+              <Left>241</Left>
+              <Top>64</Top>
+              <Clickable>True</Clickable>
+              <Visibility>NormalButInitiallyOff</Visibility>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>65535</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>8</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <ID>9</ID>
+              <Name>Work1</Name>
+            </NormalGUI>
+            <Controls>
+              <GUIButton>
+                <OnClick>CloseButton_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>x</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>32</Width>
+                <Left>440</Left>
+                <Top>8</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>WorkCloseButton1</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>33808</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>&lt;-</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>64</Width>
+                <Left>240</Left>
+                <Top>592</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
+                <Name>WorkPrevButton1</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>WorkNextButton1_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text xml:space="preserve">Next -&gt;</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>128</Width>
+                <Left>320</Left>
+                <Top>592</Top>
+                <ZOrder>2</ZOrder>
+                <ID>2</ID>
+                <Name>WorkNextButton1</Name>
+              </GUIButton>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>640</Height>
+              <Width>480</Width>
+              <Left>241</Left>
+              <Top>64</Top>
+              <Clickable>True</Clickable>
+              <Visibility>NormalButInitiallyOff</Visibility>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>65535</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>8</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <ID>10</ID>
+              <Name>Work2</Name>
+            </NormalGUI>
+            <Controls>
+              <GUIButton>
+                <OnClick>CloseButton_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>x</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>32</Width>
+                <Left>440</Left>
+                <Top>8</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>WorkCloseButton2</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>WorkPrevButton2_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>&lt;-</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>64</Width>
+                <Left>240</Left>
+                <Top>592</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
+                <Name>WorkPrevButton2</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>WorkNextButton2_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text xml:space="preserve">Next -&gt;</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>128</Width>
+                <Left>320</Left>
+                <Top>592</Top>
+                <ZOrder>2</ZOrder>
+                <ID>2</ID>
+                <Name>WorkNextButton2</Name>
+              </GUIButton>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>640</Height>
+              <Width>480</Width>
+              <Left>241</Left>
+              <Top>64</Top>
+              <Clickable>True</Clickable>
+              <Visibility>NormalButInitiallyOff</Visibility>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>65535</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>8</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <ID>11</ID>
+              <Name>Work3</Name>
+            </NormalGUI>
+            <Controls>
+              <GUIButton>
+                <OnClick>CloseButton_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>x</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>32</Width>
+                <Left>440</Left>
+                <Top>8</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>WorkCloseButton3</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>WorkPrevButton3_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>&lt;-</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>64</Width>
+                <Left>240</Left>
+                <Top>592</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
+                <Name>WorkPrevButton3</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>WorkNextButton3_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text xml:space="preserve">Next -&gt;</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>128</Width>
+                <Left>320</Left>
+                <Top>592</Top>
+                <ZOrder>2</ZOrder>
+                <ID>2</ID>
+                <Name>WorkNextButton3</Name>
+              </GUIButton>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>640</Height>
+              <Width>480</Width>
+              <Left>241</Left>
+              <Top>64</Top>
+              <Clickable>True</Clickable>
+              <Visibility>NormalButInitiallyOff</Visibility>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>65535</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>8</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <ID>12</ID>
+              <Name>Work4</Name>
+            </NormalGUI>
+            <Controls>
+              <GUIButton>
+                <OnClick>CloseButton_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>x</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>32</Width>
+                <Left>440</Left>
+                <Top>8</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>WorkCloseButton4</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>WorkPrevButton4_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>&lt;-</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>64</Width>
+                <Left>240</Left>
+                <Top>592</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
+                <Name>WorkPrevButton4</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>WorkNextButton4_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text xml:space="preserve">Next -&gt;</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>128</Width>
+                <Left>320</Left>
+                <Top>592</Top>
+                <ZOrder>2</ZOrder>
+                <ID>2</ID>
+                <Name>WorkNextButton4</Name>
+              </GUIButton>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>640</Height>
+              <Width>480</Width>
+              <Left>241</Left>
+              <Top>64</Top>
+              <Clickable>True</Clickable>
+              <Visibility>NormalButInitiallyOff</Visibility>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>65535</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>8</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <ID>13</ID>
+              <Name>Work5</Name>
+            </NormalGUI>
+            <Controls>
+              <GUIButton>
+                <OnClick>CloseButton_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>x</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>32</Width>
+                <Left>440</Left>
+                <Top>8</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>WorkCloseButton5</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>WorkPrevButton5_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>&lt;-</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>64</Width>
+                <Left>240</Left>
+                <Top>592</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
+                <Name>WorkPrevButton5</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>WorkNextButton5_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text xml:space="preserve">Next -&gt;</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>128</Width>
+                <Left>320</Left>
+                <Top>592</Top>
+                <ZOrder>2</ZOrder>
+                <ID>2</ID>
+                <Name>WorkNextButton5</Name>
+              </GUIButton>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>640</Height>
+              <Width>480</Width>
+              <Left>241</Left>
+              <Top>64</Top>
+              <Clickable>True</Clickable>
+              <Visibility>NormalButInitiallyOff</Visibility>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>65535</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>8</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <ID>14</ID>
+              <Name>Work6</Name>
+            </NormalGUI>
+            <Controls>
+              <GUIButton>
+                <OnClick>CloseButton_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>x</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>32</Width>
+                <Left>440</Left>
+                <Top>8</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>WorkCloseButton6</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>WorkPrevButton6_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>&lt;-</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>64</Width>
+                <Left>240</Left>
+                <Top>592</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
+                <Name>WorkPrevButton6</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>WorkNextButton6_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text xml:space="preserve">Next -&gt;</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>128</Width>
+                <Left>320</Left>
+                <Top>592</Top>
+                <ZOrder>2</ZOrder>
+                <ID>2</ID>
+                <Name>WorkNextButton6</Name>
+              </GUIButton>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>640</Height>
+              <Width>480</Width>
+              <Left>241</Left>
+              <Top>64</Top>
+              <Clickable>True</Clickable>
+              <Visibility>NormalButInitiallyOff</Visibility>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>65535</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>8</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <ID>15</ID>
+              <Name>Work7</Name>
+            </NormalGUI>
+            <Controls>
+              <GUIButton>
+                <OnClick>CloseButton_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>x</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>32</Width>
+                <Left>440</Left>
+                <Top>8</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>WorkCloseButton7</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>WorkPrevButton7_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>&lt;-</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>64</Width>
+                <Left>240</Left>
+                <Top>592</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
+                <Name>WorkPrevButton7</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>WorkNextButton7_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text xml:space="preserve">Next -&gt;</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>128</Width>
+                <Left>320</Left>
+                <Top>592</Top>
+                <ZOrder>2</ZOrder>
+                <ID>2</ID>
+                <Name>WorkNextButton7</Name>
+              </GUIButton>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>640</Height>
+              <Width>480</Width>
+              <Left>241</Left>
+              <Top>64</Top>
+              <Clickable>True</Clickable>
+              <Visibility>NormalButInitiallyOff</Visibility>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>65535</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>8</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <ID>16</ID>
+              <Name>Work8</Name>
+            </NormalGUI>
+            <Controls>
+              <GUIButton>
+                <OnClick>CloseButton_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>x</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>32</Width>
+                <Left>440</Left>
+                <Top>8</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>WorkCloseButton8</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>WorkPrevButton8_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>&lt;-</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>64</Width>
+                <Left>240</Left>
+                <Top>592</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
+                <Name>WorkPrevButton8</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>WorkNextButton8_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text xml:space="preserve">Next -&gt;</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>128</Width>
+                <Left>320</Left>
+                <Top>592</Top>
+                <ZOrder>2</ZOrder>
+                <ID>2</ID>
+                <Name>WorkNextButton8</Name>
+              </GUIButton>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>640</Height>
+              <Width>480</Width>
+              <Left>241</Left>
+              <Top>64</Top>
+              <Clickable>True</Clickable>
+              <Visibility>NormalButInitiallyOff</Visibility>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>65535</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>8</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <ID>17</ID>
+              <Name>Work9</Name>
+            </NormalGUI>
+            <Controls>
+              <GUIButton>
+                <OnClick>CloseButton_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>x</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>32</Width>
+                <Left>440</Left>
+                <Top>8</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>WorkCloseButton9</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>WorkPrevButton9_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>&lt;-</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>64</Width>
+                <Left>240</Left>
+                <Top>592</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
+                <Name>WorkPrevButton9</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>WorkNextButton9_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text xml:space="preserve">Next -&gt;</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>128</Width>
+                <Left>320</Left>
+                <Top>592</Top>
+                <ZOrder>2</ZOrder>
+                <ID>2</ID>
+                <Name>WorkNextButton9</Name>
+              </GUIButton>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>640</Height>
+              <Width>480</Width>
+              <Left>241</Left>
+              <Top>64</Top>
+              <Clickable>True</Clickable>
+              <Visibility>NormalButInitiallyOff</Visibility>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>65535</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>8</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <ID>18</ID>
+              <Name>Work10</Name>
+            </NormalGUI>
+            <Controls>
+              <GUIButton>
+                <OnClick>CloseButton_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>x</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>32</Width>
+                <Left>440</Left>
+                <Top>8</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>WorkCloseButton10</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>WorkPrevButton10_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>&lt;-</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>64</Width>
+                <Left>240</Left>
+                <Top>592</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
+                <Name>WorkPrevButton10</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>33808</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text xml:space="preserve">Next -&gt;</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>128</Width>
+                <Left>320</Left>
+                <Top>592</Top>
+                <ZOrder>2</ZOrder>
+                <ID>2</ID>
+                <Name>WorkNextButton10</Name>
+              </GUIButton>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick>Chat_OnClick</OnClick>
+              <Height>320</Height>
+              <Width>320</Width>
+              <Left>144</Left>
+              <Top>448</Top>
+              <Clickable>True</Clickable>
+              <Visibility>NormalButInitiallyOff</Visibility>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>2</ZOrder>
+              <BorderColor>65535</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>8</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <ID>19</ID>
+              <Name>Chat1</Name>
+            </NormalGUI>
+            <Controls>
+              <GUIButton>
+                <OnClick>CloseButton_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>x</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>32</Width>
+                <Left>283</Left>
+                <Top>7</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>Button12</Name>
+              </GUIButton>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick>Chat_OnClick</OnClick>
+              <Height>320</Height>
+              <Width>320</Width>
+              <Left>400</Left>
+              <Top>448</Top>
+              <Clickable>True</Clickable>
+              <Visibility>NormalButInitiallyOff</Visibility>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>1</ZOrder>
+              <BorderColor>65535</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>8</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <ID>20</ID>
+              <Name>Chat2</Name>
+            </NormalGUI>
+            <Controls>
+              <GUIButton>
+                <OnClick>CloseButton_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>x</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>32</Width>
+                <Left>280</Left>
+                <Top>9</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>Button13</Name>
+              </GUIButton>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick>Chat_OnClick</OnClick>
+              <Height>320</Height>
+              <Width>320</Width>
+              <Left>656</Left>
+              <Top>448</Top>
+              <Clickable>True</Clickable>
+              <Visibility>NormalButInitiallyOff</Visibility>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>65535</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>8</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <ID>21</ID>
+              <Name>Chat3</Name>
+            </NormalGUI>
+            <Controls>
+              <GUIButton>
+                <OnClick>CloseButton_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>x</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>32</Width>
+                <Left>279</Left>
+                <Top>7</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>Button14</Name>
               </GUIButton>
             </Controls>
           </GUIMain>
@@ -1895,8 +2749,8 @@ return
       </MouseCursor>
       <MouseCursor>
         <ID>7</ID>
-        <HotspotX>8</HotspotX>
-        <HotspotY>8</HotspotY>
+        <HotspotX>4</HotspotX>
+        <HotspotY>24</HotspotY>
         <StandardMode>False</StandardMode>
         <Image>2055</Image>
         <View>0</View>
@@ -2224,10 +3078,15 @@ return
         <GlobalVariable>
           <Name>z_index</Name>
           <Type>int</Type>
-          <DefaultValue>0</DefaultValue>
+          <DefaultValue>2</DefaultValue>
         </GlobalVariable>
         <GlobalVariable>
           <Name>Mail</Name>
+          <Type>GUI*</Type>
+          <DefaultValue />
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>Work</Name>
           <Type>GUI*</Type>
           <DefaultValue />
         </GlobalVariable>
@@ -2403,6 +3262,16 @@ return
           <Sprite Slot="23" Width="128" Height="128" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
             <Source>
               <FileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\windows\news.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="24" Width="612" Height="653" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Mail1.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="25" Width="612" Height="653" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Mail2.png</FileName>
             </Source>
           </Sprite>
         </Sprites>
