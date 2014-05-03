@@ -71,7 +71,7 @@
       <SaveGameFileExtension />
       <SaveGameFolderName>Whistleblower</SaveGameFolderName>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
-      <AudioIndexer>3</AudioIndexer>
+      <AudioIndexer>4</AudioIndexer>
     </Settings>
     <LipSync>
       <Type>None</Type>
@@ -4827,7 +4827,7 @@ return
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-30 23:45:50Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-30 19:45:50Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>Print</ScriptName>
@@ -4839,7 +4839,7 @@ return
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-01 04:55:11Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-01 00:55:11Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>Aldebaran</ScriptName>
@@ -4851,7 +4851,19 @@ return
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-01 21:47:09Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-01 17:47:09Z</FileLastModifiedDate>
+          </AudioClip>
+          <AudioClip>
+            <ScriptName>Type</ScriptName>
+            <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\type2.wav</SourceFileName>
+            <Index>4</Index>
+            <Type>1</Type>
+            <BundlingType>InGameEXE</BundlingType>
+            <FileType>WAV</FileType>
+            <DefaultVolume>-1</DefaultVolume>
+            <DefaultPriority>Inherit</DefaultPriority>
+            <DefaultRepeat>Inherit</DefaultRepeat>
+            <FileLastModifiedDate>2014-05-03 03:55:59Z</FileLastModifiedDate>
           </AudioClip>
         </AudioClips>
         <AudioClipFolder>
