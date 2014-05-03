@@ -1397,7 +1397,7 @@
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
                 <TextAlignment>Centred</TextAlignment>
-                <TextColor>33808</TextColor>
+                <TextColor>65535</TextColor>
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
@@ -2174,7 +2174,7 @@
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
                 <TextAlignment>Centred</TextAlignment>
-                <TextColor>33808</TextColor>
+                <TextColor>65535</TextColor>
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
@@ -4042,7 +4042,7 @@ return
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-02 03:45:50Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-01 23:45:50Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>Print</ScriptName>
@@ -4054,7 +4054,7 @@ return
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-02 08:55:11Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-02 04:55:11Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>Aldebaran</ScriptName>
@@ -4066,7 +4066,7 @@ return
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-03 01:47:09Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-02 21:47:09Z</FileLastModifiedDate>
           </AudioClip>
         </AudioClips>
         <AudioClipFolder>
