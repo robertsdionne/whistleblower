@@ -2193,11 +2193,11 @@
           </GUIMain>
           <GUIMain>
             <NormalGUI>
-              <OnClick>Raise_OnClick</OnClick>
-              <Height>320</Height>
-              <Width>320</Width>
+              <OnClick>Chat_OnClick</OnClick>
+              <Height>410</Height>
+              <Width>246</Width>
               <Left>144</Left>
-              <Top>448</Top>
+              <Top>358</Top>
               <Clickable>True</Clickable>
               <Visibility>NormalButInitiallyOff</Visibility>
               <PopupYPos>0</PopupYPos>
@@ -2205,13 +2205,13 @@
               <BorderColor>65535</BorderColor>
               <Transparency>0</Transparency>
               <BackgroundColor>8</BackgroundColor>
-              <BackgroundImage>0</BackgroundImage>
+              <BackgroundImage>12</BackgroundImage>
               <ID>19</ID>
               <Name>Chat1</Name>
             </NormalGUI>
             <Controls>
               <GUIButton>
-                <OnClick>CloseButton_OnClick</OnClick>
+                <OnClick>ChatCloseButton_OnClick</OnClick>
                 <ClickAction>RunScript</ClickAction>
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
@@ -2225,21 +2225,21 @@
                 <Height>32</Height>
                 <Locked>False</Locked>
                 <Width>32</Width>
-                <Left>283</Left>
+                <Left>206</Left>
                 <Top>7</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
-                <Name>Button12</Name>
+                <Name>ChatCloseButton1</Name>
               </GUIButton>
             </Controls>
           </GUIMain>
           <GUIMain>
             <NormalGUI>
-              <OnClick>Raise_OnClick</OnClick>
-              <Height>320</Height>
-              <Width>320</Width>
+              <OnClick>Chat_OnClick</OnClick>
+              <Height>410</Height>
+              <Width>246</Width>
               <Left>400</Left>
-              <Top>448</Top>
+              <Top>358</Top>
               <Clickable>True</Clickable>
               <Visibility>NormalButInitiallyOff</Visibility>
               <PopupYPos>0</PopupYPos>
@@ -2247,13 +2247,13 @@
               <BorderColor>65535</BorderColor>
               <Transparency>0</Transparency>
               <BackgroundColor>8</BackgroundColor>
-              <BackgroundImage>0</BackgroundImage>
+              <BackgroundImage>12</BackgroundImage>
               <ID>20</ID>
               <Name>Chat2</Name>
             </NormalGUI>
             <Controls>
               <GUIButton>
-                <OnClick>CloseButton_OnClick</OnClick>
+                <OnClick>ChatCloseButton_OnClick</OnClick>
                 <ClickAction>RunScript</ClickAction>
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
@@ -2267,21 +2267,21 @@
                 <Height>32</Height>
                 <Locked>False</Locked>
                 <Width>32</Width>
-                <Left>280</Left>
+                <Left>206</Left>
                 <Top>9</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
-                <Name>Button13</Name>
+                <Name>ChatCloseButton2</Name>
               </GUIButton>
             </Controls>
           </GUIMain>
           <GUIMain>
             <NormalGUI>
-              <OnClick>Raise_OnClick</OnClick>
-              <Height>320</Height>
-              <Width>320</Width>
+              <OnClick>Chat_OnClick</OnClick>
+              <Height>410</Height>
+              <Width>246</Width>
               <Left>656</Left>
-              <Top>448</Top>
+              <Top>358</Top>
               <Clickable>True</Clickable>
               <Visibility>NormalButInitiallyOff</Visibility>
               <PopupYPos>0</PopupYPos>
@@ -2289,13 +2289,13 @@
               <BorderColor>65535</BorderColor>
               <Transparency>0</Transparency>
               <BackgroundColor>8</BackgroundColor>
-              <BackgroundImage>0</BackgroundImage>
+              <BackgroundImage>12</BackgroundImage>
               <ID>21</ID>
               <Name>Chat3</Name>
             </NormalGUI>
             <Controls>
               <GUIButton>
-                <OnClick>CloseButton_OnClick</OnClick>
+                <OnClick>ChatCloseButton_OnClick</OnClick>
                 <ClickAction>RunScript</ClickAction>
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
@@ -2309,11 +2309,11 @@
                 <Height>32</Height>
                 <Locked>False</Locked>
                 <Width>32</Width>
-                <Left>279</Left>
+                <Left>206</Left>
                 <Top>7</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
-                <Name>Button14</Name>
+                <Name>ChatCloseButton3</Name>
               </GUIButton>
             </Controls>
           </GUIMain>
@@ -3496,6 +3496,116 @@ return
               <FileName>C:\Users\robert\Dropbox\Whistleblower\ArkPreLogin.png</FileName>
             </Source>
           </Sprite>
+          <Sprite Slot="12" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Login\HiHorace_0007_Frame-1.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="13" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Login\HiHorace_0006_Frame-2.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="29" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Login\HiHorace_0005_Frame-3.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="65" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Login\HiHorace_0004_Frame-4.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="66" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Login\HiHorace_0003_Frame-5.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="67" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Login\HiHorace_0002_Frame-6.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="68" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Login\HiHorace_0001_Frame-7.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="69" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Login\HiHorace_0000_Frame-8.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="70" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Talk\Horace_0013_Frame-1.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="71" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Talk\Horace_0012_Frame-2.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="72" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Talk\Horace_0011_Frame-3.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="73" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Talk\Horace_0010_Frame-4.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="74" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Talk\Horace_0009_Frame-5.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="75" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Talk\Horace_0008_Frame-6.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="76" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Talk\Horace_0007_Frame-7.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="77" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Talk\Horace_0006_Frame-8.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="78" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Talk\Horace_0005_Frame-9.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="79" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Talk\Horace_0004_Frame-10.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="80" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Talk\Horace_0003_Frame-11.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="81" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Talk\Horace_0002_Frame-12.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="82" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Talk\Horace_0001_Frame-13.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="83" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Talk\Horace_0000_Frame-14.png</FileName>
+            </Source>
+          </Sprite>
         </Sprites>
       </SpriteFolder>
     </Sprites>
@@ -3874,6 +3984,178 @@ return
               </Loop>
             </Loops>
           </View>
+          <View>
+            <ID>5</ID>
+            <Name>Horace</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>12</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>13</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>29</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>65</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>4</ID>
+                    <Image>66</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>5</ID>
+                    <Image>67</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>6</ID>
+                    <Image>68</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>7</ID>
+                    <Image>69</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>1</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>70</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>71</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>72</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>73</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>4</ID>
+                    <Image>74</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>5</ID>
+                    <Image>75</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>6</ID>
+                    <Image>76</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>7</ID>
+                    <Image>77</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>8</ID>
+                    <Image>78</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>9</ID>
+                    <Image>79</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>10</ID>
+                    <Image>80</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>11</ID>
+                    <Image>81</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>12</ID>
+                    <Image>82</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>13</ID>
+                    <Image>83</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
         </Views>
       </ViewFolder>
     </Views>
@@ -3882,6 +4164,30 @@ return
       <ScriptFolder Name="Main">
         <SubFolders />
         <ScriptAndHeaders>
+          <ScriptAndHeader>
+            <ScriptAndHeader_Header>
+              <Script>
+                <FileName>GUIAnimation.ash</FileName>
+                <Name>GUIAnimation</Name>
+                <Description>Provides functions for an animating a GUI, similar to the built-in Character animation functions.</Description>
+                <Author>monkey_05_06</Author>
+                <Version>2.0</Version>
+                <Key>1989844886</Key>
+                <IsHeader>True</IsHeader>
+              </Script>
+            </ScriptAndHeader_Header>
+            <ScriptAndHeader_Script>
+              <Script>
+                <FileName>GUIAnimation.asc</FileName>
+                <Name>GUIAnimation</Name>
+                <Description>Provides functions for an animating a GUI, similar to the built-in Character animation functions.</Description>
+                <Author>monkey_05_06</Author>
+                <Version>2.0</Version>
+                <Key>1989844886</Key>
+                <IsHeader>False</IsHeader>
+              </Script>
+            </ScriptAndHeader_Script>
+          </ScriptAndHeader>
           <ScriptAndHeader>
             <ScriptAndHeader_Header>
               <Script>
@@ -4042,7 +4348,7 @@ return
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-01 19:45:50Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-01 15:45:50Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>Print</ScriptName>
@@ -4054,7 +4360,7 @@ return
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-02 00:55:11Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-01 20:55:11Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>Aldebaran</ScriptName>
@@ -4066,7 +4372,7 @@ return
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-02 17:47:09Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-02 13:47:09Z</FileLastModifiedDate>
           </AudioClip>
         </AudioClips>
         <AudioClipFolder>
