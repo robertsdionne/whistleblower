@@ -766,7 +766,7 @@
             <NormalGUI>
               <OnClick />
               <Height>376</Height>
-              <Width>280</Width>
+              <Width>266</Width>
               <Left>372</Left>
               <Top>246</Top>
               <Clickable>True</Clickable>
@@ -776,7 +776,7 @@
               <BorderColor>65535</BorderColor>
               <Transparency>100</Transparency>
               <BackgroundColor>16904</BackgroundColor>
-              <BackgroundImage>12</BackgroundImage>
+              <BackgroundImage>64</BackgroundImage>
               <ID>1</ID>
               <Name>Login</Name>
             </NormalGUI>
@@ -811,7 +811,7 @@
                 <Locked>False</Locked>
                 <Width>128</Width>
                 <Left>28</Left>
-                <Top>226</Top>
+                <Top>230</Top>
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
                 <Name>UserNameLabel</Name>
@@ -824,9 +824,9 @@
                 <Text />
                 <Height>32</Height>
                 <Locked>False</Locked>
-                <Width>224</Width>
+                <Width>210</Width>
                 <Left>28</Left>
-                <Top>244</Top>
+                <Top>250</Top>
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
                 <Name>UserName</Name>
@@ -3341,6 +3341,176 @@ return
               <FileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\news_character_sprite.png</FileName>
             </Source>
           </Sprite>
+          <Sprite Slot="30" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0031_Frame-1.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="31" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0030_Frame-2.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="32" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0029_Frame-3.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="33" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0028_Frame-4.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="34" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0027_Frame-5.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="35" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0026_Frame-6.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="36" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0025_Frame-7.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="37" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0024_Frame-8.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="38" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0023_Frame-9.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="39" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0022_Frame-10.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="40" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0021_Frame-11.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="41" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0020_Frame-12.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="42" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0019_Frame-13.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="43" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0018_Frame-14.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="44" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0017_Frame-15.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="45" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0016_Frame-16.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="46" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0015_Frame-17.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="47" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0014_Frame-18.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="48" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0013_Frame-19.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="49" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0012_Frame-20.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="50" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0011_Frame-21.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="51" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0010_Frame-22.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="52" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0009_Frame-23.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="53" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0008_Frame-24.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="54" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0007_Frame-25.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="55" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0006_Frame-26.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="56" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0005_Frame-27.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="57" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0004_Frame-28.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="58" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0003_Frame-29.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="59" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0002_Frame-30.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="60" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0001_Frame-31.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="61" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0000_Frame-32.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="63" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\ArkStart.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="64" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\ArkPreLogin.png</FileName>
+            </Source>
+          </Sprite>
         </Sprites>
       </SpriteFolder>
     </Sprites>
@@ -3493,7 +3663,224 @@ return
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>29</Image>
+                    <Image>30</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>31</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>32</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>33</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>4</ID>
+                    <Image>34</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>5</ID>
+                    <Image>35</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>6</ID>
+                    <Image>36</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>7</ID>
+                    <Image>37</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>8</ID>
+                    <Image>38</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>9</ID>
+                    <Image>39</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>10</ID>
+                    <Image>40</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>11</ID>
+                    <Image>41</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>12</ID>
+                    <Image>42</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>13</ID>
+                    <Image>43</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>14</ID>
+                    <Image>44</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>15</ID>
+                    <Image>45</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>16</ID>
+                    <Image>46</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>17</ID>
+                    <Image>47</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>18</ID>
+                    <Image>48</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>19</ID>
+                    <Image>49</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>20</ID>
+                    <Image>50</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>21</ID>
+                    <Image>51</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>22</ID>
+                    <Image>52</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>23</ID>
+                    <Image>53</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>24</ID>
+                    <Image>54</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>25</ID>
+                    <Image>55</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>26</ID>
+                    <Image>56</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>27</ID>
+                    <Image>57</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>28</ID>
+                    <Image>58</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>29</ID>
+                    <Image>59</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>30</ID>
+                    <Image>60</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>31</ID>
+                    <Image>61</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
@@ -3670,7 +4057,7 @@ return
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-02 19:45:50Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-02 15:45:50Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>Print</ScriptName>
@@ -3682,7 +4069,7 @@ return
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-03 00:55:11Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-02 20:55:11Z</FileLastModifiedDate>
           </AudioClip>
         </AudioClips>
         <AudioClipFolder>
