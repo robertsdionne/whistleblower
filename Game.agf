@@ -3246,16 +3246,6 @@ return
               <FileName>C:\Users\robert\Dropbox\Whistleblower\NewsArticle.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="12" Width="280" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\LOGINgui.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="13" Width="280" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\ArkLogo.png</FileName>
-            </Source>
-          </Sprite>
           <Sprite Slot="14" Width="64" Height="64" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
             <Source>
               <FileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\icons\chat.png</FileName>
@@ -3329,11 +3319,6 @@ return
           <Sprite Slot="28" Width="559" Height="205" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
             <Source>
               <FileName>C:\Users\robert\Dropbox\Whistleblower\TICKET.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="29" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\ArkStart.png</FileName>
             </Source>
           </Sprite>
           <Sprite Slot="62" Width="32" Height="32" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
@@ -4057,7 +4042,7 @@ return
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-02 15:45:50Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-02 11:45:50Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>Print</ScriptName>
@@ -4069,7 +4054,7 @@ return
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-02 20:55:11Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-02 16:55:11Z</FileLastModifiedDate>
           </AudioClip>
         </AudioClips>
         <AudioClipFolder>
