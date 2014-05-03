@@ -1433,6 +1433,62 @@
                 <ID>2</ID>
                 <Name>WorkNextButton1</Name>
               </GUIButton>
+              <GUILabel>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>2016</TextColor>
+                <Font>2</Font>
+                <Text>Approved</Text>
+                <Height>16</Height>
+                <Locked>False</Locked>
+                <Width>128</Width>
+                <Left>320</Left>
+                <Top>496</Top>
+                <ZOrder>3</ZOrder>
+                <ID>3</ID>
+                <Name>WorkStatusLabel1</Name>
+              </GUILabel>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>2016</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>Approve</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>128</Width>
+                <Left>320</Left>
+                <Top>448</Top>
+                <ZOrder>4</ZOrder>
+                <ID>4</ID>
+                <Name>WorkApproveButton1</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>49152</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>Deny</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>64</Width>
+                <Left>240</Left>
+                <Top>448</Top>
+                <ZOrder>5</ZOrder>
+                <ID>5</ID>
+                <Name>WorkDenyButton1</Name>
+              </GUIButton>
             </Controls>
           </GUIMain>
           <GUIMain>
@@ -1516,6 +1572,62 @@
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
                 <Name>WorkNextButton2</Name>
+              </GUIButton>
+              <GUILabel>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>2016</TextColor>
+                <Font>2</Font>
+                <Text>Approved</Text>
+                <Height>16</Height>
+                <Locked>False</Locked>
+                <Width>128</Width>
+                <Left>320</Left>
+                <Top>496</Top>
+                <ZOrder>3</ZOrder>
+                <ID>3</ID>
+                <Name>WorkStatusLabel2</Name>
+              </GUILabel>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>2016</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>Approve</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>128</Width>
+                <Left>320</Left>
+                <Top>448</Top>
+                <ZOrder>4</ZOrder>
+                <ID>4</ID>
+                <Name>WorkApproveButton2</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>49152</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>Deny</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>64</Width>
+                <Left>240</Left>
+                <Top>448</Top>
+                <ZOrder>5</ZOrder>
+                <ID>5</ID>
+                <Name>WorkDenyButton2</Name>
               </GUIButton>
             </Controls>
           </GUIMain>
@@ -1601,6 +1713,62 @@
                 <ID>2</ID>
                 <Name>WorkNextButton3</Name>
               </GUIButton>
+              <GUILabel>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>49152</TextColor>
+                <Font>2</Font>
+                <Text>Denied</Text>
+                <Height>16</Height>
+                <Locked>False</Locked>
+                <Width>128</Width>
+                <Left>320</Left>
+                <Top>496</Top>
+                <ZOrder>3</ZOrder>
+                <ID>3</ID>
+                <Name>WorkStatusLabel3</Name>
+              </GUILabel>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>2016</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>Approve</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>128</Width>
+                <Left>320</Left>
+                <Top>448</Top>
+                <ZOrder>4</ZOrder>
+                <ID>4</ID>
+                <Name>WorkApproveButton3</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>49152</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>Deny</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>64</Width>
+                <Left>240</Left>
+                <Top>448</Top>
+                <ZOrder>5</ZOrder>
+                <ID>5</ID>
+                <Name>WorkDenyButton3</Name>
+              </GUIButton>
             </Controls>
           </GUIMain>
           <GUIMain>
@@ -1684,6 +1852,62 @@
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
                 <Name>WorkNextButton4</Name>
+              </GUIButton>
+              <GUILabel>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>49152</TextColor>
+                <Font>2</Font>
+                <Text>Denied</Text>
+                <Height>16</Height>
+                <Locked>False</Locked>
+                <Width>128</Width>
+                <Left>320</Left>
+                <Top>496</Top>
+                <ZOrder>3</ZOrder>
+                <ID>3</ID>
+                <Name>WorkStatusLabel4</Name>
+              </GUILabel>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>2016</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>Approve</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>128</Width>
+                <Left>320</Left>
+                <Top>448</Top>
+                <ZOrder>4</ZOrder>
+                <ID>4</ID>
+                <Name>WorkApproveButton4</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>49152</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>Deny</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>64</Width>
+                <Left>240</Left>
+                <Top>448</Top>
+                <ZOrder>5</ZOrder>
+                <ID>5</ID>
+                <Name>WorkDenyButton4</Name>
               </GUIButton>
             </Controls>
           </GUIMain>
@@ -1769,6 +1993,62 @@
                 <ID>2</ID>
                 <Name>WorkNextButton5</Name>
               </GUIButton>
+              <GUIButton>
+                <OnClick>WorkDenyButton_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>49152</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>Deny</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>64</Width>
+                <Left>240</Left>
+                <Top>448</Top>
+                <ZOrder>3</ZOrder>
+                <ID>3</ID>
+                <Name>WorkDenyButton5</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>WorkApproveButton_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>2016</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>Approve</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>128</Width>
+                <Left>320</Left>
+                <Top>448</Top>
+                <ZOrder>4</ZOrder>
+                <ID>4</ID>
+                <Name>WorkApproveButton5</Name>
+              </GUIButton>
+              <GUILabel>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>2</Font>
+                <Text>Undecided</Text>
+                <Height>16</Height>
+                <Locked>False</Locked>
+                <Width>128</Width>
+                <Left>320</Left>
+                <Top>496</Top>
+                <ZOrder>5</ZOrder>
+                <ID>5</ID>
+                <Name>WorkStatusLabel5</Name>
+              </GUILabel>
             </Controls>
           </GUIMain>
           <GUIMain>
@@ -1853,6 +2133,62 @@
                 <ID>2</ID>
                 <Name>WorkNextButton6</Name>
               </GUIButton>
+              <GUIButton>
+                <OnClick>WorkDenyButton_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>49152</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>Deny</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>64</Width>
+                <Left>240</Left>
+                <Top>448</Top>
+                <ZOrder>3</ZOrder>
+                <ID>3</ID>
+                <Name>WorkDenyButton6</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>WorkApproveButton_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>2016</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>Approve</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>128</Width>
+                <Left>320</Left>
+                <Top>448</Top>
+                <ZOrder>4</ZOrder>
+                <ID>4</ID>
+                <Name>WorkApproveButton6</Name>
+              </GUIButton>
+              <GUILabel>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>2</Font>
+                <Text>Undecided</Text>
+                <Height>16</Height>
+                <Locked>False</Locked>
+                <Width>128</Width>
+                <Left>320</Left>
+                <Top>496</Top>
+                <ZOrder>5</ZOrder>
+                <ID>5</ID>
+                <Name>WorkStatusLabel6</Name>
+              </GUILabel>
             </Controls>
           </GUIMain>
           <GUIMain>
@@ -1937,6 +2273,62 @@
                 <ID>2</ID>
                 <Name>WorkNextButton7</Name>
               </GUIButton>
+              <GUIButton>
+                <OnClick>WorkDenyButton_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>49152</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>Deny</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>64</Width>
+                <Left>240</Left>
+                <Top>448</Top>
+                <ZOrder>3</ZOrder>
+                <ID>3</ID>
+                <Name>WorkDenyButton7</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>WorkApproveButton_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>2016</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>Approve</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>128</Width>
+                <Left>320</Left>
+                <Top>448</Top>
+                <ZOrder>4</ZOrder>
+                <ID>4</ID>
+                <Name>WorkApproveButton7</Name>
+              </GUIButton>
+              <GUILabel>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>2</Font>
+                <Text>Undecided</Text>
+                <Height>16</Height>
+                <Locked>False</Locked>
+                <Width>128</Width>
+                <Left>320</Left>
+                <Top>496</Top>
+                <ZOrder>5</ZOrder>
+                <ID>5</ID>
+                <Name>WorkStatusLabel7</Name>
+              </GUILabel>
             </Controls>
           </GUIMain>
           <GUIMain>
@@ -2021,6 +2413,62 @@
                 <ID>2</ID>
                 <Name>WorkNextButton8</Name>
               </GUIButton>
+              <GUIButton>
+                <OnClick>WorkDenyButton_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>49152</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>Deny</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>64</Width>
+                <Left>240</Left>
+                <Top>448</Top>
+                <ZOrder>3</ZOrder>
+                <ID>3</ID>
+                <Name>WorkDenyButton8</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>WorkApproveButton_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>2016</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>Approve</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>128</Width>
+                <Left>320</Left>
+                <Top>448</Top>
+                <ZOrder>4</ZOrder>
+                <ID>4</ID>
+                <Name>WorkApproveButton8</Name>
+              </GUIButton>
+              <GUILabel>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>2</Font>
+                <Text>Undecided</Text>
+                <Height>16</Height>
+                <Locked>False</Locked>
+                <Width>128</Width>
+                <Left>320</Left>
+                <Top>496</Top>
+                <ZOrder>5</ZOrder>
+                <ID>5</ID>
+                <Name>WorkStatusLabel8</Name>
+              </GUILabel>
             </Controls>
           </GUIMain>
           <GUIMain>
@@ -2105,6 +2553,62 @@
                 <ID>2</ID>
                 <Name>WorkNextButton9</Name>
               </GUIButton>
+              <GUIButton>
+                <OnClick>WorkDenyButton_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>49152</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>Deny</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>64</Width>
+                <Left>240</Left>
+                <Top>448</Top>
+                <ZOrder>3</ZOrder>
+                <ID>3</ID>
+                <Name>WorkDenyButton9</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>WorkApproveButton_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>2016</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>Approve</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>128</Width>
+                <Left>320</Left>
+                <Top>448</Top>
+                <ZOrder>4</ZOrder>
+                <ID>4</ID>
+                <Name>WorkApproveButton9</Name>
+              </GUIButton>
+              <GUILabel>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>2</Font>
+                <Text>Undecided</Text>
+                <Height>16</Height>
+                <Locked>False</Locked>
+                <Width>128</Width>
+                <Left>320</Left>
+                <Top>496</Top>
+                <ZOrder>5</ZOrder>
+                <ID>5</ID>
+                <Name>WorkStatusLabel9</Name>
+              </GUILabel>
             </Controls>
           </GUIMain>
           <GUIMain>
@@ -2169,7 +2673,7 @@
                 <Name>WorkPrevButton10</Name>
               </GUIButton>
               <GUIButton>
-                <OnClick />
+                <OnClick>WorkNextButton10_OnClick</OnClick>
                 <ClickAction>RunScript</ClickAction>
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
@@ -2189,6 +2693,62 @@
                 <ID>2</ID>
                 <Name>WorkNextButton10</Name>
               </GUIButton>
+              <GUIButton>
+                <OnClick>WorkDenyButton_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>49152</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>Deny</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>64</Width>
+                <Left>240</Left>
+                <Top>448</Top>
+                <ZOrder>3</ZOrder>
+                <ID>3</ID>
+                <Name>WorkDenyButton10</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>WorkApproveButton_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>2016</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>Approve</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>128</Width>
+                <Left>320</Left>
+                <Top>448</Top>
+                <ZOrder>4</ZOrder>
+                <ID>4</ID>
+                <Name>WorkApproveButton10</Name>
+              </GUIButton>
+              <GUILabel>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>2</Font>
+                <Text>Undecided</Text>
+                <Height>16</Height>
+                <Locked>False</Locked>
+                <Width>128</Width>
+                <Left>320</Left>
+                <Top>496</Top>
+                <ZOrder>5</ZOrder>
+                <ID>5</ID>
+                <Name>WorkStatusLabel10</Name>
+              </GUILabel>
             </Controls>
           </GUIMain>
           <GUIMain>
@@ -2357,6 +2917,146 @@
                 <ID>0</ID>
                 <Name>TicketPrintButton</Name>
               </GUIButton>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>640</Height>
+              <Width>480</Width>
+              <Left>241</Left>
+              <Top>64</Top>
+              <Clickable>True</Clickable>
+              <Visibility>NormalButInitiallyOff</Visibility>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>65535</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>8</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <ID>23</ID>
+              <Name>Work11</Name>
+            </NormalGUI>
+            <Controls>
+              <GUIButton>
+                <OnClick>WorkPrevButton11_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>&lt;-</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>64</Width>
+                <Left>240</Left>
+                <Top>592</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>WorkPrevButton11</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick />
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text xml:space="preserve">Next -&gt;</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>128</Width>
+                <Left>320</Left>
+                <Top>592</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
+                <Name>WorkNextButton11</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>CloseButton_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>x</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>32</Width>
+                <Left>442</Left>
+                <Top>7</Top>
+                <ZOrder>2</ZOrder>
+                <ID>2</ID>
+                <Name>Button3</Name>
+              </GUIButton>
+              <GUILabel>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>2016</TextColor>
+                <Font>0</Font>
+                <Text>Approved</Text>
+                <Height>16</Height>
+                <Locked>False</Locked>
+                <Width>128</Width>
+                <Left>240</Left>
+                <Top>256</Top>
+                <ZOrder>3</ZOrder>
+                <ID>3</ID>
+                <Name>Label1</Name>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>49152</TextColor>
+                <Font>0</Font>
+                <Text>Denied</Text>
+                <Height>16</Height>
+                <Locked>False</Locked>
+                <Width>128</Width>
+                <Left>112</Left>
+                <Top>256</Top>
+                <ZOrder>4</ZOrder>
+                <ID>4</ID>
+                <Name>Label2</Name>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>TopRight</TextAlignment>
+                <TextColor>49152</TextColor>
+                <Font>2</Font>
+                <Text>2</Text>
+                <Height>16</Height>
+                <Locked>False</Locked>
+                <Width>128</Width>
+                <Left>112</Left>
+                <Top>288</Top>
+                <ZOrder>5</ZOrder>
+                <ID>5</ID>
+                <Name>WorkDeniedSummaryLabel</Name>
+              </GUILabel>
+              <GUILabel>
+                <TextAlignment>TopRight</TextAlignment>
+                <TextColor>2016</TextColor>
+                <Font>2</Font>
+                <Text>2</Text>
+                <Height>16</Height>
+                <Locked>False</Locked>
+                <Width>128</Width>
+                <Left>240</Left>
+                <Top>288</Top>
+                <ZOrder>6</ZOrder>
+                <ID>6</ID>
+                <Name>WorkApprovedSummaryLabel</Name>
+              </GUILabel>
             </Controls>
           </GUIMain>
         </GUIs>
@@ -2707,7 +3407,7 @@ return
     <Cursors>
       <MouseCursor>
         <ID>0</ID>
-        <HotspotX>0</HotspotX>
+        <HotspotX>8</HotspotX>
         <HotspotY>0</HotspotY>
         <StandardMode>True</StandardMode>
         <Image>22</Image>
@@ -2719,7 +3419,7 @@ return
       </MouseCursor>
       <MouseCursor>
         <ID>1</ID>
-        <HotspotX>0</HotspotX>
+        <HotspotX>8</HotspotX>
         <HotspotY>0</HotspotY>
         <StandardMode>True</StandardMode>
         <Image>22</Image>
@@ -2731,7 +3431,7 @@ return
       </MouseCursor>
       <MouseCursor>
         <ID>2</ID>
-        <HotspotX>0</HotspotX>
+        <HotspotX>8</HotspotX>
         <HotspotY>0</HotspotY>
         <StandardMode>True</StandardMode>
         <Image>26</Image>
@@ -2743,7 +3443,7 @@ return
       </MouseCursor>
       <MouseCursor>
         <ID>3</ID>
-        <HotspotX>0</HotspotX>
+        <HotspotX>8</HotspotX>
         <HotspotY>0</HotspotY>
         <StandardMode>True</StandardMode>
         <Image>22</Image>
@@ -2755,7 +3455,7 @@ return
       </MouseCursor>
       <MouseCursor>
         <ID>4</ID>
-        <HotspotX>0</HotspotX>
+        <HotspotX>8</HotspotX>
         <HotspotY>0</HotspotY>
         <StandardMode>False</StandardMode>
         <Image>22</Image>
@@ -2767,7 +3467,7 @@ return
       </MouseCursor>
       <MouseCursor>
         <ID>5</ID>
-        <HotspotX>0</HotspotX>
+        <HotspotX>8</HotspotX>
         <HotspotY>0</HotspotY>
         <StandardMode>False</StandardMode>
         <Image>22</Image>
@@ -2779,7 +3479,7 @@ return
       </MouseCursor>
       <MouseCursor>
         <ID>6</ID>
-        <HotspotX>0</HotspotX>
+        <HotspotX>8</HotspotX>
         <HotspotY>0</HotspotY>
         <StandardMode>False</StandardMode>
         <Image>22</Image>
@@ -2803,7 +3503,7 @@ return
       </MouseCursor>
       <MouseCursor>
         <ID>8</ID>
-        <HotspotX>0</HotspotX>
+        <HotspotX>8</HotspotX>
         <HotspotY>0</HotspotY>
         <StandardMode>False</StandardMode>
         <Image>22</Image>
@@ -2815,7 +3515,7 @@ return
       </MouseCursor>
       <MouseCursor>
         <ID>9</ID>
-        <HotspotX>0</HotspotX>
+        <HotspotX>8</HotspotX>
         <HotspotY>0</HotspotY>
         <StandardMode>False</StandardMode>
         <Image>22</Image>
@@ -3131,6 +3831,16 @@ return
           <Name>Work</Name>
           <Type>GUI*</Type>
           <DefaultValue />
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>approved</Name>
+          <Type>int</Type>
+          <DefaultValue>2</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>denied</Name>
+          <Type>int</Type>
+          <DefaultValue>2</DefaultValue>
         </GlobalVariable>
       </Variables>
     </GlobalVariables>
@@ -4348,7 +5058,7 @@ return
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-01 15:45:50Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-01 11:45:50Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>Print</ScriptName>
@@ -4360,7 +5070,7 @@ return
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-01 20:55:11Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-01 16:55:11Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>Aldebaran</ScriptName>
@@ -4372,7 +5082,7 @@ return
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-02 13:47:09Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-02 09:47:09Z</FileLastModifiedDate>
           </AudioClip>
         </AudioClips>
         <AudioClipFolder>
