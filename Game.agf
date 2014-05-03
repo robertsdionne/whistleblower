@@ -71,7 +71,7 @@
       <SaveGameFileExtension />
       <SaveGameFolderName>Whistleblower</SaveGameFolderName>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
-      <AudioIndexer>0</AudioIndexer>
+      <AudioIndexer>2</AudioIndexer>
     </Settings>
     <LipSync>
       <Type>None</Type>
@@ -835,7 +835,7 @@
           </GUIMain>
           <GUIMain>
             <NormalGUI>
-              <OnClick />
+              <OnClick>RaiseMail_OnClick</OnClick>
               <Height>653</Height>
               <Width>612</Width>
               <Left>241</Left>
@@ -912,7 +912,7 @@
           </GUIMain>
           <GUIMain>
             <NormalGUI>
-              <OnClick />
+              <OnClick>RaiseMail_OnClick</OnClick>
               <Height>653</Height>
               <Width>612</Width>
               <Left>241</Left>
@@ -975,7 +975,7 @@
           </GUIMain>
           <GUIMain>
             <NormalGUI>
-              <OnClick>gMail3_OnClick</OnClick>
+              <OnClick>Raise_OnClick</OnClick>
               <Height>640</Height>
               <Width>480</Width>
               <Left>241</Left>
@@ -1087,7 +1087,7 @@
           </GUIMain>
           <GUIMain>
             <NormalGUI>
-              <OnClick />
+              <OnClick>Raise_OnClick</OnClick>
               <Height>640</Height>
               <Width>480</Width>
               <Left>241</Left>
@@ -1227,7 +1227,7 @@
           </GUIMain>
           <GUIMain>
             <NormalGUI>
-              <OnClick>Document_OnClick</OnClick>
+              <OnClick>Raise_OnClick</OnClick>
               <Height>480</Height>
               <Width>480</Width>
               <Left>229</Left>
@@ -1269,7 +1269,7 @@
           </GUIMain>
           <GUIMain>
             <NormalGUI>
-              <OnClick>Document_OnClick</OnClick>
+              <OnClick>Raise_OnClick</OnClick>
               <Height>480</Height>
               <Width>480</Width>
               <Left>478</Left>
@@ -1311,7 +1311,7 @@
           </GUIMain>
           <GUIMain>
             <NormalGUI>
-              <OnClick>Document_OnClick</OnClick>
+              <OnClick>Raise_OnClick</OnClick>
               <Height>480</Height>
               <Width>480</Width>
               <Left>341</Left>
@@ -2193,7 +2193,7 @@
           </GUIMain>
           <GUIMain>
             <NormalGUI>
-              <OnClick>Chat_OnClick</OnClick>
+              <OnClick>Raise_OnClick</OnClick>
               <Height>320</Height>
               <Width>320</Width>
               <Left>144</Left>
@@ -2235,7 +2235,7 @@
           </GUIMain>
           <GUIMain>
             <NormalGUI>
-              <OnClick>Chat_OnClick</OnClick>
+              <OnClick>Raise_OnClick</OnClick>
               <Height>320</Height>
               <Width>320</Width>
               <Left>400</Left>
@@ -2277,7 +2277,7 @@
           </GUIMain>
           <GUIMain>
             <NormalGUI>
-              <OnClick>Chat_OnClick</OnClick>
+              <OnClick>Raise_OnClick</OnClick>
               <Height>320</Height>
               <Width>320</Width>
               <Left>656</Left>
@@ -2314,6 +2314,48 @@
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
                 <Name>Button14</Name>
+              </GUIButton>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick>Raise_OnClick</OnClick>
+              <Height>205</Height>
+              <Width>559</Width>
+              <Left>400</Left>
+              <Top>281</Top>
+              <Clickable>True</Clickable>
+              <Visibility>NormalButInitiallyOff</Visibility>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>1</ZOrder>
+              <BorderColor>65535</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>8</BackgroundColor>
+              <BackgroundImage>28</BackgroundImage>
+              <ID>22</ID>
+              <Name>Ticket</Name>
+            </NormalGUI>
+            <Controls>
+              <GUIButton>
+                <OnClick>TicketPrintButton_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>Print</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>64</Width>
+                <Left>246</Left>
+                <Top>17</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>TicketPrintButton</Name>
               </GUIButton>
             </Controls>
           </GUIMain>
@@ -2668,7 +2710,7 @@ return
         <HotspotX>0</HotspotX>
         <HotspotY>0</HotspotY>
         <StandardMode>True</StandardMode>
-        <Image>2061</Image>
+        <Image>22</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -2680,7 +2722,7 @@ return
         <HotspotX>0</HotspotX>
         <HotspotY>0</HotspotY>
         <StandardMode>True</StandardMode>
-        <Image>2061</Image>
+        <Image>22</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -2689,10 +2731,10 @@ return
       </MouseCursor>
       <MouseCursor>
         <ID>2</ID>
-        <HotspotX>24</HotspotX>
-        <HotspotY>23</HotspotY>
+        <HotspotX>0</HotspotX>
+        <HotspotY>0</HotspotY>
         <StandardMode>True</StandardMode>
-        <Image>2061</Image>
+        <Image>26</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -2704,7 +2746,7 @@ return
         <HotspotX>0</HotspotX>
         <HotspotY>0</HotspotY>
         <StandardMode>True</StandardMode>
-        <Image>2061</Image>
+        <Image>22</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -2716,7 +2758,7 @@ return
         <HotspotX>0</HotspotX>
         <HotspotY>0</HotspotY>
         <StandardMode>False</StandardMode>
-        <Image>2061</Image>
+        <Image>22</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -2725,10 +2767,10 @@ return
       </MouseCursor>
       <MouseCursor>
         <ID>5</ID>
-        <HotspotX>8</HotspotX>
-        <HotspotY>8</HotspotY>
+        <HotspotX>0</HotspotX>
+        <HotspotY>0</HotspotY>
         <StandardMode>False</StandardMode>
-        <Image>2060</Image>
+        <Image>22</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -2740,7 +2782,7 @@ return
         <HotspotX>0</HotspotX>
         <HotspotY>0</HotspotY>
         <StandardMode>False</StandardMode>
-        <Image>2061</Image>
+        <Image>22</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -2749,10 +2791,10 @@ return
       </MouseCursor>
       <MouseCursor>
         <ID>7</ID>
-        <HotspotX>4</HotspotX>
-        <HotspotY>24</HotspotY>
+        <HotspotX>0</HotspotX>
+        <HotspotY>0</HotspotY>
         <StandardMode>False</StandardMode>
-        <Image>2055</Image>
+        <Image>27</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -2764,7 +2806,7 @@ return
         <HotspotX>0</HotspotX>
         <HotspotY>0</HotspotY>
         <StandardMode>False</StandardMode>
-        <Image>2054</Image>
+        <Image>22</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -2776,7 +2818,7 @@ return
         <HotspotX>0</HotspotX>
         <HotspotY>0</HotspotY>
         <StandardMode>False</StandardMode>
-        <Image>2054</Image>
+        <Image>22</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -3254,11 +3296,6 @@ return
               <FileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\windows\work.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="22" Width="32" Height="32" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\news_character_sprite.png</FileName>
-            </Source>
-          </Sprite>
           <Sprite Slot="23" Width="128" Height="128" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
             <Source>
               <FileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\windows\news.png</FileName>
@@ -3272,6 +3309,36 @@ return
           <Sprite Slot="25" Width="612" Height="653" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
             <Source>
               <FileName>C:\Users\robert\Dropbox\Whistleblower\Mail2.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="22" Width="16" Height="23" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\MouseClickable.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="26" Width="16" Height="23" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\MouseUnclickable.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="27" Width="20" Height="20" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\News.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="28" Width="559" Height="205" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\TICKET.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="29" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\ArkStart.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="62" Width="32" Height="32" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\news_character_sprite.png</FileName>
             </Source>
           </Sprite>
         </Sprites>
@@ -3291,7 +3358,7 @@ return
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>2061</Image>
+                    <Image>62</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
@@ -3304,7 +3371,7 @@ return
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>2061</Image>
+                    <Image>62</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
@@ -3317,7 +3384,7 @@ return
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>2061</Image>
+                    <Image>62</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
@@ -3330,7 +3397,7 @@ return
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>2061</Image>
+                    <Image>62</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
@@ -3368,7 +3435,7 @@ return
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>22</Image>
+                    <Image>62</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
@@ -3381,7 +3448,7 @@ return
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>0</Image>
+                    <Image>62</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
@@ -3394,7 +3461,7 @@ return
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>0</Image>
+                    <Image>62</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
@@ -3404,7 +3471,34 @@ return
               <Loop>
                 <ID>3</ID>
                 <RunNextLoop>False</RunNextLoop>
-                <Frames />
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>62</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>4</ID>
+            <Name>ArkRising</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>29</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
               </Loop>
             </Loops>
           </View>
@@ -3565,7 +3659,32 @@ return
             </AudioClipFolder>
           </AudioClipFolder>
         </SubFolders>
-        <AudioClips />
+        <AudioClips>
+          <AudioClip>
+            <ScriptName>Ps4startup</ScriptName>
+            <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\ps4startup.mp3</SourceFileName>
+            <Index>1</Index>
+            <Type>1</Type>
+            <BundlingType>InGameEXE</BundlingType>
+            <FileType>MP3</FileType>
+            <DefaultVolume>-1</DefaultVolume>
+            <DefaultPriority>Inherit</DefaultPriority>
+            <DefaultRepeat>Inherit</DefaultRepeat>
+            <FileLastModifiedDate>2014-05-02 19:45:50Z</FileLastModifiedDate>
+          </AudioClip>
+          <AudioClip>
+            <ScriptName>Print</ScriptName>
+            <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\print.wav</SourceFileName>
+            <Index>2</Index>
+            <Type>1</Type>
+            <BundlingType>InGameEXE</BundlingType>
+            <FileType>WAV</FileType>
+            <DefaultVolume>-1</DefaultVolume>
+            <DefaultPriority>Inherit</DefaultPriority>
+            <DefaultRepeat>Inherit</DefaultRepeat>
+            <FileLastModifiedDate>2014-05-03 00:55:11Z</FileLastModifiedDate>
+          </AudioClip>
+        </AudioClips>
         <AudioClipFolder>
           <DefaultVolume>100</DefaultVolume>
           <DefaultPriority>Normal</DefaultPriority>
@@ -3577,24 +3696,24 @@ return
     </AudioClips>
     <AudioClipTypes>
       <AudioClipType>
-        <TypeID>1</TypeID>
         <Name xml:space="preserve">Ambient Sound</Name>
+        <TypeID>1</TypeID>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
         <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
       </AudioClipType>
       <AudioClipType>
-        <TypeID>2</TypeID>
         <Name>Music</Name>
+        <TypeID>2</TypeID>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>30</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
         <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
       </AudioClipType>
       <AudioClipType>
-        <TypeID>3</TypeID>
         <Name>Sound</Name>
+        <TypeID>3</TypeID>
         <MaxChannels>0</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
