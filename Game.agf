@@ -23,7 +23,7 @@
       <WhenInterfaceDisabled>GreyOut</WhenInterfaceDisabled>
       <GUIAlphaStyle>MultiplyTranslucenceSrcBlend</GUIAlphaStyle>
       <SpriteAlphaStyle>Improved</SpriteAlphaStyle>
-      <RunGameLoopsWhileDialogOptionsDisplayed>False</RunGameLoopsWhileDialogOptionsDisplayed>
+      <RunGameLoopsWhileDialogOptionsDisplayed>True</RunGameLoopsWhileDialogOptionsDisplayed>
       <InventoryHotspotMarkerStyle>None</InventoryHotspotMarkerStyle>
       <InventoryHotspotMarkerSprite>0</InventoryHotspotMarkerSprite>
       <InventoryHotspotMarkerDotColor>0</InventoryHotspotMarkerDotColor>
@@ -41,14 +41,14 @@
       <PlaySoundOnScore>0</PlaySoundOnScore>
       <CrossfadeMusic>No</CrossfadeMusic>
       <DialogOptionsGUI>0</DialogOptionsGUI>
-      <DialogOptionsGap>0</DialogOptionsGap>
+      <DialogOptionsGap>8</DialogOptionsGap>
       <DialogOptionsBullet>0</DialogOptionsBullet>
       <SkipSpeech>MouseOrKeyboardOrTimer</SkipSpeech>
       <SpeechStyle>SierraWithBackground</SpeechStyle>
       <UseGlobalSpeechAnimationDelay>False</UseGlobalSpeechAnimationDelay>
       <GlobalSpeechAnimationDelay>5</GlobalSpeechAnimationDelay>
       <LegacySpeechAnimationSpeed>False</LegacySpeechAnimationSpeed>
-      <NumberDialogOptions>False</NumberDialogOptions>
+      <NumberDialogOptions>True</NumberDialogOptions>
       <DialogOptionsBackwards>False</DialogOptionsBackwards>
       <SpeechPortraitSide>Left</SpeechPortraitSide>
       <TextWindowGUI>0</TextWindowGUI>
@@ -2555,7 +2555,7 @@
               <BorderColor>65535</BorderColor>
               <Transparency>0</Transparency>
               <BackgroundColor>8</BackgroundColor>
-              <BackgroundImage>12</BackgroundImage>
+              <BackgroundImage>84</BackgroundImage>
               <ID>18</ID>
               <Name>Chat2</Name>
             </NormalGUI>
@@ -3045,22 +3045,22 @@
           <Character>
             <ID>0</ID>
             <ScriptName>cEgo</ScriptName>
-            <RealName>ROGER</RealName>
+            <RealName>Ego</RealName>
             <NormalView>1</NormalView>
             <SpeechView>0</SpeechView>
             <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
             <StartingRoom>1</StartingRoom>
-            <StartX>160</StartX>
-            <StartY>160</StartY>
+            <StartX>512</StartX>
+            <StartY>288</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>10</MovementSpeed>
             <MovementSpeedX>3</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
             <AnimationDelay>4</AnimationDelay>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>12</SpeechColor>
+            <SpeechColor>65535</SpeechColor>
             <Solid>True</Solid>
             <Clickable>True</Clickable>
             <UseRoomAreaScaling>True</UseRoomAreaScaling>
@@ -3122,55 +3122,378 @@
               <Event Index="7" />
             </Interactions>
           </Character>
+          <Character>
+            <ID>2</ID>
+            <ScriptName>cHorace</ScriptName>
+            <RealName>Horace</RealName>
+            <NormalView>3</NormalView>
+            <SpeechView>0</SpeechView>
+            <IdleView>0</IdleView>
+            <ThinkingView>0</ThinkingView>
+            <BlinkingView>0</BlinkingView>
+            <StartingRoom>2</StartingRoom>
+            <StartX>512</StartX>
+            <StartY>320</StartY>
+            <UniformMovementSpeed>True</UniformMovementSpeed>
+            <MovementSpeed>3</MovementSpeed>
+            <MovementSpeedX>0</MovementSpeedX>
+            <MovementSpeedY>0</MovementSpeedY>
+            <AnimationDelay>4</AnimationDelay>
+            <SpeechAnimationDelay>5</SpeechAnimationDelay>
+            <SpeechColor>63488</SpeechColor>
+            <Solid>True</Solid>
+            <Clickable>True</Clickable>
+            <UseRoomAreaScaling>True</UseRoomAreaScaling>
+            <UseRoomAreaLighting>True</UseRoomAreaLighting>
+            <TurnBeforeWalking>True</TurnBeforeWalking>
+            <DiagonalLoops>True</DiagonalLoops>
+            <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
+            <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
+            <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+              <Event Index="5" />
+              <Event Index="6" />
+              <Event Index="7" />
+            </Interactions>
+          </Character>
+          <Character>
+            <ID>3</ID>
+            <ScriptName>cJustin</ScriptName>
+            <RealName>Justin</RealName>
+            <NormalView>3</NormalView>
+            <SpeechView>0</SpeechView>
+            <IdleView>0</IdleView>
+            <ThinkingView>0</ThinkingView>
+            <BlinkingView>0</BlinkingView>
+            <StartingRoom>2</StartingRoom>
+            <StartX>512</StartX>
+            <StartY>320</StartY>
+            <UniformMovementSpeed>True</UniformMovementSpeed>
+            <MovementSpeed>3</MovementSpeed>
+            <MovementSpeedX>0</MovementSpeedX>
+            <MovementSpeedY>0</MovementSpeedY>
+            <AnimationDelay>4</AnimationDelay>
+            <SpeechAnimationDelay>5</SpeechAnimationDelay>
+            <SpeechColor>1560</SpeechColor>
+            <Solid>True</Solid>
+            <Clickable>True</Clickable>
+            <UseRoomAreaScaling>True</UseRoomAreaScaling>
+            <UseRoomAreaLighting>True</UseRoomAreaLighting>
+            <TurnBeforeWalking>True</TurnBeforeWalking>
+            <DiagonalLoops>True</DiagonalLoops>
+            <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
+            <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
+            <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+              <Event Index="5" />
+              <Event Index="6" />
+              <Event Index="7" />
+            </Interactions>
+          </Character>
         </Characters>
       </CharacterFolder>
     </Characters>
     <PlayerCharacter>0</PlayerCharacter>
     <Dialogs>
       <DialogFolder Name="Main">
-        <SubFolders />
-        <Dialogs>
-          <Dialog>
-            <ID>0</ID>
-            <Name>Intro</Name>
-            <ShowTextParser>False</ShowTextParser>
-            <Script><![CDATA[// Dialog script file
+        <SubFolders>
+          <DialogFolder Name="Horace">
+            <SubFolders />
+            <Dialogs>
+              <Dialog>
+                <ID>0</ID>
+                <Name>Horace2</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
-cEgo: "HEY"
-EGO: "HEY YOU"
+  SaveHoraceChatState(this);
 return
 @1
-EGO: "FINE"
-return
+Horace: Same old, same old. Leaving the magnetic field in two days.
+goto-dialog Horace3
 @2
-EGO: "NICE"
-stop
+Horace: Yep. We're getting outta here, huh?
+goto-dialog Horace3
 @3
-EGO: "COOL"
+Horace: ... Yeah
+goto-dialog Horace4
+@4
+Horace: K.
+  SignOut(Chat1);
 stop
 ]]></Script>
-            <DialogOptions>
-              <DialogOption>
-                <ID>1</ID>
-                <Text xml:space="preserve">Option #1</Text>
-                <Show>True</Show>
-                <Say>True</Say>
-              </DialogOption>
-              <DialogOption>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Text xml:space="preserve">How are you?</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Text xml:space="preserve">Did you get your notice?</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>3</ID>
+                    <Text xml:space="preserve">They're stopping the waves.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>4</ID>
+                    <Text>Brb.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+              <Dialog>
                 <ID>2</ID>
-                <Text xml:space="preserve">Option #2</Text>
-                <Show>True</Show>
-                <Say>True</Say>
-              </DialogOption>
-              <DialogOption>
+                <Name>Horace3</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+  SaveHoraceChatState(this);
+return
+@1
+Horace: Yeah. Did you see that report?
+goto-dialog Horace4
+@2
+Horace: I'm packing. Get off this forsaken rock.
+goto-dialog Horace5
+@3
+Horace: K.
+  SignOut(Chat1);
+stop
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Text xml:space="preserve">I guess they're terminating the program.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Text xml:space="preserve">What are you gonna do?</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>3</ID>
+                    <Text>Brb.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+              <Dialog>
                 <ID>3</ID>
-                <Text xml:space="preserve">Option #3</Text>
-                <Show>True</Show>
-                <Say>True</Say>
-              </DialogOption>
-            </DialogOptions>
-          </Dialog>
-        </Dialogs>
+                <Name>Horace4</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+  SaveHoraceChatState(this);
+return
+@1
+Horace: It's a smart move, cut your losses quick, keep everything.
+goto-dialog Horace5
+@2
+Horace: Well they're gonna be down 1 by the end of the week, that's for sure.
+goto-dialog Horace5
+@3
+Horace: K.
+  SignOut(Chat1);
+stop
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Text xml:space="preserve">They're saving resources so that we can rebuild life on Boulder.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Text xml:space="preserve">7 billion. There's still 7 billion here!</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>3</ID>
+                    <Text>Brb.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+              <Dialog>
+                <ID>4</ID>
+                <Name>Horace5</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+  SaveHoraceChatState(this);
+return
+@1
+Horace: To the rest? Yeah, but what can be done?
+goto-dialog Horace6
+@2
+Horace: You should be more glad, you're lucky.
+goto-dialog Horace6
+@3
+Horace: K.
+  SignOut(Chat1);
+stop
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Text xml:space="preserve">Don't you think it's cruel?</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Text>Right.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>3</ID>
+                    <Text>Brb.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+              <Dialog>
+                <ID>5</ID>
+                <Name>Horace1</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+Player: Hey Horace.
+Horace: Hi.
+  ResumeHoraceChatState();
+stop
+]]></Script>
+                <DialogOptions />
+              </Dialog>
+              <Dialog>
+                <ID>6</ID>
+                <Name>Horace6</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+  SaveHoraceChatState(this);
+return
+@1
+Horace: What will that do? It'll only panick them, and nothing’s gonna change.
+return
+@2
+Horace: You and me? Nothing. But the other passengers have something going for them, money for one.
+return
+@3
+Horace: K.
+  SignOut(Chat1);
+stop
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Text xml:space="preserve">Shouldn't they at least know? That there isn't going to be another ship?</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Text xml:space="preserve">What makes us so special?</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>3</ID>
+                    <Text>Brb.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+            </Dialogs>
+          </DialogFolder>
+          <DialogFolder Name="Justin">
+            <SubFolders />
+            <Dialogs>
+              <Dialog>
+                <ID>1</ID>
+                <Name>Justin1</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+Player: Hey Justin.
+Justin: Hi.
+  ResumeJustinChatState();
+return
+@1
+Justin: Same old, same old. Leaving the magnetic field in two days.
+return
+@2
+Justin: Yep. We're getting outta here, huh?
+return
+@3
+Justin: ... Yeah
+return
+@4
+Justin: K.
+  SignOut(Chat2);
+stop
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Text xml:space="preserve">Option #1</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Text xml:space="preserve">Option #2</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>3</ID>
+                    <Text xml:space="preserve">Option #3</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>4</ID>
+                    <Text>Brb.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+            </Dialogs>
+          </DialogFolder>
+        </SubFolders>
+        <Dialogs />
       </DialogFolder>
     </Dialogs>
     <Cursors>
@@ -3610,6 +3933,16 @@ stop
           <Name>denied</Name>
           <Type>int</Type>
           <DefaultValue>2</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>horace_chat_state</Name>
+          <Type>int</Type>
+          <DefaultValue>0</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>justin_chat_state</Name>
+          <Type>int</Type>
+          <DefaultValue>1</DefaultValue>
         </GlobalVariable>
       </Variables>
     </GlobalVariables>
@@ -4204,7 +4537,7 @@ stop
         <Views>
           <View>
             <ID>1</ID>
-            <Name>VIEW1</Name>
+            <Name>PlayerView</Name>
             <Loops>
               <Loop>
                 <ID>0</ID>
@@ -4281,7 +4614,7 @@ stop
           </View>
           <View>
             <ID>3</ID>
-            <Name>Empty</Name>
+            <Name>EmptyView</Name>
             <Loops>
               <Loop>
                 <ID>0</ID>
@@ -4575,7 +4908,7 @@ stop
           </View>
           <View>
             <ID>5</ID>
-            <Name>Horace</Name>
+            <Name>HoraceView</Name>
             <Loops>
               <Loop>
                 <ID>0</ID>
@@ -4747,7 +5080,7 @@ stop
           </View>
           <View>
             <ID>6</ID>
-            <Name>Justin</Name>
+            <Name>JustinView</Name>
             <Loops>
               <Loop>
                 <ID>0</ID>
@@ -5109,7 +5442,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-30 03:45:50Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-29 23:45:50Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\print.wav</SourceFileName>
@@ -5121,7 +5454,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-30 08:55:11Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-30 04:55:11Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\Aldebaran.wav</SourceFileName>
@@ -5133,7 +5466,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-01 01:47:09Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-30 21:47:09Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\type2.wav</SourceFileName>
@@ -5145,7 +5478,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-02 11:55:59Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-02 07:55:59Z</FileLastModifiedDate>
           </AudioClip>
         </AudioClips>
         <AudioClipFolder>

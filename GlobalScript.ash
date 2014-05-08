@@ -16,3 +16,13 @@ import function OpenDocuments();
 import function OpenWork();
 
 import function OpenChat();
+
+import function SignOut(GUI *theGui);
+
+import function SaveHoraceChatState(Dialog *theDialog);
+
+import function ResumeHoraceChatState();
+
+import function SaveJustinChatState(Dialog *theDialog);
+
+import function ResumeJustinChatState();
