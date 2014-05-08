@@ -2513,13 +2513,13 @@
               <BorderColor>65535</BorderColor>
               <Transparency>0</Transparency>
               <BackgroundColor>8</BackgroundColor>
-              <BackgroundImage>12</BackgroundImage>
+              <BackgroundImage>107</BackgroundImage>
               <ID>17</ID>
               <Name>Chat1</Name>
             </NormalGUI>
             <Controls>
               <GUIButton>
-                <OnClick>ChatCloseButton_OnClick</OnClick>
+                <OnClick>CloseButton_OnClick</OnClick>
                 <ClickAction>RunScript</ClickAction>
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
@@ -2555,13 +2555,13 @@
               <BorderColor>65535</BorderColor>
               <Transparency>0</Transparency>
               <BackgroundColor>8</BackgroundColor>
-              <BackgroundImage>84</BackgroundImage>
+              <BackgroundImage>108</BackgroundImage>
               <ID>18</ID>
               <Name>Chat2</Name>
             </NormalGUI>
             <Controls>
               <GUIButton>
-                <OnClick>ChatCloseButton2_OnClick</OnClick>
+                <OnClick>CloseButton_OnClick</OnClick>
                 <ClickAction>RunScript</ClickAction>
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
@@ -2597,13 +2597,13 @@
               <BorderColor>65535</BorderColor>
               <Transparency>0</Transparency>
               <BackgroundColor>8</BackgroundColor>
-              <BackgroundImage>12</BackgroundImage>
+              <BackgroundImage>107</BackgroundImage>
               <ID>19</ID>
               <Name>Chat3</Name>
             </NormalGUI>
             <Controls>
               <GUIButton>
-                <OnClick>ChatCloseButton_OnClick</OnClick>
+                <OnClick>CloseButton_OnClick</OnClick>
                 <ClickAction>RunScript</ClickAction>
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
@@ -3448,6 +3448,16 @@ stop
 Player: Hey Justin.
 Justin: Hi.
   ResumeJustinChatState();
+stop]]></Script>
+                <DialogOptions />
+              </Dialog>
+              <Dialog>
+                <ID>7</ID>
+                <Name>Justin2</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+  SaveJustinChatState(this);
 return
 @1
 Justin: Same old, same old. Leaving the magnetic field in two days.
@@ -3942,7 +3952,7 @@ stop
         <GlobalVariable>
           <Name>justin_chat_state</Name>
           <Type>int</Type>
-          <DefaultValue>1</DefaultValue>
+          <DefaultValue>7</DefaultValue>
         </GlobalVariable>
       </Variables>
     </GlobalVariables>
@@ -4135,6 +4145,11 @@ stop
                   <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Talk\Horace_0000_Frame-14.png</FileName>
                 </Source>
               </Sprite>
+              <Sprite Slot="107" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Login\Horace.png</FileName>
+                </Source>
+              </Sprite>
             </Sprites>
           </SpriteFolder>
           <SpriteFolder Name="Justin">
@@ -4248,6 +4263,11 @@ stop
               <Sprite Slot="105" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
                 <Source>
                   <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Talk\Justin_0000_Frame-14.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="108" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Login\Justin.png</FileName>
                 </Source>
               </Sprite>
             </Sprites>
@@ -5467,7 +5487,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-29 19:45:50Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-29 15:45:50Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\print.wav</SourceFileName>
@@ -5479,7 +5499,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-30 00:55:11Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-29 20:55:11Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\Aldebaran.wav</SourceFileName>
@@ -5491,7 +5511,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-30 17:47:09Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-30 13:47:09Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\type2.wav</SourceFileName>
@@ -5503,7 +5523,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-02 03:55:59Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-01 23:55:59Z</FileLastModifiedDate>
           </AudioClip>
         </AudioClips>
         <AudioClipFolder>
