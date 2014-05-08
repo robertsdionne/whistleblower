@@ -4022,6 +4022,421 @@ stop
             <SubFolders />
             <Sprites />
           </SpriteFolder>
+          <SpriteFolder Name="Horace">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="12" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Login\HiHorace_0007_Frame-1.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="13" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Login\HiHorace_0006_Frame-2.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="29" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Login\HiHorace_0005_Frame-3.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="65" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Login\HiHorace_0004_Frame-4.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="66" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Login\HiHorace_0003_Frame-5.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="67" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Login\HiHorace_0002_Frame-6.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="68" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Login\HiHorace_0001_Frame-7.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="69" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Login\HiHorace_0000_Frame-8.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="70" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Talk\Horace_0013_Frame-1.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="71" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Talk\Horace_0012_Frame-2.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="72" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Talk\Horace_0011_Frame-3.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="73" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Talk\Horace_0010_Frame-4.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="74" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Talk\Horace_0009_Frame-5.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="75" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Talk\Horace_0008_Frame-6.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="76" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Talk\Horace_0007_Frame-7.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="77" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Talk\Horace_0006_Frame-8.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="78" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Talk\Horace_0005_Frame-9.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="79" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Talk\Horace_0004_Frame-10.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="80" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Talk\Horace_0003_Frame-11.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="81" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Talk\Horace_0002_Frame-12.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="82" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Talk\Horace_0001_Frame-13.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="83" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Talk\Horace_0000_Frame-14.png</FileName>
+                </Source>
+              </Sprite>
+            </Sprites>
+          </SpriteFolder>
+          <SpriteFolder Name="Justin">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="84" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Login\HiJustin_0007_Frame-1.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="85" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Login\HiJustin_0006_Frame-2.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="86" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Login\HiJustin_0005_Frame-3.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="87" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Login\HiJustin_0004_Frame-4.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="88" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Login\HiJustin_0003_Frame-5.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="89" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Login\HiJustin_0002_Frame-6.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="90" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Login\HiJustin_0001_Frame-7.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="91" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Login\HiJustin_0000_Frame-8.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="92" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Talk\Justin_0013_Frame-1.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="93" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Talk\Justin_0012_Frame-2.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="94" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Talk\Justin_0011_Frame-3.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="95" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Talk\Justin_0010_Frame-4.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="96" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Talk\Justin_0009_Frame-5.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="97" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Talk\Justin_0008_Frame-6.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="98" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Talk\Justin_0007_Frame-7.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="99" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Talk\Justin_0006_Frame-8.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="100" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Talk\Justin_0005_Frame-9.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="101" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Talk\Justin_0004_Frame-10.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="102" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Talk\Justin_0003_Frame-11.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="103" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Talk\Justin_0002_Frame-12.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="104" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Talk\Justin_0001_Frame-13.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="105" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Talk\Justin_0000_Frame-14.png</FileName>
+                </Source>
+              </Sprite>
+            </Sprites>
+          </SpriteFolder>
+          <SpriteFolder Name="Login">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="30" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0031_Frame-1.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="31" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0030_Frame-2.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="32" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0029_Frame-3.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="33" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0028_Frame-4.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="34" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0027_Frame-5.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="35" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0026_Frame-6.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="36" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0025_Frame-7.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="37" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0024_Frame-8.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="38" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0023_Frame-9.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="39" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0022_Frame-10.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="40" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0021_Frame-11.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="41" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0020_Frame-12.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="42" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0019_Frame-13.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="43" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0018_Frame-14.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="44" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0017_Frame-15.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="45" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0016_Frame-16.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="46" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0015_Frame-17.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="47" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0014_Frame-18.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="48" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0013_Frame-19.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="49" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0012_Frame-20.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="50" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0011_Frame-21.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="51" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0010_Frame-22.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="52" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0009_Frame-23.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="53" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0008_Frame-24.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="54" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0007_Frame-25.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="55" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0006_Frame-26.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="56" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0005_Frame-27.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="57" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0004_Frame-28.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="58" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0003_Frame-29.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="59" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0002_Frame-30.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="60" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0001_Frame-31.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="61" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0000_Frame-32.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="63" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\ArkStart.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="64" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\ArkPreLogin.png</FileName>
+                </Source>
+              </Sprite>
+            </Sprites>
+          </SpriteFolder>
+          <SpriteFolder Name="News">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="106" Width="128" Height="128" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\News Art\Riots.png</FileName>
+                </Source>
+              </Sprite>
+            </Sprites>
+          </SpriteFolder>
         </SubFolders>
         <Sprites>
           <Sprite Slot="0" Width="10" Height="6" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
@@ -4138,396 +4553,6 @@ stop
               <FileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\news_character_sprite.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="30" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0031_Frame-1.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="31" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0030_Frame-2.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="32" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0029_Frame-3.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="33" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0028_Frame-4.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="34" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0027_Frame-5.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="35" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0026_Frame-6.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="36" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0025_Frame-7.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="37" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0024_Frame-8.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="38" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0023_Frame-9.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="39" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0022_Frame-10.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="40" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0021_Frame-11.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="41" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0020_Frame-12.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="42" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0019_Frame-13.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="43" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0018_Frame-14.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="44" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0017_Frame-15.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="45" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0016_Frame-16.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="46" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0015_Frame-17.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="47" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0014_Frame-18.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="48" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0013_Frame-19.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="49" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0012_Frame-20.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="50" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0011_Frame-21.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="51" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0010_Frame-22.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="52" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0009_Frame-23.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="53" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0008_Frame-24.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="54" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0007_Frame-25.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="55" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0006_Frame-26.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="56" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0005_Frame-27.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="57" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0004_Frame-28.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="58" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0003_Frame-29.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="59" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0002_Frame-30.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="60" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0001_Frame-31.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="61" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Ark Login\login_0000_Frame-32.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="63" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\ArkStart.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="64" Width="266" Height="376" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\ArkPreLogin.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="12" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Login\HiHorace_0007_Frame-1.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="13" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Login\HiHorace_0006_Frame-2.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="29" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Login\HiHorace_0005_Frame-3.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="65" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Login\HiHorace_0004_Frame-4.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="66" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Login\HiHorace_0003_Frame-5.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="67" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Login\HiHorace_0002_Frame-6.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="68" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Login\HiHorace_0001_Frame-7.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="69" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Login\HiHorace_0000_Frame-8.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="70" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Talk\Horace_0013_Frame-1.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="71" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Talk\Horace_0012_Frame-2.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="72" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Talk\Horace_0011_Frame-3.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="73" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Talk\Horace_0010_Frame-4.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="74" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Talk\Horace_0009_Frame-5.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="75" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Talk\Horace_0008_Frame-6.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="76" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Talk\Horace_0007_Frame-7.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="77" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Talk\Horace_0006_Frame-8.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="78" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Talk\Horace_0005_Frame-9.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="79" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Talk\Horace_0004_Frame-10.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="80" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Talk\Horace_0003_Frame-11.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="81" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Talk\Horace_0002_Frame-12.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="82" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Talk\Horace_0001_Frame-13.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="83" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Talk\Horace_0000_Frame-14.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="84" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Login\HiJustin_0007_Frame-1.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="85" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Login\HiJustin_0006_Frame-2.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="86" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Login\HiJustin_0005_Frame-3.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="87" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Login\HiJustin_0004_Frame-4.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="88" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Login\HiJustin_0003_Frame-5.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="89" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Login\HiJustin_0002_Frame-6.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="90" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Login\HiJustin_0001_Frame-7.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="91" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Login\HiJustin_0000_Frame-8.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="92" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Talk\Justin_0013_Frame-1.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="93" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Talk\Justin_0012_Frame-2.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="94" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Talk\Justin_0011_Frame-3.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="95" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Talk\Justin_0010_Frame-4.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="96" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Talk\Justin_0009_Frame-5.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="97" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Talk\Justin_0008_Frame-6.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="98" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Talk\Justin_0007_Frame-7.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="99" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Talk\Justin_0006_Frame-8.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="100" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Talk\Justin_0005_Frame-9.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="101" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Talk\Justin_0004_Frame-10.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="102" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Talk\Justin_0003_Frame-11.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="103" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Talk\Justin_0002_Frame-12.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="104" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Talk\Justin_0001_Frame-13.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="105" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Talk\Justin_0000_Frame-14.png</FileName>
-            </Source>
-          </Sprite>
         </Sprites>
       </SpriteFolder>
     </Sprites>
@@ -4603,7 +4628,7 @@ stop
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>23</Image>
+                    <Image>106</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
@@ -5442,7 +5467,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-29 23:45:50Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-29 19:45:50Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\print.wav</SourceFileName>
@@ -5454,7 +5479,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-30 04:55:11Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-30 00:55:11Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\Aldebaran.wav</SourceFileName>
@@ -5466,7 +5491,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-30 21:47:09Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-30 17:47:09Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\type2.wav</SourceFileName>
@@ -5478,7 +5503,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-02 07:55:59Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-02 03:55:59Z</FileLastModifiedDate>
           </AudioClip>
         </AudioClips>
         <AudioClipFolder>
