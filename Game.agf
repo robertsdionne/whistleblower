@@ -2543,7 +2543,7 @@
           </GUIMain>
           <GUIMain>
             <NormalGUI>
-              <OnClick>Chat_OnClick</OnClick>
+              <OnClick>Chat2_OnClick</OnClick>
               <Height>410</Height>
               <Width>246</Width>
               <Left>400</Left>
@@ -2561,7 +2561,7 @@
             </NormalGUI>
             <Controls>
               <GUIButton>
-                <OnClick>ChatCloseButton_OnClick</OnClick>
+                <OnClick>ChatCloseButton2_OnClick</OnClick>
                 <ClickAction>RunScript</ClickAction>
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
@@ -3144,27 +3144,27 @@ EGO: "FINE"
 return
 @2
 EGO: "NICE"
-return
+stop
 @3
 EGO: "COOL"
-return
+stop
 ]]></Script>
             <DialogOptions>
               <DialogOption>
                 <ID>1</ID>
-                <Text xml:space="preserve">one two three</Text>
+                <Text xml:space="preserve">Option #1</Text>
                 <Show>True</Show>
                 <Say>True</Say>
               </DialogOption>
               <DialogOption>
                 <ID>2</ID>
-                <Text xml:space="preserve">four five six</Text>
+                <Text xml:space="preserve">Option #2</Text>
                 <Show>True</Show>
                 <Say>True</Say>
               </DialogOption>
               <DialogOption>
                 <ID>3</ID>
-                <Text xml:space="preserve">blah blah blah</Text>
+                <Text xml:space="preserve">Option #3</Text>
                 <Show>True</Show>
                 <Say>True</Say>
               </DialogOption>
@@ -4085,6 +4085,116 @@ return
               <FileName>C:\Users\robert\Dropbox\Whistleblower\Horace Talk\Horace_0000_Frame-14.png</FileName>
             </Source>
           </Sprite>
+          <Sprite Slot="84" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Login\HiJustin_0007_Frame-1.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="85" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Login\HiJustin_0006_Frame-2.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="86" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Login\HiJustin_0005_Frame-3.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="87" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Login\HiJustin_0004_Frame-4.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="88" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Login\HiJustin_0003_Frame-5.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="89" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Login\HiJustin_0002_Frame-6.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="90" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Login\HiJustin_0001_Frame-7.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="91" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Login\HiJustin_0000_Frame-8.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="92" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Talk\Justin_0013_Frame-1.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="93" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Talk\Justin_0012_Frame-2.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="94" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Talk\Justin_0011_Frame-3.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="95" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Talk\Justin_0010_Frame-4.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="96" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Talk\Justin_0009_Frame-5.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="97" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Talk\Justin_0008_Frame-6.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="98" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Talk\Justin_0007_Frame-7.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="99" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Talk\Justin_0006_Frame-8.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="100" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Talk\Justin_0005_Frame-9.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="101" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Talk\Justin_0004_Frame-10.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="102" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Talk\Justin_0003_Frame-11.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="103" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Talk\Justin_0002_Frame-12.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="104" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Talk\Justin_0001_Frame-13.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="105" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Talk\Justin_0000_Frame-14.png</FileName>
+            </Source>
+          </Sprite>
         </Sprites>
       </SpriteFolder>
     </Sprites>
@@ -4635,6 +4745,178 @@ return
               </Loop>
             </Loops>
           </View>
+          <View>
+            <ID>6</ID>
+            <Name>Justin</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>84</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>85</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>86</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>87</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>4</ID>
+                    <Image>88</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>5</ID>
+                    <Image>89</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>6</ID>
+                    <Image>90</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>7</ID>
+                    <Image>91</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>1</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>92</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>93</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>94</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>3</ID>
+                    <Image>95</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>4</ID>
+                    <Image>96</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>5</ID>
+                    <Image>97</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>6</ID>
+                    <Image>98</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>7</ID>
+                    <Image>99</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>8</ID>
+                    <Image>100</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>9</ID>
+                    <Image>101</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>10</ID>
+                    <Image>102</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>11</ID>
+                    <Image>103</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>12</ID>
+                    <Image>104</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>13</ID>
+                    <Image>105</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
         </Views>
       </ViewFolder>
     </Views>
@@ -4818,8 +5100,8 @@ return
         </SubFolders>
         <AudioClips>
           <AudioClip>
-            <ScriptName>Ps4startup</ScriptName>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\ps4startup.mp3</SourceFileName>
+            <ScriptName>Ps4startup</ScriptName>
             <Index>1</Index>
             <Type>1</Type>
             <BundlingType>InGameEXE</BundlingType>
@@ -4827,11 +5109,11 @@ return
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-30 15:45:50Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-30 03:45:50Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
-            <ScriptName>Print</ScriptName>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\print.wav</SourceFileName>
+            <ScriptName>Print</ScriptName>
             <Index>2</Index>
             <Type>1</Type>
             <BundlingType>InGameEXE</BundlingType>
@@ -4839,11 +5121,11 @@ return
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-30 20:55:11Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-30 08:55:11Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
-            <ScriptName>Aldebaran</ScriptName>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\Aldebaran.wav</SourceFileName>
+            <ScriptName>Aldebaran</ScriptName>
             <Index>3</Index>
             <Type>1</Type>
             <BundlingType>InGameEXE</BundlingType>
@@ -4851,11 +5133,11 @@ return
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-01 13:47:09Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-01 01:47:09Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
-            <ScriptName>Type</ScriptName>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\type2.wav</SourceFileName>
+            <ScriptName>Type</ScriptName>
             <Index>4</Index>
             <Type>1</Type>
             <BundlingType>InGameEXE</BundlingType>
@@ -4863,7 +5145,7 @@ return
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-02 23:55:59Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-02 11:55:59Z</FileLastModifiedDate>
           </AudioClip>
         </AudioClips>
         <AudioClipFolder>
@@ -4877,24 +5159,24 @@ return
     </AudioClips>
     <AudioClipTypes>
       <AudioClipType>
-        <Name xml:space="preserve">Ambient Sound</Name>
         <TypeID>1</TypeID>
+        <Name xml:space="preserve">Ambient Sound</Name>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
         <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
       </AudioClipType>
       <AudioClipType>
-        <Name>Music</Name>
         <TypeID>2</TypeID>
+        <Name>Music</Name>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>30</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
         <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
       </AudioClipType>
       <AudioClipType>
-        <Name>Sound</Name>
         <TypeID>3</TypeID>
+        <Name>Sound</Name>
         <MaxChannels>0</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
