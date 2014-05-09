@@ -4155,6 +4155,11 @@ stop
           <SpriteFolder Name="Justin">
             <SubFolders />
             <Sprites>
+              <Sprite Slot="108" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Login\Justin.png</FileName>
+                </Source>
+              </Sprite>
               <Sprite Slot="84" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
                 <Source>
                   <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Login\HiJustin_0007_Frame-1.png</FileName>
@@ -4263,11 +4268,6 @@ stop
               <Sprite Slot="105" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
                 <Source>
                   <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Talk\Justin_0000_Frame-14.png</FileName>
-                </Source>
-              </Sprite>
-              <Sprite Slot="108" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-                <Source>
-                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Login\Justin.png</FileName>
                 </Source>
               </Sprite>
             </Sprites>
@@ -5487,7 +5487,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-29 15:45:50Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-29 11:45:50Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\print.wav</SourceFileName>
@@ -5499,7 +5499,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-29 20:55:11Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-29 16:55:11Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\Aldebaran.wav</SourceFileName>
@@ -5511,7 +5511,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-30 13:47:09Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-30 09:47:09Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\type2.wav</SourceFileName>
@@ -5523,7 +5523,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-01 23:55:59Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-01 19:55:59Z</FileLastModifiedDate>
           </AudioClip>
         </AudioClips>
         <AudioClipFolder>
