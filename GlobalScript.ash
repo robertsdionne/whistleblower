@@ -26,3 +26,5 @@ import function ResumeHoraceChatState();
 import function SaveJustinChatState(Dialog *theDialog);
 
 import function ResumeJustinChatState();
+
+import function StartPoliceTimer();

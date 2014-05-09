@@ -3445,8 +3445,8 @@ stop
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
-Player: Hey Justin.
-Justin: Hi.
+Player: Mr. Kuritzkes.
+Justin: Please, call me Justin.
   ResumeJustinChatState();
 stop]]></Script>
                 <DialogOptions />
@@ -3460,45 +3460,150 @@ stop]]></Script>
   SaveJustinChatState(this);
 return
 @1
-Justin: Same old, same old. Leaving the magnetic field in two days.
-return
+Justin: I'm busy with these latest dispatches, unless you have a scoop.
+goto-dialog Justin3
 @2
-Justin: Yep. We're getting outta here, huh?
-return
+Justin: Tell me more...
+goto-dialog Justin3
 @3
-Justin: ... Yeah
-return
-@4
-Justin: K.
+Justin: Until later.
   SignOut(Chat2);
 stop
 ]]></Script>
                 <DialogOptions>
                   <DialogOption>
                     <ID>1</ID>
-                    <Text xml:space="preserve">Option #1</Text>
+                    <Text xml:space="preserve">Do you have a moment?</Text>
                     <Show>True</Show>
                     <Say>True</Say>
                   </DialogOption>
                   <DialogOption>
                     <ID>2</ID>
-                    <Text xml:space="preserve">Option #2</Text>
+                    <Text xml:space="preserve">I have some information you might want.</Text>
                     <Show>True</Show>
                     <Say>True</Say>
                   </DialogOption>
                   <DialogOption>
                     <ID>3</ID>
-                    <Text xml:space="preserve">Option #3</Text>
-                    <Show>True</Show>
-                    <Say>True</Say>
-                  </DialogOption>
-                  <DialogOption>
-                    <ID>4</ID>
-                    <Text>Brb.</Text>
+                    <Text>Nevermind.</Text>
                     <Show>True</Show>
                     <Say>True</Say>
                   </DialogOption>
                 </DialogOptions>
+              </Dialog>
+              <Dialog>
+                <ID>8</ID>
+                <Name>Justin3</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+  SaveJustinChatState(this);
+return
+@1
+Justin: Wow, that's big! But I'm going to need some solid evidence. Can you send me a document archive?
+goto-dialog Justin4
+@2
+Justin: Okay, let me know when you're ready to transmit.
+  SignOut(Chat2);
+stop
+@3
+Justin: Until later.
+  SignOut(Chat2);
+stop
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Text xml:space="preserve">The ARK program is cancelling all future evacuation waves.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Text xml:space="preserve">Wait, first I need to grab the document archive.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>3</ID>
+                    <Text>Nevermind.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+              <Dialog>
+                <ID>9</ID>
+                <Name>Justin4</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+  SaveJustinChatState(this);
+return
+@1
+Justin: Great, I've got it. I will notify you in the event its published.
+  justin_chat_state = 10;
+  StartPoliceTimer();
+  SignOut(Chat2);
+stop
+@2
+Justin: Okay.
+  SignOut(Chat2);
+stop
+@3
+Justin: Until later.
+  SignOut(Chat2);
+stop
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Text xml:space="preserve">Alright, I possess the document archive. Transmitting now.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Text xml:space="preserve">Hold on, I have more preparations to make.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>3</ID>
+                    <Text>Nevermind.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+              <Dialog>
+                <ID>10</ID>
+                <Name>Justin5</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+  SaveJustinChatState(this);
+Justin: We're still reviewing the archive. I will notify you in the event we publish.
+  SignOut(Chat2);
+stop
+]]></Script>
+                <DialogOptions />
+              </Dialog>
+              <Dialog>
+                <ID>11</ID>
+                <Name>Justin6</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+Justin: Are you alone in the office right now?
+Player: Yes.
+Justin: We're sending someone over to consult with you about the leak.
+Justin: Please stay where you are.
+Justin: Thank you for your cooperation.
+Justin: The information is very valuable.
+stop
+]]></Script>
+                <DialogOptions />
               </Dialog>
             </Dialogs>
           </DialogFolder>
@@ -4563,7 +4668,7 @@ stop
               <FileName>C:\Users\robert\Dropbox\Whistleblower\News.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="28" Width="559" Height="205" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+          <Sprite Slot="28" Width="559" Height="205" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
             <Source>
               <FileName>C:\Users\robert\Dropbox\Whistleblower\TICKET.png</FileName>
             </Source>
@@ -5487,7 +5592,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-29 11:45:50Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-29 03:45:50Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\print.wav</SourceFileName>
@@ -5499,7 +5604,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-29 16:55:11Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-29 08:55:11Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\Aldebaran.wav</SourceFileName>
@@ -5511,7 +5616,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-30 09:47:09Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-30 01:47:09Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\type2.wav</SourceFileName>
@@ -5523,7 +5628,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-01 19:55:59Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-01 11:55:59Z</FileLastModifiedDate>
           </AudioClip>
         </AudioClips>
         <AudioClipFolder>
