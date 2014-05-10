@@ -27,8 +27,8 @@ import function SaveJustinChatState(Dialog *theDialog);
 
 import function ResumeJustinChatState();
 
-import function SaveCelesteChatState(Dialog *theDialog);
+import function SaveCelineChatState(Dialog *theDialog);
 
-import function ResumeCelesteChatState();
+import function ResumeCelineChatState();
 
 import function StartPoliceTimer();
