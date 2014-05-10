@@ -3869,14 +3869,6 @@ stop
         <OutlineStyle>None</OutlineStyle>
         <SourceFilename />
       </Font>
-      <Font>
-        <ID>3</ID>
-        <PointSize>0</PointSize>
-        <Name xml:space="preserve">Font 3</Name>
-        <OutlineFont>0</OutlineFont>
-        <OutlineStyle>None</OutlineStyle>
-        <SourceFilename />
-      </Font>
     </Fonts>
     <Palette>
       <PaletteEntry Index="0" Type="Gamewide" Red="0" Green="0" Blue="0" />
@@ -4716,6 +4708,31 @@ stop
               </Sprite>
             </Sprites>
           </SpriteFolder>
+          <SpriteFolder Name="Icons">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="14" Width="57" Height="44" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\ChatIcon.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="15" Width="56" Height="43" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\ArchiveIcon.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="16" Width="56" Height="41" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\MailIcon.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="17" Width="51" Height="60" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\ProfileIcon.png</FileName>
+                </Source>
+              </Sprite>
+            </Sprites>
+          </SpriteFolder>
         </SubFolders>
         <Sprites>
           <Sprite Slot="0" Width="10" Height="6" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
@@ -4750,26 +4767,6 @@ stop
           <Sprite Slot="11" Width="342" Height="407" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
             <Source>
               <FileName>C:\Users\robert\Dropbox\Whistleblower\NewsArticle.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="14" Width="64" Height="64" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\icons\chat.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="15" Width="64" Height="64" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\icons\documents.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="16" Width="64" Height="64" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\icons\mail.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="17" Width="64" Height="64" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\icons\work.png</FileName>
             </Source>
           </Sprite>
           <Sprite Slot="18" Width="320" Height="320" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
@@ -6038,7 +6035,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-28 11:45:50Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-28 07:45:50Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>Print</ScriptName>
@@ -6050,7 +6047,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-28 16:55:11Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-28 12:55:11Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>Aldebaran</ScriptName>
@@ -6062,7 +6059,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-29 09:47:09Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-29 05:47:09Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>Type</ScriptName>
@@ -6074,7 +6071,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-30 19:55:59Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-30 15:55:59Z</FileLastModifiedDate>
           </AudioClip>
         </AudioClips>
         <AudioClipFolder>
