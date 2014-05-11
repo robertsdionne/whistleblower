@@ -17,6 +17,10 @@ import function OpenWork();
 
 import function OpenChat();
 
+import function OpenDrive();
+
+import function OpenTerminal();
+
 import function SignOut(GUI *theGui);
 
 import function SaveHoraceChatState(Dialog *theDialog);

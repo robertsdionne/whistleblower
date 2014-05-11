@@ -99,7 +99,19 @@
         <CharsForFrame />
       </Frames>
     </LipSync>
-    <PropertyDefinitions />
+    <PropertyDefinitions>
+      <CustomPropertySchemaItem>
+        <Name>description</Name>
+        <Description />
+        <DefaultValue />
+        <AppliesToCharacters>False</AppliesToCharacters>
+        <AppliesToHotspots>False</AppliesToHotspots>
+        <AppliesToInvItems>True</AppliesToInvItems>
+        <AppliesToObjects>True</AppliesToObjects>
+        <AppliesToRooms>False</AppliesToRooms>
+        <Type>Text</Type>
+      </CustomPropertySchemaItem>
+    </PropertyDefinitions>
     <GlobalMessages>
       <Message ID="500" />
       <Message ID="501" />
@@ -684,7 +696,7 @@
                     <ClickAction>RunScript</ClickAction>
                     <NewModeNumber>0</NewModeNumber>
                     <ClipImage>False</ClipImage>
-                    <TextAlignment>Centred</TextAlignment>
+                    <TextAlignment>TopMiddle</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
                     <PushedImage>0</PushedImage>
@@ -699,6 +711,27 @@
                     <ZOrder>2</ZOrder>
                     <ID>2</ID>
                     <Name>MailCloseButton1</Name>
+                  </GUIButton>
+                  <GUIButton>
+                    <OnClick>MailSaveButton_OnClick</OnClick>
+                    <ClickAction>RunScript</ClickAction>
+                    <NewModeNumber>0</NewModeNumber>
+                    <ClipImage>False</ClipImage>
+                    <TextAlignment>Centred</TextAlignment>
+                    <TextColor>65535</TextColor>
+                    <Font>0</Font>
+                    <PushedImage>0</PushedImage>
+                    <MouseoverImage>0</MouseoverImage>
+                    <Image>0</Image>
+                    <Text xml:space="preserve">Save to USB</Text>
+                    <Height>32</Height>
+                    <Locked>False</Locked>
+                    <Width>128</Width>
+                    <Left>420</Left>
+                    <Top>6</Top>
+                    <ZOrder>3</ZOrder>
+                    <ID>3</ID>
+                    <Name>MailSaveButton1</Name>
                   </GUIButton>
                 </Controls>
               </GUIMain>
@@ -747,7 +780,7 @@
                     <ClickAction>RunScript</ClickAction>
                     <NewModeNumber>0</NewModeNumber>
                     <ClipImage>False</ClipImage>
-                    <TextAlignment>Centred</TextAlignment>
+                    <TextAlignment>TopMiddle</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
                     <PushedImage>0</PushedImage>
@@ -762,6 +795,27 @@
                     <ZOrder>1</ZOrder>
                     <ID>1</ID>
                     <Name>MailCloseButton2</Name>
+                  </GUIButton>
+                  <GUIButton>
+                    <OnClick>MailSaveButton_OnClick</OnClick>
+                    <ClickAction>RunScript</ClickAction>
+                    <NewModeNumber>0</NewModeNumber>
+                    <ClipImage>False</ClipImage>
+                    <TextAlignment>Centred</TextAlignment>
+                    <TextColor>65535</TextColor>
+                    <Font>0</Font>
+                    <PushedImage>0</PushedImage>
+                    <MouseoverImage>0</MouseoverImage>
+                    <Image>0</Image>
+                    <Text xml:space="preserve">Save to USB</Text>
+                    <Height>32</Height>
+                    <Locked>False</Locked>
+                    <Width>128</Width>
+                    <Left>414</Left>
+                    <Top>6</Top>
+                    <ZOrder>2</ZOrder>
+                    <ID>2</ID>
+                    <Name>MailSaveButton2</Name>
                   </GUIButton>
                 </Controls>
               </GUIMain>
@@ -781,7 +835,7 @@
                   <Visibility>NormalButInitiallyOff</Visibility>
                   <PopupYPos>0</PopupYPos>
                   <ZOrder>0</ZOrder>
-                  <BorderColor>65535</BorderColor>
+                  <BorderColor>52825</BorderColor>
                   <Transparency>0</Transparency>
                   <BackgroundColor>8</BackgroundColor>
                   <BackgroundImage>0</BackgroundImage>
@@ -794,7 +848,7 @@
                     <ClickAction>RunScript</ClickAction>
                     <NewModeNumber>0</NewModeNumber>
                     <ClipImage>False</ClipImage>
-                    <TextAlignment>Centred</TextAlignment>
+                    <TextAlignment>TopMiddle</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
                     <PushedImage>0</PushedImage>
@@ -810,6 +864,27 @@
                     <ID>0</ID>
                     <Name>DocumentCloseButton1</Name>
                   </GUIButton>
+                  <GUIButton>
+                    <OnClick>DocumentSaveButton1_OnClick</OnClick>
+                    <ClickAction>RunScript</ClickAction>
+                    <NewModeNumber>0</NewModeNumber>
+                    <ClipImage>False</ClipImage>
+                    <TextAlignment>Centred</TextAlignment>
+                    <TextColor>65535</TextColor>
+                    <Font>0</Font>
+                    <PushedImage>0</PushedImage>
+                    <MouseoverImage>0</MouseoverImage>
+                    <Image>0</Image>
+                    <Text xml:space="preserve">Save to USB</Text>
+                    <Height>32</Height>
+                    <Locked>False</Locked>
+                    <Width>128</Width>
+                    <Left>301</Left>
+                    <Top>6</Top>
+                    <ZOrder>1</ZOrder>
+                    <ID>1</ID>
+                    <Name>DocumentSaveButton1</Name>
+                  </GUIButton>
                 </Controls>
               </GUIMain>
               <GUIMain>
@@ -823,9 +898,9 @@
                   <Visibility>NormalButInitiallyOff</Visibility>
                   <PopupYPos>0</PopupYPos>
                   <ZOrder>0</ZOrder>
-                  <BorderColor>65535</BorderColor>
+                  <BorderColor>52825</BorderColor>
                   <Transparency>0</Transparency>
-                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundColor>16904</BackgroundColor>
                   <BackgroundImage>0</BackgroundImage>
                   <ID>5</ID>
                   <Name>Document2</Name>
@@ -836,7 +911,7 @@
                     <ClickAction>RunScript</ClickAction>
                     <NewModeNumber>0</NewModeNumber>
                     <ClipImage>False</ClipImage>
-                    <TextAlignment>Centred</TextAlignment>
+                    <TextAlignment>TopMiddle</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
                     <PushedImage>0</PushedImage>
@@ -852,6 +927,27 @@
                     <ID>0</ID>
                     <Name>DocumentCloseButton2</Name>
                   </GUIButton>
+                  <GUIButton>
+                    <OnClick>DocumentSaveButton2_OnClick</OnClick>
+                    <ClickAction>RunScript</ClickAction>
+                    <NewModeNumber>0</NewModeNumber>
+                    <ClipImage>False</ClipImage>
+                    <TextAlignment>Centred</TextAlignment>
+                    <TextColor>65535</TextColor>
+                    <Font>0</Font>
+                    <PushedImage>0</PushedImage>
+                    <MouseoverImage>0</MouseoverImage>
+                    <Image>0</Image>
+                    <Text xml:space="preserve">Save to USB</Text>
+                    <Height>32</Height>
+                    <Locked>False</Locked>
+                    <Width>128</Width>
+                    <Left>307</Left>
+                    <Top>6</Top>
+                    <ZOrder>1</ZOrder>
+                    <ID>1</ID>
+                    <Name>DocumentSaveButton2</Name>
+                  </GUIButton>
                 </Controls>
               </GUIMain>
               <GUIMain>
@@ -865,7 +961,7 @@
                   <Visibility>NormalButInitiallyOff</Visibility>
                   <PopupYPos>0</PopupYPos>
                   <ZOrder>0</ZOrder>
-                  <BorderColor>65535</BorderColor>
+                  <BorderColor>52825</BorderColor>
                   <Transparency>0</Transparency>
                   <BackgroundColor>8</BackgroundColor>
                   <BackgroundImage>0</BackgroundImage>
@@ -878,7 +974,7 @@
                     <ClickAction>RunScript</ClickAction>
                     <NewModeNumber>0</NewModeNumber>
                     <ClipImage>False</ClipImage>
-                    <TextAlignment>Centred</TextAlignment>
+                    <TextAlignment>TopMiddle</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
                     <PushedImage>0</PushedImage>
@@ -893,6 +989,27 @@
                     <ZOrder>0</ZOrder>
                     <ID>0</ID>
                     <Name>DocumentCloseButton3</Name>
+                  </GUIButton>
+                  <GUIButton>
+                    <OnClick>DocumentSaveButton3_OnClick</OnClick>
+                    <ClickAction>RunScript</ClickAction>
+                    <NewModeNumber>0</NewModeNumber>
+                    <ClipImage>False</ClipImage>
+                    <TextAlignment>Centred</TextAlignment>
+                    <TextColor>65535</TextColor>
+                    <Font>0</Font>
+                    <PushedImage>0</PushedImage>
+                    <MouseoverImage>0</MouseoverImage>
+                    <Image>0</Image>
+                    <Text xml:space="preserve">Save to USB</Text>
+                    <Height>32</Height>
+                    <Locked>False</Locked>
+                    <Width>128</Width>
+                    <Left>306</Left>
+                    <Top>6</Top>
+                    <ZOrder>1</ZOrder>
+                    <ID>1</ID>
+                    <Name>DocumentSaveButton3</Name>
                   </GUIButton>
                 </Controls>
               </GUIMain>
@@ -912,7 +1029,7 @@
                   <Visibility>NormalButInitiallyOff</Visibility>
                   <PopupYPos>0</PopupYPos>
                   <ZOrder>0</ZOrder>
-                  <BorderColor>65535</BorderColor>
+                  <BorderColor>52825</BorderColor>
                   <Transparency>0</Transparency>
                   <BackgroundColor>8</BackgroundColor>
                   <BackgroundImage>0</BackgroundImage>
@@ -925,7 +1042,7 @@
                     <ClickAction>RunScript</ClickAction>
                     <NewModeNumber>0</NewModeNumber>
                     <ClipImage>False</ClipImage>
-                    <TextAlignment>Centred</TextAlignment>
+                    <TextAlignment>TopMiddle</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
                     <PushedImage>0</PushedImage>
@@ -1052,7 +1169,7 @@
                   <Visibility>NormalButInitiallyOff</Visibility>
                   <PopupYPos>0</PopupYPos>
                   <ZOrder>0</ZOrder>
-                  <BorderColor>65535</BorderColor>
+                  <BorderColor>52825</BorderColor>
                   <Transparency>0</Transparency>
                   <BackgroundColor>8</BackgroundColor>
                   <BackgroundImage>0</BackgroundImage>
@@ -1065,7 +1182,7 @@
                     <ClickAction>RunScript</ClickAction>
                     <NewModeNumber>0</NewModeNumber>
                     <ClipImage>False</ClipImage>
-                    <TextAlignment>Centred</TextAlignment>
+                    <TextAlignment>TopMiddle</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
                     <PushedImage>0</PushedImage>
@@ -1192,7 +1309,7 @@
                   <Visibility>NormalButInitiallyOff</Visibility>
                   <PopupYPos>0</PopupYPos>
                   <ZOrder>0</ZOrder>
-                  <BorderColor>65535</BorderColor>
+                  <BorderColor>52825</BorderColor>
                   <Transparency>0</Transparency>
                   <BackgroundColor>8</BackgroundColor>
                   <BackgroundImage>0</BackgroundImage>
@@ -1205,7 +1322,7 @@
                     <ClickAction>RunScript</ClickAction>
                     <NewModeNumber>0</NewModeNumber>
                     <ClipImage>False</ClipImage>
-                    <TextAlignment>Centred</TextAlignment>
+                    <TextAlignment>TopMiddle</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
                     <PushedImage>0</PushedImage>
@@ -1332,7 +1449,7 @@
                   <Visibility>NormalButInitiallyOff</Visibility>
                   <PopupYPos>0</PopupYPos>
                   <ZOrder>0</ZOrder>
-                  <BorderColor>65535</BorderColor>
+                  <BorderColor>52825</BorderColor>
                   <Transparency>0</Transparency>
                   <BackgroundColor>8</BackgroundColor>
                   <BackgroundImage>0</BackgroundImage>
@@ -1345,7 +1462,7 @@
                     <ClickAction>RunScript</ClickAction>
                     <NewModeNumber>0</NewModeNumber>
                     <ClipImage>False</ClipImage>
-                    <TextAlignment>Centred</TextAlignment>
+                    <TextAlignment>TopMiddle</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
                     <PushedImage>0</PushedImage>
@@ -1472,7 +1589,7 @@
                   <Visibility>NormalButInitiallyOff</Visibility>
                   <PopupYPos>0</PopupYPos>
                   <ZOrder>0</ZOrder>
-                  <BorderColor>65535</BorderColor>
+                  <BorderColor>52825</BorderColor>
                   <Transparency>0</Transparency>
                   <BackgroundColor>8</BackgroundColor>
                   <BackgroundImage>0</BackgroundImage>
@@ -1485,7 +1602,7 @@
                     <ClickAction>RunScript</ClickAction>
                     <NewModeNumber>0</NewModeNumber>
                     <ClipImage>False</ClipImage>
-                    <TextAlignment>Centred</TextAlignment>
+                    <TextAlignment>TopMiddle</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
                     <PushedImage>0</PushedImage>
@@ -1612,7 +1729,7 @@
                   <Visibility>NormalButInitiallyOff</Visibility>
                   <PopupYPos>0</PopupYPos>
                   <ZOrder>0</ZOrder>
-                  <BorderColor>65535</BorderColor>
+                  <BorderColor>52825</BorderColor>
                   <Transparency>0</Transparency>
                   <BackgroundColor>8</BackgroundColor>
                   <BackgroundImage>0</BackgroundImage>
@@ -1625,7 +1742,7 @@
                     <ClickAction>RunScript</ClickAction>
                     <NewModeNumber>0</NewModeNumber>
                     <ClipImage>False</ClipImage>
-                    <TextAlignment>Centred</TextAlignment>
+                    <TextAlignment>TopMiddle</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
                     <PushedImage>0</PushedImage>
@@ -1752,7 +1869,7 @@
                   <Visibility>NormalButInitiallyOff</Visibility>
                   <PopupYPos>0</PopupYPos>
                   <ZOrder>0</ZOrder>
-                  <BorderColor>65535</BorderColor>
+                  <BorderColor>52825</BorderColor>
                   <Transparency>0</Transparency>
                   <BackgroundColor>8</BackgroundColor>
                   <BackgroundImage>0</BackgroundImage>
@@ -1765,7 +1882,7 @@
                     <ClickAction>RunScript</ClickAction>
                     <NewModeNumber>0</NewModeNumber>
                     <ClipImage>False</ClipImage>
-                    <TextAlignment>Centred</TextAlignment>
+                    <TextAlignment>TopMiddle</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
                     <PushedImage>0</PushedImage>
@@ -1892,7 +2009,7 @@
                   <Visibility>NormalButInitiallyOff</Visibility>
                   <PopupYPos>0</PopupYPos>
                   <ZOrder>0</ZOrder>
-                  <BorderColor>65535</BorderColor>
+                  <BorderColor>52825</BorderColor>
                   <Transparency>0</Transparency>
                   <BackgroundColor>8</BackgroundColor>
                   <BackgroundImage>0</BackgroundImage>
@@ -1905,7 +2022,7 @@
                     <ClickAction>RunScript</ClickAction>
                     <NewModeNumber>0</NewModeNumber>
                     <ClipImage>False</ClipImage>
-                    <TextAlignment>Centred</TextAlignment>
+                    <TextAlignment>TopMiddle</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
                     <PushedImage>0</PushedImage>
@@ -2032,7 +2149,7 @@
                   <Visibility>NormalButInitiallyOff</Visibility>
                   <PopupYPos>0</PopupYPos>
                   <ZOrder>0</ZOrder>
-                  <BorderColor>65535</BorderColor>
+                  <BorderColor>52825</BorderColor>
                   <Transparency>0</Transparency>
                   <BackgroundColor>8</BackgroundColor>
                   <BackgroundImage>0</BackgroundImage>
@@ -2045,7 +2162,7 @@
                     <ClickAction>RunScript</ClickAction>
                     <NewModeNumber>0</NewModeNumber>
                     <ClipImage>False</ClipImage>
-                    <TextAlignment>Centred</TextAlignment>
+                    <TextAlignment>TopMiddle</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
                     <PushedImage>0</PushedImage>
@@ -2172,7 +2289,7 @@
                   <Visibility>NormalButInitiallyOff</Visibility>
                   <PopupYPos>0</PopupYPos>
                   <ZOrder>0</ZOrder>
-                  <BorderColor>65535</BorderColor>
+                  <BorderColor>52825</BorderColor>
                   <Transparency>0</Transparency>
                   <BackgroundColor>8</BackgroundColor>
                   <BackgroundImage>0</BackgroundImage>
@@ -2185,7 +2302,7 @@
                     <ClickAction>RunScript</ClickAction>
                     <NewModeNumber>0</NewModeNumber>
                     <ClipImage>False</ClipImage>
-                    <TextAlignment>Centred</TextAlignment>
+                    <TextAlignment>TopMiddle</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
                     <PushedImage>0</PushedImage>
@@ -2312,7 +2429,7 @@
                   <Visibility>NormalButInitiallyOff</Visibility>
                   <PopupYPos>0</PopupYPos>
                   <ZOrder>0</ZOrder>
-                  <BorderColor>65535</BorderColor>
+                  <BorderColor>52825</BorderColor>
                   <Transparency>0</Transparency>
                   <BackgroundColor>8</BackgroundColor>
                   <BackgroundImage>0</BackgroundImage>
@@ -2367,7 +2484,7 @@
                     <ClickAction>RunScript</ClickAction>
                     <NewModeNumber>0</NewModeNumber>
                     <ClipImage>False</ClipImage>
-                    <TextAlignment>Centred</TextAlignment>
+                    <TextAlignment>TopMiddle</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
                     <PushedImage>0</PushedImage>
@@ -2470,7 +2587,7 @@
                     <ClickAction>RunScript</ClickAction>
                     <NewModeNumber>0</NewModeNumber>
                     <ClipImage>False</ClipImage>
-                    <TextAlignment>Centred</TextAlignment>
+                    <TextAlignment>TopMiddle</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
                     <PushedImage>0</PushedImage>
@@ -2512,7 +2629,7 @@
                     <ClickAction>RunScript</ClickAction>
                     <NewModeNumber>0</NewModeNumber>
                     <ClipImage>False</ClipImage>
-                    <TextAlignment>Centred</TextAlignment>
+                    <TextAlignment>TopMiddle</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
                     <PushedImage>0</PushedImage>
@@ -2554,7 +2671,7 @@
                     <ClickAction>RunScript</ClickAction>
                     <NewModeNumber>0</NewModeNumber>
                     <ClipImage>False</ClipImage>
-                    <TextAlignment>Centred</TextAlignment>
+                    <TextAlignment>TopMiddle</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
                     <PushedImage>0</PushedImage>
@@ -2578,15 +2695,15 @@
         <GUIs>
           <GUIMain>
             <NormalGUI>
-              <OnClick />
-              <Height>416</Height>
+              <OnClick>Raise_OnClick</OnClick>
+              <Height>336</Height>
               <Width>704</Width>
               <Left>160</Left>
               <Top>112</Top>
               <Clickable>True</Clickable>
-              <Visibility>PopupModal</Visibility>
+              <Visibility>NormalButInitiallyOff</Visibility>
               <PopupYPos>0</PopupYPos>
-              <ZOrder>2</ZOrder>
+              <ZOrder>0</ZOrder>
               <BorderColor>8</BorderColor>
               <Transparency>0</Transparency>
               <BackgroundColor>7</BackgroundColor>
@@ -2599,7 +2716,7 @@
                 <ItemWidth>40</ItemWidth>
                 <ItemHeight>22</ItemHeight>
                 <CharacterID>-1</CharacterID>
-                <Height>284</Height>
+                <Height>256</Height>
                 <Locked>False</Locked>
                 <Width>608</Width>
                 <Left>16</Left>
@@ -2609,7 +2726,7 @@
                 <Name>invCustomInv</Name>
               </GUIInventory>
               <GUIButton>
-                <OnClick>btnInvSelect_Click</OnClick>
+                <OnClick>InventoryEncryptButton_OnClick</OnClick>
                 <ClickAction>RunScript</ClickAction>
                 <NewModeNumber>2</NewModeNumber>
                 <ClipImage>False</ClipImage>
@@ -2618,20 +2735,20 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>2042</Image>
-                <Text xml:space="preserve">New Button</Text>
-                <Height>86</Height>
+                <Image>0</Image>
+                <Text>Encrypt</Text>
+                <Height>32</Height>
                 <Locked>False</Locked>
                 <Width>102</Width>
                 <Left>144</Left>
-                <Top>320</Top>
+                <Top>288</Top>
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
-                <Name>btnInvSelect</Name>
+                <Name>InventoryEncryptButton</Name>
               </GUIButton>
               <GUIButton>
-                <OnClick />
-                <ClickAction>SetCursorMode</ClickAction>
+                <OnClick>InventoryArchiveButton_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
                 <NewModeNumber>1</NewModeNumber>
                 <ClipImage>False</ClipImage>
                 <TextAlignment>TopMiddle</TextAlignment>
@@ -2639,79 +2756,37 @@
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>2041</Image>
-                <Text xml:space="preserve">New Button</Text>
-                <Height>86</Height>
+                <Image>0</Image>
+                <Text>Archive</Text>
+                <Height>32</Height>
                 <Locked>False</Locked>
                 <Width>102</Width>
                 <Left>16</Left>
-                <Top>320</Top>
+                <Top>288</Top>
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
-                <Name>btnInvLook</Name>
+                <Name>InventoryArchiveButton</Name>
               </GUIButton>
               <GUIButton>
-                <OnClick>btnInvOK_Click</OnClick>
+                <OnClick>CloseButton_OnClick</OnClick>
                 <ClickAction>RunScript</ClickAction>
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
                 <TextAlignment>TopMiddle</TextAlignment>
-                <TextColor>16</TextColor>
+                <TextColor>65535</TextColor>
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
-                <Image>2043</Image>
-                <Text xml:space="preserve">New Button</Text>
-                <Height>86</Height>
+                <Image>0</Image>
+                <Text>x</Text>
+                <Height>32</Height>
                 <Locked>False</Locked>
-                <Width>102</Width>
-                <Left>272</Left>
-                <Top>320</Top>
+                <Width>32</Width>
+                <Left>669</Left>
+                <Top>3</Top>
                 <ZOrder>3</ZOrder>
                 <ID>3</ID>
-                <Name>btnInvOK</Name>
-              </GUIButton>
-              <GUIButton>
-                <OnClick>btnInvDown_Click</OnClick>
-                <ClickAction>RunScript</ClickAction>
-                <NewModeNumber>0</NewModeNumber>
-                <ClipImage>False</ClipImage>
-                <TextAlignment>TopMiddle</TextAlignment>
-                <TextColor>16</TextColor>
-                <Font>0</Font>
-                <PushedImage>0</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>1</Image>
-                <Text xml:space="preserve">New Button</Text>
-                <Height>64</Height>
-                <Locked>False</Locked>
-                <Width>64</Width>
-                <Left>633</Left>
-                <Top>176</Top>
-                <ZOrder>4</ZOrder>
-                <ID>4</ID>
-                <Name>btnInvDown</Name>
-              </GUIButton>
-              <GUIButton>
-                <OnClick>btnInvUp_Click</OnClick>
-                <ClickAction>RunScript</ClickAction>
-                <NewModeNumber>0</NewModeNumber>
-                <ClipImage>False</ClipImage>
-                <TextAlignment>TopMiddle</TextAlignment>
-                <TextColor>16</TextColor>
-                <Font>0</Font>
-                <PushedImage>0</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>4</Image>
-                <Text xml:space="preserve">New Button</Text>
-                <Height>64</Height>
-                <Locked>False</Locked>
-                <Width>64</Width>
-                <Left>633</Left>
-                <Top>102</Top>
-                <ZOrder>5</ZOrder>
-                <ID>5</ID>
-                <Name>btnInvUp</Name>
+                <Name>Button4</Name>
               </GUIButton>
             </Controls>
           </GUIMain>
@@ -2831,7 +2906,7 @@
                 <ClickAction>RunScript</ClickAction>
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
-                <TextAlignment>Centred</TextAlignment>
+                <TextAlignment>TopMiddle</TextAlignment>
                 <TextColor>65535</TextColor>
                 <Font>0</Font>
                 <PushedImage>0</PushedImage>
@@ -2849,6 +2924,77 @@
               </GUIButton>
             </Controls>
           </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>108</Height>
+              <Width>302</Width>
+              <Left>361</Left>
+              <Top>330</Top>
+              <Clickable>True</Clickable>
+              <Visibility>NormalButInitiallyOff</Visibility>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>52825</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>52825</BackgroundColor>
+              <BackgroundImage>119</BackgroundImage>
+              <ID>22</ID>
+              <Name>Terminal</Name>
+            </NormalGUI>
+            <Controls>
+              <GUITextBox>
+                <OnActivate />
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <ShowBorder>False</ShowBorder>
+                <Text />
+                <Height>23</Height>
+                <Locked>False</Locked>
+                <Width>270</Width>
+                <Left>20</Left>
+                <Top>73</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>TerminalCommand</Name>
+              </GUITextBox>
+              <GUILabel>
+                <TextAlignment>TopLeft</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <Text />
+                <Height>30</Height>
+                <Locked>False</Locked>
+                <Width>286</Width>
+                <Left>8</Left>
+                <Top>43</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
+                <Name>TerminalOutput</Name>
+              </GUILabel>
+              <GUIButton>
+                <OnClick>CloseButton_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>x</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>32</Width>
+                <Left>263</Left>
+                <Top>1</Top>
+                <ZOrder>2</ZOrder>
+                <ID>2</ID>
+                <Name>Button2</Name>
+              </GUIButton>
+            </Controls>
+          </GUIMain>
         </GUIs>
       </GUIFolder>
     </GUIs>
@@ -2861,11 +3007,16 @@
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
-            <CursorImage>2</CursorImage>
-            <Image>2</Image>
-            <Description>Key</Description>
-            <Name>iKey</Name>
-            <Properties />
+            <CursorImage>16</CursorImage>
+            <Image>16</Image>
+            <Description />
+            <Name>Letter</Name>
+            <Properties>
+              <CustomProperty>
+                <Name>description</Name>
+                <Value>Letter</Value>
+              </CustomProperty>
+            </Properties>
             <Interactions>
               <Event Index="0" />
               <Event Index="1" />
@@ -2879,11 +3030,108 @@
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
-            <CursorImage>3</CursorImage>
-            <Image>3</Image>
-            <Description xml:space="preserve">Pink poster</Description>
-            <Name>iPoster</Name>
-            <Properties />
+            <CursorImage>15</CursorImage>
+            <Image>15</Image>
+            <Description />
+            <Name>Archive</Name>
+            <Properties>
+              <CustomProperty>
+                <Name>description</Name>
+                <Value xml:space="preserve">Document Archive</Value>
+              </CustomProperty>
+            </Properties>
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <ID>3</ID>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <CursorImage>117</CursorImage>
+            <Image>117</Image>
+            <Description />
+            <Name>EncryptedArchive</Name>
+            <Properties>
+              <CustomProperty>
+                <Name>description</Name>
+                <Value xml:space="preserve">Encrypted Document Archive</Value>
+              </CustomProperty>
+            </Properties>
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <ID>4</ID>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <CursorImage>17</CursorImage>
+            <Image>17</Image>
+            <Description />
+            <Name>DocumentItem1</Name>
+            <Properties>
+              <CustomProperty>
+                <Name>description</Name>
+                <Value xml:space="preserve">Document #1</Value>
+              </CustomProperty>
+            </Properties>
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <ID>5</ID>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <CursorImage>17</CursorImage>
+            <Image>17</Image>
+            <Description />
+            <Name>DocumentItem2</Name>
+            <Properties>
+              <CustomProperty>
+                <Name>description</Name>
+                <Value xml:space="preserve">Document #2</Value>
+              </CustomProperty>
+            </Properties>
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <ID>6</ID>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <CursorImage>17</CursorImage>
+            <Image>17</Image>
+            <Description />
+            <Name>DocumentItem3</Name>
+            <Properties>
+              <CustomProperty>
+                <Name>description</Name>
+                <Value xml:space="preserve">Document #3</Value>
+              </CustomProperty>
+            </Properties>
             <Interactions>
               <Event Index="0" />
               <Event Index="1" />
@@ -3732,10 +3980,10 @@ stop]]></Script>
   SaveCelineChatState(this);
 return
 @1
-Celine: Certainly. You work for the ARK Group, correct?
+Celine: Certainly. You work for the ARK Group?
 Player: How did you know?
 Celine: We're deeply covering the evacuation plans.
-return
+goto-dialog Celine3
 @2
 Celine: See you later.
   SignOut(Chat3);
@@ -3750,6 +3998,77 @@ stop
                   </DialogOption>
                   <DialogOption>
                     <ID>2</ID>
+                    <Text>Nevermind.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+              <Dialog>
+                <ID>14</ID>
+                <Name>Celine3</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+  SaveCelineChatState(this);
+return
+@1
+Celine: That could be. The implications are shocking. Do you have evidence?
+goto-dialog Celine4
+@2
+Celine: See you later.
+  SignOut(Chat3);
+stop
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Text xml:space="preserve">The ARK program is cancelling all future evacuation waves.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Text>Nevermind.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+              <Dialog>
+                <ID>15</ID>
+                <Name>Celine4</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+  SaveCelineChatState(this);
+return
+@1
+Celine: Oh, don't send it yet. Make sure you encrypt it first.
+stop
+@2
+Celine: Great.
+stop
+@3
+Celine: See you later.
+  SignOut(Chat3);
+stop
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Text xml:space="preserve">I have a document archive I can transmit to you.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Text xml:space="preserve">I need to prepare the evidence.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>3</ID>
                     <Text>Nevermind.</Text>
                     <Show>True</Show>
                     <Say>True</Say>
@@ -4214,6 +4533,11 @@ stop
           <Name>celine_chat_state</Name>
           <Type>int</Type>
           <DefaultValue>13</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>archive_item_count</Name>
+          <Type>int</Type>
+          <DefaultValue>0</DefaultValue>
         </GlobalVariable>
       </Variables>
     </GlobalVariables>
@@ -4776,6 +5100,21 @@ stop
                   <FileName>C:\Users\robert\Dropbox\Whistleblower\MailIcon2.png</FileName>
                 </Source>
               </Sprite>
+              <Sprite Slot="116" Width="61" Height="36" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Drive.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="117" Width="56" Height="43" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\ArchiveIconLocked.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="118" Width="56" Height="41" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\robert\Dropbox\Whistleblower\TerminalIcon.png</FileName>
+                </Source>
+              </Sprite>
             </Sprites>
           </SpriteFolder>
         </SubFolders>
@@ -4872,6 +5211,11 @@ stop
           <Sprite Slot="62" Width="32" Height="32" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
             <Source>
               <FileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\news_character_sprite.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="119" Width="302" Height="108" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\robert\Dropbox\Whistleblower\TerminalWindow.png</FileName>
             </Source>
           </Sprite>
         </Sprites>
@@ -6080,7 +6424,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-27 07:45:50Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-26 23:45:50Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>Print</ScriptName>
@@ -6092,7 +6436,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-27 12:55:11Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-27 04:55:11Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>Aldebaran</ScriptName>
@@ -6104,7 +6448,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-28 05:47:09Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-27 21:47:09Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>Type</ScriptName>
@@ -6116,7 +6460,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-29 15:55:59Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-29 07:55:59Z</FileLastModifiedDate>
           </AudioClip>
         </AudioClips>
         <AudioClipFolder>
