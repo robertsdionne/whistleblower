@@ -865,7 +865,7 @@
                     <Name>DocumentCloseButton1</Name>
                   </GUIButton>
                   <GUIButton>
-                    <OnClick>DocumentSaveButton1_OnClick</OnClick>
+                    <OnClick>DocumentSaveButton_OnClick</OnClick>
                     <ClickAction>RunScript</ClickAction>
                     <NewModeNumber>0</NewModeNumber>
                     <ClipImage>False</ClipImage>
@@ -928,7 +928,7 @@
                     <Name>DocumentCloseButton2</Name>
                   </GUIButton>
                   <GUIButton>
-                    <OnClick>DocumentSaveButton2_OnClick</OnClick>
+                    <OnClick>DocumentSaveButton_OnClick</OnClick>
                     <ClickAction>RunScript</ClickAction>
                     <NewModeNumber>0</NewModeNumber>
                     <ClipImage>False</ClipImage>
@@ -991,7 +991,7 @@
                     <Name>DocumentCloseButton3</Name>
                   </GUIButton>
                   <GUIButton>
-                    <OnClick>DocumentSaveButton3_OnClick</OnClick>
+                    <OnClick>DocumentSaveButton_OnClick</OnClick>
                     <ClickAction>RunScript</ClickAction>
                     <NewModeNumber>0</NewModeNumber>
                     <ClipImage>False</ClipImage>
@@ -1156,6 +1156,27 @@
                     <ID>5</ID>
                     <Name>WorkDenyButton1</Name>
                   </GUIButton>
+                  <GUIButton>
+                    <OnClick>WorkSaveButton_OnClick</OnClick>
+                    <ClickAction>RunScript</ClickAction>
+                    <NewModeNumber>0</NewModeNumber>
+                    <ClipImage>False</ClipImage>
+                    <TextAlignment>Centred</TextAlignment>
+                    <TextColor>65535</TextColor>
+                    <Font>0</Font>
+                    <PushedImage>0</PushedImage>
+                    <MouseoverImage>0</MouseoverImage>
+                    <Image>0</Image>
+                    <Text xml:space="preserve">Save to USB</Text>
+                    <Height>32</Height>
+                    <Locked>False</Locked>
+                    <Width>128</Width>
+                    <Left>302</Left>
+                    <Top>6</Top>
+                    <ZOrder>6</ZOrder>
+                    <ID>6</ID>
+                    <Name>SaveProfileButton1</Name>
+                  </GUIButton>
                 </Controls>
               </GUIMain>
               <GUIMain>
@@ -1295,6 +1316,27 @@
                     <ZOrder>5</ZOrder>
                     <ID>5</ID>
                     <Name>WorkDenyButton2</Name>
+                  </GUIButton>
+                  <GUIButton>
+                    <OnClick>WorkSaveButton_OnClick</OnClick>
+                    <ClickAction>RunScript</ClickAction>
+                    <NewModeNumber>0</NewModeNumber>
+                    <ClipImage>False</ClipImage>
+                    <TextAlignment>Centred</TextAlignment>
+                    <TextColor>65535</TextColor>
+                    <Font>0</Font>
+                    <PushedImage>0</PushedImage>
+                    <MouseoverImage>0</MouseoverImage>
+                    <Image>0</Image>
+                    <Text xml:space="preserve">Save to USB</Text>
+                    <Height>32</Height>
+                    <Locked>False</Locked>
+                    <Width>128</Width>
+                    <Left>308</Left>
+                    <Top>6</Top>
+                    <ZOrder>6</ZOrder>
+                    <ID>6</ID>
+                    <Name>SaveProfileButton2</Name>
                   </GUIButton>
                 </Controls>
               </GUIMain>
@@ -1436,6 +1478,27 @@
                     <ID>5</ID>
                     <Name>WorkDenyButton3</Name>
                   </GUIButton>
+                  <GUIButton>
+                    <OnClick>WorkSaveButton_OnClick</OnClick>
+                    <ClickAction>RunScript</ClickAction>
+                    <NewModeNumber>0</NewModeNumber>
+                    <ClipImage>False</ClipImage>
+                    <TextAlignment>Centred</TextAlignment>
+                    <TextColor>65535</TextColor>
+                    <Font>0</Font>
+                    <PushedImage>0</PushedImage>
+                    <MouseoverImage>0</MouseoverImage>
+                    <Image>0</Image>
+                    <Text xml:space="preserve">Save to USB</Text>
+                    <Height>32</Height>
+                    <Locked>False</Locked>
+                    <Width>128</Width>
+                    <Left>304</Left>
+                    <Top>6</Top>
+                    <ZOrder>6</ZOrder>
+                    <ID>6</ID>
+                    <Name>SaveProfileButton3</Name>
+                  </GUIButton>
                 </Controls>
               </GUIMain>
               <GUIMain>
@@ -1575,6 +1638,27 @@
                     <ZOrder>5</ZOrder>
                     <ID>5</ID>
                     <Name>WorkDenyButton4</Name>
+                  </GUIButton>
+                  <GUIButton>
+                    <OnClick>WorkSaveButton_OnClick</OnClick>
+                    <ClickAction>RunScript</ClickAction>
+                    <NewModeNumber>0</NewModeNumber>
+                    <ClipImage>False</ClipImage>
+                    <TextAlignment>Centred</TextAlignment>
+                    <TextColor>65535</TextColor>
+                    <Font>0</Font>
+                    <PushedImage>0</PushedImage>
+                    <MouseoverImage>0</MouseoverImage>
+                    <Image>0</Image>
+                    <Text xml:space="preserve">Save to USB</Text>
+                    <Height>32</Height>
+                    <Locked>False</Locked>
+                    <Width>128</Width>
+                    <Left>299</Left>
+                    <Top>6</Top>
+                    <ZOrder>6</ZOrder>
+                    <ID>6</ID>
+                    <Name>SaveProfileButton4</Name>
                   </GUIButton>
                 </Controls>
               </GUIMain>
@@ -1716,6 +1800,27 @@
                     <ID>5</ID>
                     <Name>WorkStatusLabel5</Name>
                   </GUILabel>
+                  <GUIButton>
+                    <OnClick>WorkSaveButton_OnClick</OnClick>
+                    <ClickAction>RunScript</ClickAction>
+                    <NewModeNumber>0</NewModeNumber>
+                    <ClipImage>False</ClipImage>
+                    <TextAlignment>Centred</TextAlignment>
+                    <TextColor>65535</TextColor>
+                    <Font>0</Font>
+                    <PushedImage>0</PushedImage>
+                    <MouseoverImage>0</MouseoverImage>
+                    <Image>0</Image>
+                    <Text xml:space="preserve">Save to USB</Text>
+                    <Height>32</Height>
+                    <Locked>False</Locked>
+                    <Width>128</Width>
+                    <Left>301</Left>
+                    <Top>6</Top>
+                    <ZOrder>6</ZOrder>
+                    <ID>6</ID>
+                    <Name>SaveProfileButton5</Name>
+                  </GUIButton>
                 </Controls>
               </GUIMain>
               <GUIMain>
@@ -1856,6 +1961,27 @@
                     <ID>5</ID>
                     <Name>WorkStatusLabel6</Name>
                   </GUILabel>
+                  <GUIButton>
+                    <OnClick>WorkSaveButton_OnClick</OnClick>
+                    <ClickAction>RunScript</ClickAction>
+                    <NewModeNumber>0</NewModeNumber>
+                    <ClipImage>False</ClipImage>
+                    <TextAlignment>Centred</TextAlignment>
+                    <TextColor>65535</TextColor>
+                    <Font>0</Font>
+                    <PushedImage>0</PushedImage>
+                    <MouseoverImage>0</MouseoverImage>
+                    <Image>0</Image>
+                    <Text xml:space="preserve">Save to USB</Text>
+                    <Height>32</Height>
+                    <Locked>False</Locked>
+                    <Width>128</Width>
+                    <Left>302</Left>
+                    <Top>6</Top>
+                    <ZOrder>6</ZOrder>
+                    <ID>6</ID>
+                    <Name>SaveProfileButton6</Name>
+                  </GUIButton>
                 </Controls>
               </GUIMain>
               <GUIMain>
@@ -1996,6 +2122,27 @@
                     <ID>5</ID>
                     <Name>WorkStatusLabel7</Name>
                   </GUILabel>
+                  <GUIButton>
+                    <OnClick>WorkSaveButton_OnClick</OnClick>
+                    <ClickAction>RunScript</ClickAction>
+                    <NewModeNumber>0</NewModeNumber>
+                    <ClipImage>False</ClipImage>
+                    <TextAlignment>Centred</TextAlignment>
+                    <TextColor>65535</TextColor>
+                    <Font>0</Font>
+                    <PushedImage>0</PushedImage>
+                    <MouseoverImage>0</MouseoverImage>
+                    <Image>0</Image>
+                    <Text xml:space="preserve">Save to USB</Text>
+                    <Height>32</Height>
+                    <Locked>False</Locked>
+                    <Width>128</Width>
+                    <Left>302</Left>
+                    <Top>6</Top>
+                    <ZOrder>6</ZOrder>
+                    <ID>6</ID>
+                    <Name>SaveProfileButton7</Name>
+                  </GUIButton>
                 </Controls>
               </GUIMain>
               <GUIMain>
@@ -2136,6 +2283,27 @@
                     <ID>5</ID>
                     <Name>WorkStatusLabel8</Name>
                   </GUILabel>
+                  <GUIButton>
+                    <OnClick>WorkSaveButton_OnClick</OnClick>
+                    <ClickAction>RunScript</ClickAction>
+                    <NewModeNumber>0</NewModeNumber>
+                    <ClipImage>False</ClipImage>
+                    <TextAlignment>Centred</TextAlignment>
+                    <TextColor>65535</TextColor>
+                    <Font>0</Font>
+                    <PushedImage>0</PushedImage>
+                    <MouseoverImage>0</MouseoverImage>
+                    <Image>0</Image>
+                    <Text xml:space="preserve">Save to USB</Text>
+                    <Height>32</Height>
+                    <Locked>False</Locked>
+                    <Width>128</Width>
+                    <Left>303</Left>
+                    <Top>6</Top>
+                    <ZOrder>6</ZOrder>
+                    <ID>6</ID>
+                    <Name>SaveProfileButton8</Name>
+                  </GUIButton>
                 </Controls>
               </GUIMain>
               <GUIMain>
@@ -2276,6 +2444,27 @@
                     <ID>5</ID>
                     <Name>WorkStatusLabel9</Name>
                   </GUILabel>
+                  <GUIButton>
+                    <OnClick>WorkSaveButton_OnClick</OnClick>
+                    <ClickAction>RunScript</ClickAction>
+                    <NewModeNumber>0</NewModeNumber>
+                    <ClipImage>False</ClipImage>
+                    <TextAlignment>Centred</TextAlignment>
+                    <TextColor>65535</TextColor>
+                    <Font>0</Font>
+                    <PushedImage>0</PushedImage>
+                    <MouseoverImage>0</MouseoverImage>
+                    <Image>0</Image>
+                    <Text xml:space="preserve">Save to USB</Text>
+                    <Height>32</Height>
+                    <Locked>False</Locked>
+                    <Width>128</Width>
+                    <Left>304</Left>
+                    <Top>6</Top>
+                    <ZOrder>6</ZOrder>
+                    <ID>6</ID>
+                    <Name>SaveProfileButton9</Name>
+                  </GUIButton>
                 </Controls>
               </GUIMain>
               <GUIMain>
@@ -2416,6 +2605,27 @@
                     <ID>5</ID>
                     <Name>WorkStatusLabel10</Name>
                   </GUILabel>
+                  <GUIButton>
+                    <OnClick>WorkSaveButton_OnClick</OnClick>
+                    <ClickAction>RunScript</ClickAction>
+                    <NewModeNumber>0</NewModeNumber>
+                    <ClipImage>False</ClipImage>
+                    <TextAlignment>Centred</TextAlignment>
+                    <TextColor>65535</TextColor>
+                    <Font>0</Font>
+                    <PushedImage>0</PushedImage>
+                    <MouseoverImage>0</MouseoverImage>
+                    <Image>0</Image>
+                    <Text xml:space="preserve">Save to USB</Text>
+                    <Height>32</Height>
+                    <Locked>False</Locked>
+                    <Width>128</Width>
+                    <Left>302</Left>
+                    <Top>6</Top>
+                    <ZOrder>6</ZOrder>
+                    <ID>6</ID>
+                    <Name>SaveProfileButton10</Name>
+                  </GUIButton>
                 </Controls>
               </GUIMain>
               <GUIMain>
@@ -2556,6 +2766,27 @@
                     <ID>6</ID>
                     <Name>WorkApprovedSummaryLabel</Name>
                   </GUILabel>
+                  <GUIButton>
+                    <OnClick>WorkSummarySaveButton_OnClick</OnClick>
+                    <ClickAction>RunScript</ClickAction>
+                    <NewModeNumber>0</NewModeNumber>
+                    <ClipImage>False</ClipImage>
+                    <TextAlignment>Centred</TextAlignment>
+                    <TextColor>65535</TextColor>
+                    <Font>0</Font>
+                    <PushedImage>0</PushedImage>
+                    <MouseoverImage>0</MouseoverImage>
+                    <Image>0</Image>
+                    <Text xml:space="preserve">Save to USB</Text>
+                    <Height>32</Height>
+                    <Locked>False</Locked>
+                    <Width>128</Width>
+                    <Left>304</Left>
+                    <Top>5</Top>
+                    <ZOrder>7</ZOrder>
+                    <ID>7</ID>
+                    <Name>SaveProfileSummaryButton</Name>
+                  </GUIButton>
                 </Controls>
               </GUIMain>
             </GUIs>
@@ -2922,6 +3153,27 @@
                 <ID>1</ID>
                 <Name>TicketCloseButton</Name>
               </GUIButton>
+              <GUIButton>
+                <OnClick>TicketSaveButton_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>65535</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text xml:space="preserve">Save to USB</Text>
+                <Height>32</Height>
+                <Locked>False</Locked>
+                <Width>128</Width>
+                <Left>385</Left>
+                <Top>6</Top>
+                <ZOrder>2</ZOrder>
+                <ID>2</ID>
+                <Name>TicketSaveButton</Name>
+              </GUIButton>
             </Controls>
           </GUIMain>
           <GUIMain>
@@ -3000,7 +3252,340 @@
     </GUIs>
     <InventoryItems>
       <InventoryItemFolder Name="Main">
-        <SubFolders />
+        <SubFolders>
+          <InventoryItemFolder Name="Document">
+            <SubFolders />
+            <InventoryItems>
+              <InventoryItem>
+                <ID>4</ID>
+                <HotspotX>0</HotspotX>
+                <HotspotY>0</HotspotY>
+                <PlayerStartsWithItem>False</PlayerStartsWithItem>
+                <CursorImage>17</CursorImage>
+                <Image>17</Image>
+                <Description />
+                <Name>DocumentItem1</Name>
+                <Properties>
+                  <CustomProperty>
+                    <Name>description</Name>
+                    <Value>Document</Value>
+                  </CustomProperty>
+                </Properties>
+                <Interactions>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                </Interactions>
+              </InventoryItem>
+              <InventoryItem>
+                <ID>5</ID>
+                <HotspotX>0</HotspotX>
+                <HotspotY>0</HotspotY>
+                <PlayerStartsWithItem>False</PlayerStartsWithItem>
+                <CursorImage>17</CursorImage>
+                <Image>17</Image>
+                <Description />
+                <Name>DocumentItem2</Name>
+                <Properties>
+                  <CustomProperty>
+                    <Name>description</Name>
+                    <Value xml:space="preserve">2 Documents</Value>
+                  </CustomProperty>
+                </Properties>
+                <Interactions>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                </Interactions>
+              </InventoryItem>
+              <InventoryItem>
+                <ID>6</ID>
+                <HotspotX>0</HotspotX>
+                <HotspotY>0</HotspotY>
+                <PlayerStartsWithItem>False</PlayerStartsWithItem>
+                <CursorImage>17</CursorImage>
+                <Image>17</Image>
+                <Description />
+                <Name>DocumentItem3</Name>
+                <Properties>
+                  <CustomProperty>
+                    <Name>description</Name>
+                    <Value xml:space="preserve">3 Documents</Value>
+                  </CustomProperty>
+                </Properties>
+                <Interactions>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                </Interactions>
+              </InventoryItem>
+            </InventoryItems>
+          </InventoryItemFolder>
+          <InventoryItemFolder Name="Profile">
+            <SubFolders />
+            <InventoryItems>
+              <InventoryItem>
+                <ID>15</ID>
+                <HotspotX>0</HotspotX>
+                <HotspotY>0</HotspotY>
+                <PlayerStartsWithItem>False</PlayerStartsWithItem>
+                <CursorImage>17</CursorImage>
+                <Image>17</Image>
+                <Description />
+                <Name>ProfileItem9</Name>
+                <Properties>
+                  <CustomProperty>
+                    <Name>description</Name>
+                    <Value xml:space="preserve">9 Profiles</Value>
+                  </CustomProperty>
+                </Properties>
+                <Interactions>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                </Interactions>
+              </InventoryItem>
+              <InventoryItem>
+                <ID>7</ID>
+                <HotspotX>0</HotspotX>
+                <HotspotY>0</HotspotY>
+                <PlayerStartsWithItem>False</PlayerStartsWithItem>
+                <CursorImage>17</CursorImage>
+                <Image>17</Image>
+                <Description />
+                <Name>ProfileItem1</Name>
+                <Properties>
+                  <CustomProperty>
+                    <Name>description</Name>
+                    <Value>Profile</Value>
+                  </CustomProperty>
+                </Properties>
+                <Interactions>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                </Interactions>
+              </InventoryItem>
+              <InventoryItem>
+                <ID>8</ID>
+                <HotspotX>0</HotspotX>
+                <HotspotY>0</HotspotY>
+                <PlayerStartsWithItem>False</PlayerStartsWithItem>
+                <CursorImage>17</CursorImage>
+                <Image>17</Image>
+                <Description />
+                <Name>ProfileItem2</Name>
+                <Properties>
+                  <CustomProperty>
+                    <Name>description</Name>
+                    <Value xml:space="preserve">2 Profiles</Value>
+                  </CustomProperty>
+                </Properties>
+                <Interactions>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                </Interactions>
+              </InventoryItem>
+              <InventoryItem>
+                <ID>9</ID>
+                <HotspotX>0</HotspotX>
+                <HotspotY>0</HotspotY>
+                <PlayerStartsWithItem>False</PlayerStartsWithItem>
+                <CursorImage>17</CursorImage>
+                <Image>17</Image>
+                <Description />
+                <Name>ProfileItem3</Name>
+                <Properties>
+                  <CustomProperty>
+                    <Name>description</Name>
+                    <Value xml:space="preserve">3 Profiles</Value>
+                  </CustomProperty>
+                </Properties>
+                <Interactions>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                </Interactions>
+              </InventoryItem>
+              <InventoryItem>
+                <ID>10</ID>
+                <HotspotX>0</HotspotX>
+                <HotspotY>0</HotspotY>
+                <PlayerStartsWithItem>False</PlayerStartsWithItem>
+                <CursorImage>17</CursorImage>
+                <Image>17</Image>
+                <Description />
+                <Name>ProfileItem4</Name>
+                <Properties>
+                  <CustomProperty>
+                    <Name>description</Name>
+                    <Value xml:space="preserve">4 Profiles</Value>
+                  </CustomProperty>
+                </Properties>
+                <Interactions>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                </Interactions>
+              </InventoryItem>
+              <InventoryItem>
+                <ID>11</ID>
+                <HotspotX>0</HotspotX>
+                <HotspotY>0</HotspotY>
+                <PlayerStartsWithItem>False</PlayerStartsWithItem>
+                <CursorImage>17</CursorImage>
+                <Image>17</Image>
+                <Description />
+                <Name>ProfileItem5</Name>
+                <Properties>
+                  <CustomProperty>
+                    <Name>description</Name>
+                    <Value xml:space="preserve">5 Profiles</Value>
+                  </CustomProperty>
+                </Properties>
+                <Interactions>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                </Interactions>
+              </InventoryItem>
+              <InventoryItem>
+                <ID>12</ID>
+                <HotspotX>0</HotspotX>
+                <HotspotY>0</HotspotY>
+                <PlayerStartsWithItem>False</PlayerStartsWithItem>
+                <CursorImage>17</CursorImage>
+                <Image>17</Image>
+                <Description />
+                <Name>ProfileItem6</Name>
+                <Properties>
+                  <CustomProperty>
+                    <Name>description</Name>
+                    <Value xml:space="preserve">6 Profiles</Value>
+                  </CustomProperty>
+                </Properties>
+                <Interactions>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                </Interactions>
+              </InventoryItem>
+              <InventoryItem>
+                <ID>13</ID>
+                <HotspotX>0</HotspotX>
+                <HotspotY>0</HotspotY>
+                <PlayerStartsWithItem>False</PlayerStartsWithItem>
+                <CursorImage>17</CursorImage>
+                <Image>17</Image>
+                <Description />
+                <Name>ProfileItem7</Name>
+                <Properties>
+                  <CustomProperty>
+                    <Name>description</Name>
+                    <Value xml:space="preserve">7 Profiles</Value>
+                  </CustomProperty>
+                </Properties>
+                <Interactions>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                </Interactions>
+              </InventoryItem>
+              <InventoryItem>
+                <ID>14</ID>
+                <HotspotX>0</HotspotX>
+                <HotspotY>0</HotspotY>
+                <PlayerStartsWithItem>False</PlayerStartsWithItem>
+                <CursorImage>17</CursorImage>
+                <Image>17</Image>
+                <Description />
+                <Name>ProfileItem8</Name>
+                <Properties>
+                  <CustomProperty>
+                    <Name>description</Name>
+                    <Value xml:space="preserve">8 Profiles</Value>
+                  </CustomProperty>
+                </Properties>
+                <Interactions>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                </Interactions>
+              </InventoryItem>
+              <InventoryItem>
+                <ID>16</ID>
+                <HotspotX>0</HotspotX>
+                <HotspotY>0</HotspotY>
+                <PlayerStartsWithItem>False</PlayerStartsWithItem>
+                <CursorImage>17</CursorImage>
+                <Image>17</Image>
+                <Description />
+                <Name>ProfileItem10</Name>
+                <Properties>
+                  <CustomProperty>
+                    <Name>description</Name>
+                    <Value xml:space="preserve">10 Profiles</Value>
+                  </CustomProperty>
+                </Properties>
+                <Interactions>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                </Interactions>
+              </InventoryItem>
+              <InventoryItem>
+                <ID>17</ID>
+                <HotspotX>0</HotspotX>
+                <HotspotY>0</HotspotY>
+                <PlayerStartsWithItem>False</PlayerStartsWithItem>
+                <CursorImage>17</CursorImage>
+                <Image>17</Image>
+                <Description />
+                <Name>ProfileSummaryItem</Name>
+                <Properties>
+                  <CustomProperty>
+                    <Name>description</Name>
+                    <Value xml:space="preserve">Profile Summary</Value>
+                  </CustomProperty>
+                </Properties>
+                <Interactions>
+                  <Event Index="0" />
+                  <Event Index="1" />
+                  <Event Index="2" />
+                  <Event Index="3" />
+                  <Event Index="4" />
+                </Interactions>
+              </InventoryItem>
+            </InventoryItems>
+          </InventoryItemFolder>
+        </SubFolders>
         <InventoryItems>
           <InventoryItem>
             <ID>1</ID>
@@ -3072,64 +3657,18 @@
             </Interactions>
           </InventoryItem>
           <InventoryItem>
-            <ID>4</ID>
+            <ID>18</ID>
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <CursorImage>17</CursorImage>
             <Image>17</Image>
             <Description />
-            <Name>DocumentItem1</Name>
+            <Name>TicketItem</Name>
             <Properties>
               <CustomProperty>
                 <Name>description</Name>
-                <Value xml:space="preserve">Document #1</Value>
-              </CustomProperty>
-            </Properties>
-            <Interactions>
-              <Event Index="0" />
-              <Event Index="1" />
-              <Event Index="2" />
-              <Event Index="3" />
-              <Event Index="4" />
-            </Interactions>
-          </InventoryItem>
-          <InventoryItem>
-            <ID>5</ID>
-            <HotspotX>0</HotspotX>
-            <HotspotY>0</HotspotY>
-            <PlayerStartsWithItem>False</PlayerStartsWithItem>
-            <CursorImage>17</CursorImage>
-            <Image>17</Image>
-            <Description />
-            <Name>DocumentItem2</Name>
-            <Properties>
-              <CustomProperty>
-                <Name>description</Name>
-                <Value xml:space="preserve">Document #2</Value>
-              </CustomProperty>
-            </Properties>
-            <Interactions>
-              <Event Index="0" />
-              <Event Index="1" />
-              <Event Index="2" />
-              <Event Index="3" />
-              <Event Index="4" />
-            </Interactions>
-          </InventoryItem>
-          <InventoryItem>
-            <ID>6</ID>
-            <HotspotX>0</HotspotX>
-            <HotspotY>0</HotspotY>
-            <PlayerStartsWithItem>False</PlayerStartsWithItem>
-            <CursorImage>17</CursorImage>
-            <Image>17</Image>
-            <Description />
-            <Name>DocumentItem3</Name>
-            <Properties>
-              <CustomProperty>
-                <Name>description</Name>
-                <Value xml:space="preserve">Document #3</Value>
+                <Value xml:space="preserve">Evacuation Ticket</Value>
               </CustomProperty>
             </Properties>
             <Interactions>
@@ -3941,7 +4480,7 @@ stop
               <Dialog>
                 <ID>11</ID>
                 <Name>Justin6</Name>
-                <ShowTextParser>False</ShowTextParser>
+                <ShowTextParser>True</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 Justin: Are you alone in the office right now?
@@ -4108,10 +4647,10 @@ stop
       </MouseCursor>
       <MouseCursor>
         <ID>2</ID>
-        <HotspotX>8</HotspotX>
+        <HotspotX>0</HotspotX>
         <HotspotY>0</HotspotY>
         <StandardMode>True</StandardMode>
-        <Image>26</Image>
+        <Image>22</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -4535,7 +5074,17 @@ stop
           <DefaultValue>13</DefaultValue>
         </GlobalVariable>
         <GlobalVariable>
-          <Name>archive_item_count</Name>
+          <Name>archived_items</Name>
+          <Type>int</Type>
+          <DefaultValue>0</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>saved_documents</Name>
+          <Type>int</Type>
+          <DefaultValue>0</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>saved_profiles</Name>
           <Type>int</Type>
           <DefaultValue>0</DefaultValue>
         </GlobalVariable>
@@ -6424,7 +6973,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-26 23:45:50Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-26 11:45:50Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>Print</ScriptName>
@@ -6436,7 +6985,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-27 04:55:11Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-26 16:55:11Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>Aldebaran</ScriptName>
@@ -6448,7 +6997,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-27 21:47:09Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-27 09:47:09Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>Type</ScriptName>
@@ -6460,7 +7009,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-29 07:55:59Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-28 19:55:59Z</FileLastModifiedDate>
           </AudioClip>
         </AudioClips>
         <AudioClipFolder>
