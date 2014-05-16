@@ -827,9 +827,9 @@
               <GUIMain>
                 <NormalGUI>
                   <OnClick>Raise_OnClick</OnClick>
-                  <Height>480</Height>
-                  <Width>480</Width>
-                  <Left>229</Left>
+                  <Height>325</Height>
+                  <Width>546</Width>
+                  <Left>325</Left>
                   <Top>242</Top>
                   <Clickable>True</Clickable>
                   <Visibility>NormalButInitiallyOff</Visibility>
@@ -837,8 +837,8 @@
                   <ZOrder>0</ZOrder>
                   <BorderColor>52825</BorderColor>
                   <Transparency>0</Transparency>
-                  <BackgroundColor>8</BackgroundColor>
-                  <BackgroundImage>0</BackgroundImage>
+                  <BackgroundColor>52825</BackgroundColor>
+                  <BackgroundImage>121</BackgroundImage>
                   <ID>4</ID>
                   <Name>Document1</Name>
                 </NormalGUI>
@@ -858,7 +858,7 @@
                     <Height>32</Height>
                     <Locked>False</Locked>
                     <Width>32</Width>
-                    <Left>442</Left>
+                    <Left>507</Left>
                     <Top>6</Top>
                     <ZOrder>0</ZOrder>
                     <ID>0</ID>
@@ -879,7 +879,7 @@
                     <Height>32</Height>
                     <Locked>False</Locked>
                     <Width>128</Width>
-                    <Left>301</Left>
+                    <Left>374</Left>
                     <Top>6</Top>
                     <ZOrder>1</ZOrder>
                     <ID>1</ID>
@@ -901,7 +901,7 @@
                   <BorderColor>52825</BorderColor>
                   <Transparency>0</Transparency>
                   <BackgroundColor>16904</BackgroundColor>
-                  <BackgroundImage>0</BackgroundImage>
+                  <BackgroundImage>155</BackgroundImage>
                   <ID>5</ID>
                   <Name>Document2</Name>
                 </NormalGUI>
@@ -964,7 +964,7 @@
                   <BorderColor>52825</BorderColor>
                   <Transparency>0</Transparency>
                   <BackgroundColor>8</BackgroundColor>
-                  <BackgroundImage>0</BackgroundImage>
+                  <BackgroundImage>122</BackgroundImage>
                   <ID>6</ID>
                   <Name>Document3</Name>
                 </NormalGUI>
@@ -1013,6 +1013,26 @@
                   </GUIButton>
                 </Controls>
               </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <OnClick>Raise_OnClick</OnClick>
+                  <Height>200</Height>
+                  <Width>300</Width>
+                  <Left>0</Left>
+                  <Top>0</Top>
+                  <Clickable>True</Clickable>
+                  <Visibility>NormalButInitiallyOff</Visibility>
+                  <PopupYPos>0</PopupYPos>
+                  <ZOrder>0</ZOrder>
+                  <BorderColor>2</BorderColor>
+                  <Transparency>0</Transparency>
+                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundImage>0</BackgroundImage>
+                  <ID>23</ID>
+                  <Name>Document4</Name>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
             </GUIs>
           </GUIFolder>
           <GUIFolder Name="Work">
@@ -1032,7 +1052,7 @@
                   <BorderColor>52825</BorderColor>
                   <Transparency>0</Transparency>
                   <BackgroundColor>8</BackgroundColor>
-                  <BackgroundImage>0</BackgroundImage>
+                  <BackgroundImage>127</BackgroundImage>
                   <ID>7</ID>
                   <Name>Work1</Name>
                 </NormalGUI>
@@ -1193,7 +1213,7 @@
                   <BorderColor>52825</BorderColor>
                   <Transparency>0</Transparency>
                   <BackgroundColor>8</BackgroundColor>
-                  <BackgroundImage>0</BackgroundImage>
+                  <BackgroundImage>128</BackgroundImage>
                   <ID>8</ID>
                   <Name>Work2</Name>
                 </NormalGUI>
@@ -1354,7 +1374,7 @@
                   <BorderColor>52825</BorderColor>
                   <Transparency>0</Transparency>
                   <BackgroundColor>8</BackgroundColor>
-                  <BackgroundImage>0</BackgroundImage>
+                  <BackgroundImage>129</BackgroundImage>
                   <ID>9</ID>
                   <Name>Work3</Name>
                 </NormalGUI>
@@ -5400,6 +5420,131 @@ stop
                   <FileName>C:\Users\robert\Dropbox\Whistleblower\TerminalIcon.png</FileName>
                 </Source>
               </Sprite>
+              <Sprite Slot="132" Width="71" Height="33" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\sinat_000\Downloads\Whistleblower\ticketicon.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="130" Width="56" Height="66" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\sinat_000\Downloads\Whistleblower\profileicons.png</FileName>
+                </Source>
+              </Sprite>
+            </Sprites>
+          </SpriteFolder>
+          <SpriteFolder Name="Celine">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="133" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\sinat_000\Downloads\Celine\Celine\HiCeine_0007_Frame-1.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="134" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\sinat_000\Downloads\Celine\Celine\HiCeine_0006_Frame-2.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="135" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\sinat_000\Downloads\Celine\Celine\HiCeine_0005_Frame-3.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="136" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\sinat_000\Downloads\Celine\Celine\HiCeine_0004_Frame-4.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="137" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\sinat_000\Downloads\Celine\Celine\HiCeine_0003_Frame-5.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="138" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\sinat_000\Downloads\Celine\Celine\HiCeine_0002_Frame-6.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="139" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\sinat_000\Downloads\Celine\Celine\HiCeine_0001_Frame-7.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="140" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\sinat_000\Downloads\Celine\Celine\HiCeine_0000_Frame-8.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="141" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\sinat_000\Downloads\HiCeline\HiCeline\CelineTalk_0013_Frame-1.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="142" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\sinat_000\Downloads\HiCeline\HiCeline\CelineTalk_0012_Frame-2.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="143" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\sinat_000\Downloads\HiCeline\HiCeline\CelineTalk_0011_Frame-3.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="144" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\sinat_000\Downloads\HiCeline\HiCeline\CelineTalk_0010_Frame-4.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="145" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\sinat_000\Downloads\HiCeline\HiCeline\CelineTalk_0009_Frame-5.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="146" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\sinat_000\Downloads\HiCeline\HiCeline\CelineTalk_0008_Frame-6.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="147" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\sinat_000\Downloads\HiCeline\HiCeline\CelineTalk_0007_Frame-7.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="148" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\sinat_000\Downloads\HiCeline\HiCeline\CelineTalk_0006_Frame-8.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="149" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\sinat_000\Downloads\HiCeline\HiCeline\CelineTalk_0005_Frame-9.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="150" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\sinat_000\Downloads\HiCeline\HiCeline\CelineTalk_0004_Frame-10.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="151" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\sinat_000\Downloads\HiCeline\HiCeline\CelineTalk_0003_Frame-11.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="152" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\sinat_000\Downloads\HiCeline\HiCeline\CelineTalk_0002_Frame-12.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="153" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\sinat_000\Downloads\HiCeline\HiCeline\CelineTalk_0001_Frame-13.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="154" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\sinat_000\Downloads\HiCeline\HiCeline\CelineTalk_0000_Frame-14.png</FileName>
+                </Source>
+              </Sprite>
             </Sprites>
           </SpriteFolder>
         </SubFolders>
@@ -5501,6 +5646,66 @@ stop
           <Sprite Slot="119" Width="302" Height="108" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
             <Source>
               <FileName>C:\Users\robert\Dropbox\Whistleblower\TerminalWindow.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="120" Width="161" Height="160" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\sinat_000\Downloads\Whistleblower\news1.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="121" Width="546" Height="325" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\sinat_000\Downloads\Whistleblower\boulder2.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="122" Width="232" Height="227" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\sinat_000\Downloads\Whistleblower\Bugs.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="123" Width="124" Height="123" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\sinat_000\Downloads\Whistleblower\Cal.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="124" Width="271" Height="275" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\sinat_000\Downloads\Whistleblower\earth2.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="125" Width="62" Height="66" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\sinat_000\Downloads\Whistleblower\lettericon.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="126" Width="530" Height="359" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\sinat_000\Downloads\Whistleblower\news2.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="127" Width="539" Height="662" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\sinat_000\Downloads\Whistleblower\P1.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="128" Width="539" Height="662" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\sinat_000\Downloads\Whistleblower\P2.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="129" Width="539" Height="662" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\sinat_000\Downloads\Whistleblower\P3.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="131" Width="658" Height="465" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\sinat_000\Downloads\Whistleblower\ship.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="155" Width="661" Height="369" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\sinat_000\Downloads\earths.png</FileName>
             </Source>
           </Sprite>
         </Sprites>
@@ -6347,7 +6552,7 @@ stop
           </View>
           <View>
             <ID>7</ID>
-            <Name>CelesteView</Name>
+            <Name>CelineView</Name>
             <Loops>
               <Loop>
                 <ID>0</ID>
@@ -6355,56 +6560,56 @@ stop
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>84</Image>
+                    <Image>133</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>1</ID>
-                    <Image>85</Image>
+                    <Image>134</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>2</ID>
-                    <Image>86</Image>
+                    <Image>135</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>3</ID>
-                    <Image>87</Image>
+                    <Image>136</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>4</ID>
-                    <Image>88</Image>
+                    <Image>137</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>5</ID>
-                    <Image>89</Image>
+                    <Image>138</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>6</ID>
-                    <Image>90</Image>
+                    <Image>139</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>7</ID>
-                    <Image>91</Image>
+                    <Image>140</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
@@ -6417,98 +6622,98 @@ stop
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>92</Image>
+                    <Image>141</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>1</ID>
-                    <Image>93</Image>
+                    <Image>142</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>2</ID>
-                    <Image>94</Image>
+                    <Image>143</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>3</ID>
-                    <Image>95</Image>
+                    <Image>144</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>4</ID>
-                    <Image>96</Image>
+                    <Image>145</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>5</ID>
-                    <Image>97</Image>
+                    <Image>146</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>6</ID>
-                    <Image>98</Image>
+                    <Image>147</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>7</ID>
-                    <Image>99</Image>
+                    <Image>148</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>8</ID>
-                    <Image>100</Image>
+                    <Image>149</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>9</ID>
-                    <Image>101</Image>
+                    <Image>150</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>10</ID>
-                    <Image>102</Image>
+                    <Image>151</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>11</ID>
-                    <Image>103</Image>
+                    <Image>152</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>12</ID>
-                    <Image>104</Image>
+                    <Image>153</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>13</ID>
-                    <Image>105</Image>
+                    <Image>154</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
@@ -6520,7 +6725,9 @@ stop
         </Views>
       </ViewFolder>
     </Views>
-    <DeletedViews />
+    <DeletedViews>
+      <ViewID>14</ViewID>
+    </DeletedViews>
     <Scripts>
       <ScriptFolder Name="Main">
         <SubFolders />
@@ -6709,7 +6916,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-25 23:45:50Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-26 03:45:50Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>Print</ScriptName>
@@ -6721,7 +6928,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-26 04:55:11Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-26 08:55:11Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>Aldebaran</ScriptName>
@@ -6733,7 +6940,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-26 21:47:09Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-27 01:47:09Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>Type</ScriptName>
@@ -6745,7 +6952,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-28 07:55:59Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-28 11:55:59Z</FileLastModifiedDate>
           </AudioClip>
         </AudioClips>
         <AudioClipFolder>
