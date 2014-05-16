@@ -699,14 +699,14 @@
                     <TextAlignment>TopMiddle</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
-                    <PushedImage>0</PushedImage>
-                    <MouseoverImage>0</MouseoverImage>
-                    <Image>0</Image>
-                    <Text>x</Text>
-                    <Height>32</Height>
+                    <PushedImage>156</PushedImage>
+                    <MouseoverImage>157</MouseoverImage>
+                    <Image>158</Image>
+                    <Text />
+                    <Height>23</Height>
                     <Locked>False</Locked>
-                    <Width>32</Width>
-                    <Left>556</Left>
+                    <Width>23</Width>
+                    <Left>565</Left>
                     <Top>6</Top>
                     <ZOrder>2</ZOrder>
                     <ID>2</ID>
@@ -720,14 +720,14 @@
                     <TextAlignment>Centred</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
-                    <PushedImage>0</PushedImage>
-                    <MouseoverImage>0</MouseoverImage>
-                    <Image>0</Image>
-                    <Text xml:space="preserve">Save to USB</Text>
-                    <Height>32</Height>
+                    <PushedImage>159</PushedImage>
+                    <MouseoverImage>161</MouseoverImage>
+                    <Image>162</Image>
+                    <Text />
+                    <Height>23</Height>
                     <Locked>False</Locked>
-                    <Width>128</Width>
-                    <Left>420</Left>
+                    <Width>23</Width>
+                    <Left>536</Left>
                     <Top>6</Top>
                     <ZOrder>3</ZOrder>
                     <ID>3</ID>
@@ -783,14 +783,14 @@
                     <TextAlignment>TopMiddle</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
-                    <PushedImage>0</PushedImage>
-                    <MouseoverImage>0</MouseoverImage>
-                    <Image>0</Image>
-                    <Text>x</Text>
-                    <Height>32</Height>
+                    <PushedImage>156</PushedImage>
+                    <MouseoverImage>157</MouseoverImage>
+                    <Image>158</Image>
+                    <Text />
+                    <Height>23</Height>
                     <Locked>False</Locked>
-                    <Width>32</Width>
-                    <Left>556</Left>
+                    <Width>23</Width>
+                    <Left>565</Left>
                     <Top>6</Top>
                     <ZOrder>1</ZOrder>
                     <ID>1</ID>
@@ -804,14 +804,14 @@
                     <TextAlignment>Centred</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
-                    <PushedImage>0</PushedImage>
-                    <MouseoverImage>0</MouseoverImage>
-                    <Image>0</Image>
-                    <Text xml:space="preserve">Save to USB</Text>
-                    <Height>32</Height>
+                    <PushedImage>159</PushedImage>
+                    <MouseoverImage>161</MouseoverImage>
+                    <Image>162</Image>
+                    <Text />
+                    <Height>23</Height>
                     <Locked>False</Locked>
-                    <Width>128</Width>
-                    <Left>414</Left>
+                    <Width>23</Width>
+                    <Left>536</Left>
                     <Top>6</Top>
                     <ZOrder>2</ZOrder>
                     <ID>2</ID>
@@ -851,14 +851,14 @@
                     <TextAlignment>TopMiddle</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
-                    <PushedImage>0</PushedImage>
-                    <MouseoverImage>0</MouseoverImage>
-                    <Image>0</Image>
-                    <Text>x</Text>
-                    <Height>32</Height>
+                    <PushedImage>156</PushedImage>
+                    <MouseoverImage>157</MouseoverImage>
+                    <Image>158</Image>
+                    <Text />
+                    <Height>23</Height>
                     <Locked>False</Locked>
-                    <Width>32</Width>
-                    <Left>507</Left>
+                    <Width>23</Width>
+                    <Left>517</Left>
                     <Top>6</Top>
                     <ZOrder>0</ZOrder>
                     <ID>0</ID>
@@ -872,14 +872,14 @@
                     <TextAlignment>Centred</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
-                    <PushedImage>0</PushedImage>
-                    <MouseoverImage>0</MouseoverImage>
-                    <Image>0</Image>
-                    <Text xml:space="preserve">Save to USB</Text>
-                    <Height>32</Height>
+                    <PushedImage>159</PushedImage>
+                    <MouseoverImage>161</MouseoverImage>
+                    <Image>162</Image>
+                    <Text />
+                    <Height>23</Height>
                     <Locked>False</Locked>
-                    <Width>128</Width>
-                    <Left>374</Left>
+                    <Width>23</Width>
+                    <Left>488</Left>
                     <Top>6</Top>
                     <ZOrder>1</ZOrder>
                     <ID>1</ID>
@@ -892,7 +892,7 @@
                   <OnClick>Raise_OnClick</OnClick>
                   <Height>369</Height>
                   <Width>661</Width>
-                  <Left>478</Left>
+                  <Left>181</Left>
                   <Top>157</Top>
                   <Clickable>True</Clickable>
                   <Visibility>NormalButInitiallyOff</Visibility>
@@ -914,14 +914,14 @@
                     <TextAlignment>TopMiddle</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
-                    <PushedImage>0</PushedImage>
-                    <MouseoverImage>0</MouseoverImage>
-                    <Image>0</Image>
-                    <Text>x</Text>
-                    <Height>32</Height>
+                    <PushedImage>156</PushedImage>
+                    <MouseoverImage>157</MouseoverImage>
+                    <Image>158</Image>
+                    <Text />
+                    <Height>23</Height>
                     <Locked>False</Locked>
-                    <Width>32</Width>
-                    <Left>442</Left>
+                    <Width>23</Width>
+                    <Left>632</Left>
                     <Top>6</Top>
                     <ZOrder>0</ZOrder>
                     <ID>0</ID>
@@ -935,14 +935,14 @@
                     <TextAlignment>Centred</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
-                    <PushedImage>0</PushedImage>
-                    <MouseoverImage>0</MouseoverImage>
-                    <Image>0</Image>
-                    <Text xml:space="preserve">Save to USB</Text>
-                    <Height>32</Height>
+                    <PushedImage>159</PushedImage>
+                    <MouseoverImage>161</MouseoverImage>
+                    <Image>162</Image>
+                    <Text />
+                    <Height>23</Height>
                     <Locked>False</Locked>
-                    <Width>128</Width>
-                    <Left>307</Left>
+                    <Width>23</Width>
+                    <Left>603</Left>
                     <Top>6</Top>
                     <ZOrder>1</ZOrder>
                     <ID>1</ID>
@@ -977,14 +977,14 @@
                     <TextAlignment>TopMiddle</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
-                    <PushedImage>0</PushedImage>
-                    <MouseoverImage>0</MouseoverImage>
-                    <Image>0</Image>
-                    <Text>x</Text>
-                    <Height>32</Height>
+                    <PushedImage>156</PushedImage>
+                    <MouseoverImage>157</MouseoverImage>
+                    <Image>158</Image>
+                    <Text />
+                    <Height>23</Height>
                     <Locked>False</Locked>
-                    <Width>32</Width>
-                    <Left>442</Left>
+                    <Width>23</Width>
+                    <Left>203</Left>
                     <Top>6</Top>
                     <ZOrder>0</ZOrder>
                     <ID>0</ID>
@@ -998,14 +998,14 @@
                     <TextAlignment>Centred</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
-                    <PushedImage>0</PushedImage>
-                    <MouseoverImage>0</MouseoverImage>
-                    <Image>0</Image>
-                    <Text xml:space="preserve">Save to USB</Text>
-                    <Height>32</Height>
+                    <PushedImage>159</PushedImage>
+                    <MouseoverImage>161</MouseoverImage>
+                    <Image>162</Image>
+                    <Text />
+                    <Height>23</Height>
                     <Locked>False</Locked>
-                    <Width>128</Width>
-                    <Left>306</Left>
+                    <Width>23</Width>
+                    <Left>174</Left>
                     <Top>6</Top>
                     <ZOrder>1</ZOrder>
                     <ID>1</ID>
@@ -1016,22 +1016,65 @@
               <GUIMain>
                 <NormalGUI>
                   <OnClick>Raise_OnClick</OnClick>
-                  <Height>200</Height>
-                  <Width>300</Width>
+                  <Height>275</Height>
+                  <Width>271</Width>
                   <Left>0</Left>
                   <Top>0</Top>
                   <Clickable>True</Clickable>
                   <Visibility>NormalButInitiallyOff</Visibility>
                   <PopupYPos>0</PopupYPos>
                   <ZOrder>0</ZOrder>
-                  <BorderColor>2</BorderColor>
+                  <BorderColor>52825</BorderColor>
                   <Transparency>0</Transparency>
-                  <BackgroundColor>8</BackgroundColor>
-                  <BackgroundImage>0</BackgroundImage>
+                  <BackgroundColor>52825</BackgroundColor>
+                  <BackgroundImage>124</BackgroundImage>
                   <ID>23</ID>
                   <Name>Document4</Name>
                 </NormalGUI>
-                <Controls />
+                <Controls>
+                  <GUIButton>
+                    <OnClick>CloseButton_OnClick</OnClick>
+                    <ClickAction>RunScript</ClickAction>
+                    <NewModeNumber>0</NewModeNumber>
+                    <ClipImage>False</ClipImage>
+                    <TextAlignment>TopMiddle</TextAlignment>
+                    <TextColor>65535</TextColor>
+                    <Font>0</Font>
+                    <PushedImage>156</PushedImage>
+                    <MouseoverImage>157</MouseoverImage>
+                    <Image>158</Image>
+                    <Text />
+                    <Height>23</Height>
+                    <Locked>False</Locked>
+                    <Width>23</Width>
+                    <Left>242</Left>
+                    <Top>6</Top>
+                    <ZOrder>0</ZOrder>
+                    <ID>0</ID>
+                    <Name>Button1</Name>
+                  </GUIButton>
+                  <GUIButton>
+                    <OnClick>DocumentSaveButton_OnClick</OnClick>
+                    <ClickAction>RunScript</ClickAction>
+                    <NewModeNumber>0</NewModeNumber>
+                    <ClipImage>False</ClipImage>
+                    <TextAlignment>Centred</TextAlignment>
+                    <TextColor>65535</TextColor>
+                    <Font>0</Font>
+                    <PushedImage>159</PushedImage>
+                    <MouseoverImage>161</MouseoverImage>
+                    <Image>162</Image>
+                    <Text />
+                    <Height>23</Height>
+                    <Locked>False</Locked>
+                    <Width>23</Width>
+                    <Left>213</Left>
+                    <Top>6</Top>
+                    <ZOrder>1</ZOrder>
+                    <ID>1</ID>
+                    <Name>Button5</Name>
+                  </GUIButton>
+                </Controls>
               </GUIMain>
             </GUIs>
           </GUIFolder>
@@ -1041,8 +1084,8 @@
               <GUIMain>
                 <NormalGUI>
                   <OnClick />
-                  <Height>640</Height>
-                  <Width>480</Width>
+                  <Height>662</Height>
+                  <Width>539</Width>
                   <Left>241</Left>
                   <Top>64</Top>
                   <Clickable>True</Clickable>
@@ -1065,14 +1108,14 @@
                     <TextAlignment>TopMiddle</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
-                    <PushedImage>0</PushedImage>
-                    <MouseoverImage>0</MouseoverImage>
-                    <Image>0</Image>
-                    <Text>x</Text>
-                    <Height>32</Height>
+                    <PushedImage>156</PushedImage>
+                    <MouseoverImage>157</MouseoverImage>
+                    <Image>158</Image>
+                    <Text />
+                    <Height>23</Height>
                     <Locked>False</Locked>
-                    <Width>32</Width>
-                    <Left>442</Left>
+                    <Width>23</Width>
+                    <Left>510</Left>
                     <Top>6</Top>
                     <ZOrder>0</ZOrder>
                     <ID>0</ID>
@@ -1184,14 +1227,14 @@
                     <TextAlignment>Centred</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
-                    <PushedImage>0</PushedImage>
-                    <MouseoverImage>0</MouseoverImage>
-                    <Image>0</Image>
-                    <Text xml:space="preserve">Save to USB</Text>
-                    <Height>32</Height>
+                    <PushedImage>159</PushedImage>
+                    <MouseoverImage>161</MouseoverImage>
+                    <Image>162</Image>
+                    <Text />
+                    <Height>23</Height>
                     <Locked>False</Locked>
-                    <Width>128</Width>
-                    <Left>302</Left>
+                    <Width>23</Width>
+                    <Left>481</Left>
                     <Top>6</Top>
                     <ZOrder>6</ZOrder>
                     <ID>6</ID>
@@ -1202,8 +1245,8 @@
               <GUIMain>
                 <NormalGUI>
                   <OnClick />
-                  <Height>640</Height>
-                  <Width>480</Width>
+                  <Height>662</Height>
+                  <Width>539</Width>
                   <Left>241</Left>
                   <Top>64</Top>
                   <Clickable>True</Clickable>
@@ -1226,14 +1269,14 @@
                     <TextAlignment>TopMiddle</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
-                    <PushedImage>0</PushedImage>
-                    <MouseoverImage>0</MouseoverImage>
-                    <Image>0</Image>
-                    <Text>x</Text>
-                    <Height>32</Height>
+                    <PushedImage>156</PushedImage>
+                    <MouseoverImage>157</MouseoverImage>
+                    <Image>158</Image>
+                    <Text />
+                    <Height>23</Height>
                     <Locked>False</Locked>
-                    <Width>32</Width>
-                    <Left>442</Left>
+                    <Width>23</Width>
+                    <Left>510</Left>
                     <Top>6</Top>
                     <ZOrder>0</ZOrder>
                     <ID>0</ID>
@@ -1345,14 +1388,14 @@
                     <TextAlignment>Centred</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
-                    <PushedImage>0</PushedImage>
-                    <MouseoverImage>0</MouseoverImage>
-                    <Image>0</Image>
-                    <Text xml:space="preserve">Save to USB</Text>
-                    <Height>32</Height>
+                    <PushedImage>159</PushedImage>
+                    <MouseoverImage>161</MouseoverImage>
+                    <Image>162</Image>
+                    <Text />
+                    <Height>23</Height>
                     <Locked>False</Locked>
-                    <Width>128</Width>
-                    <Left>308</Left>
+                    <Width>23</Width>
+                    <Left>481</Left>
                     <Top>6</Top>
                     <ZOrder>6</ZOrder>
                     <ID>6</ID>
@@ -1363,8 +1406,8 @@
               <GUIMain>
                 <NormalGUI>
                   <OnClick />
-                  <Height>640</Height>
-                  <Width>480</Width>
+                  <Height>662</Height>
+                  <Width>539</Width>
                   <Left>241</Left>
                   <Top>64</Top>
                   <Clickable>True</Clickable>
@@ -1387,14 +1430,14 @@
                     <TextAlignment>TopMiddle</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
-                    <PushedImage>0</PushedImage>
-                    <MouseoverImage>0</MouseoverImage>
-                    <Image>0</Image>
-                    <Text>x</Text>
-                    <Height>32</Height>
+                    <PushedImage>156</PushedImage>
+                    <MouseoverImage>157</MouseoverImage>
+                    <Image>158</Image>
+                    <Text />
+                    <Height>23</Height>
                     <Locked>False</Locked>
-                    <Width>32</Width>
-                    <Left>442</Left>
+                    <Width>23</Width>
+                    <Left>510</Left>
                     <Top>6</Top>
                     <ZOrder>0</ZOrder>
                     <ID>0</ID>
@@ -1506,14 +1549,14 @@
                     <TextAlignment>Centred</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
-                    <PushedImage>0</PushedImage>
-                    <MouseoverImage>0</MouseoverImage>
-                    <Image>0</Image>
-                    <Text xml:space="preserve">Save to USB</Text>
-                    <Height>32</Height>
+                    <PushedImage>159</PushedImage>
+                    <MouseoverImage>161</MouseoverImage>
+                    <Image>162</Image>
+                    <Text />
+                    <Height>23</Height>
                     <Locked>False</Locked>
-                    <Width>128</Width>
-                    <Left>304</Left>
+                    <Width>23</Width>
+                    <Left>481</Left>
                     <Top>6</Top>
                     <ZOrder>6</ZOrder>
                     <ID>6</ID>
@@ -1524,8 +1567,8 @@
               <GUIMain>
                 <NormalGUI>
                   <OnClick />
-                  <Height>640</Height>
-                  <Width>480</Width>
+                  <Height>662</Height>
+                  <Width>539</Width>
                   <Left>241</Left>
                   <Top>64</Top>
                   <Clickable>True</Clickable>
@@ -1548,14 +1591,14 @@
                     <TextAlignment>TopMiddle</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
-                    <PushedImage>0</PushedImage>
-                    <MouseoverImage>0</MouseoverImage>
-                    <Image>0</Image>
-                    <Text>x</Text>
-                    <Height>32</Height>
+                    <PushedImage>156</PushedImage>
+                    <MouseoverImage>157</MouseoverImage>
+                    <Image>158</Image>
+                    <Text />
+                    <Height>23</Height>
                     <Locked>False</Locked>
-                    <Width>32</Width>
-                    <Left>442</Left>
+                    <Width>23</Width>
+                    <Left>510</Left>
                     <Top>6</Top>
                     <ZOrder>0</ZOrder>
                     <ID>0</ID>
@@ -1667,14 +1710,14 @@
                     <TextAlignment>Centred</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
-                    <PushedImage>0</PushedImage>
-                    <MouseoverImage>0</MouseoverImage>
-                    <Image>0</Image>
-                    <Text xml:space="preserve">Save to USB</Text>
-                    <Height>32</Height>
+                    <PushedImage>159</PushedImage>
+                    <MouseoverImage>161</MouseoverImage>
+                    <Image>162</Image>
+                    <Text />
+                    <Height>23</Height>
                     <Locked>False</Locked>
-                    <Width>128</Width>
-                    <Left>299</Left>
+                    <Width>23</Width>
+                    <Left>481</Left>
                     <Top>6</Top>
                     <ZOrder>6</ZOrder>
                     <ID>6</ID>
@@ -1685,8 +1728,8 @@
               <GUIMain>
                 <NormalGUI>
                   <OnClick />
-                  <Height>640</Height>
-                  <Width>480</Width>
+                  <Height>662</Height>
+                  <Width>539</Width>
                   <Left>241</Left>
                   <Top>64</Top>
                   <Clickable>True</Clickable>
@@ -1709,14 +1752,14 @@
                     <TextAlignment>TopMiddle</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
-                    <PushedImage>0</PushedImage>
-                    <MouseoverImage>0</MouseoverImage>
-                    <Image>0</Image>
-                    <Text>x</Text>
-                    <Height>32</Height>
+                    <PushedImage>156</PushedImage>
+                    <MouseoverImage>157</MouseoverImage>
+                    <Image>158</Image>
+                    <Text />
+                    <Height>23</Height>
                     <Locked>False</Locked>
-                    <Width>32</Width>
-                    <Left>442</Left>
+                    <Width>23</Width>
+                    <Left>510</Left>
                     <Top>6</Top>
                     <ZOrder>0</ZOrder>
                     <ID>0</ID>
@@ -1828,14 +1871,14 @@
                     <TextAlignment>Centred</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
-                    <PushedImage>0</PushedImage>
-                    <MouseoverImage>0</MouseoverImage>
-                    <Image>0</Image>
-                    <Text xml:space="preserve">Save to USB</Text>
-                    <Height>32</Height>
+                    <PushedImage>159</PushedImage>
+                    <MouseoverImage>161</MouseoverImage>
+                    <Image>162</Image>
+                    <Text />
+                    <Height>23</Height>
                     <Locked>False</Locked>
-                    <Width>128</Width>
-                    <Left>301</Left>
+                    <Width>23</Width>
+                    <Left>481</Left>
                     <Top>6</Top>
                     <ZOrder>6</ZOrder>
                     <ID>6</ID>
@@ -1846,8 +1889,8 @@
               <GUIMain>
                 <NormalGUI>
                   <OnClick />
-                  <Height>640</Height>
-                  <Width>480</Width>
+                  <Height>662</Height>
+                  <Width>539</Width>
                   <Left>241</Left>
                   <Top>64</Top>
                   <Clickable>True</Clickable>
@@ -1870,14 +1913,14 @@
                     <TextAlignment>TopMiddle</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
-                    <PushedImage>0</PushedImage>
-                    <MouseoverImage>0</MouseoverImage>
-                    <Image>0</Image>
-                    <Text>x</Text>
-                    <Height>32</Height>
+                    <PushedImage>156</PushedImage>
+                    <MouseoverImage>157</MouseoverImage>
+                    <Image>158</Image>
+                    <Text />
+                    <Height>23</Height>
                     <Locked>False</Locked>
-                    <Width>32</Width>
-                    <Left>442</Left>
+                    <Width>23</Width>
+                    <Left>510</Left>
                     <Top>6</Top>
                     <ZOrder>0</ZOrder>
                     <ID>0</ID>
@@ -1989,14 +2032,14 @@
                     <TextAlignment>Centred</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
-                    <PushedImage>0</PushedImage>
-                    <MouseoverImage>0</MouseoverImage>
-                    <Image>0</Image>
-                    <Text xml:space="preserve">Save to USB</Text>
-                    <Height>32</Height>
+                    <PushedImage>159</PushedImage>
+                    <MouseoverImage>161</MouseoverImage>
+                    <Image>162</Image>
+                    <Text />
+                    <Height>23</Height>
                     <Locked>False</Locked>
-                    <Width>128</Width>
-                    <Left>302</Left>
+                    <Width>23</Width>
+                    <Left>481</Left>
                     <Top>6</Top>
                     <ZOrder>6</ZOrder>
                     <ID>6</ID>
@@ -2007,8 +2050,8 @@
               <GUIMain>
                 <NormalGUI>
                   <OnClick />
-                  <Height>640</Height>
-                  <Width>480</Width>
+                  <Height>662</Height>
+                  <Width>539</Width>
                   <Left>241</Left>
                   <Top>64</Top>
                   <Clickable>True</Clickable>
@@ -2031,14 +2074,14 @@
                     <TextAlignment>TopMiddle</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
-                    <PushedImage>0</PushedImage>
-                    <MouseoverImage>0</MouseoverImage>
-                    <Image>0</Image>
-                    <Text>x</Text>
-                    <Height>32</Height>
+                    <PushedImage>156</PushedImage>
+                    <MouseoverImage>157</MouseoverImage>
+                    <Image>158</Image>
+                    <Text />
+                    <Height>23</Height>
                     <Locked>False</Locked>
-                    <Width>32</Width>
-                    <Left>442</Left>
+                    <Width>23</Width>
+                    <Left>510</Left>
                     <Top>6</Top>
                     <ZOrder>0</ZOrder>
                     <ID>0</ID>
@@ -2150,14 +2193,14 @@
                     <TextAlignment>Centred</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
-                    <PushedImage>0</PushedImage>
-                    <MouseoverImage>0</MouseoverImage>
-                    <Image>0</Image>
-                    <Text xml:space="preserve">Save to USB</Text>
-                    <Height>32</Height>
+                    <PushedImage>159</PushedImage>
+                    <MouseoverImage>161</MouseoverImage>
+                    <Image>162</Image>
+                    <Text />
+                    <Height>23</Height>
                     <Locked>False</Locked>
-                    <Width>128</Width>
-                    <Left>302</Left>
+                    <Width>23</Width>
+                    <Left>481</Left>
                     <Top>6</Top>
                     <ZOrder>6</ZOrder>
                     <ID>6</ID>
@@ -2168,8 +2211,8 @@
               <GUIMain>
                 <NormalGUI>
                   <OnClick />
-                  <Height>640</Height>
-                  <Width>480</Width>
+                  <Height>662</Height>
+                  <Width>539</Width>
                   <Left>241</Left>
                   <Top>64</Top>
                   <Clickable>True</Clickable>
@@ -2192,14 +2235,14 @@
                     <TextAlignment>TopMiddle</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
-                    <PushedImage>0</PushedImage>
-                    <MouseoverImage>0</MouseoverImage>
-                    <Image>0</Image>
-                    <Text>x</Text>
-                    <Height>32</Height>
+                    <PushedImage>156</PushedImage>
+                    <MouseoverImage>157</MouseoverImage>
+                    <Image>158</Image>
+                    <Text />
+                    <Height>23</Height>
                     <Locked>False</Locked>
-                    <Width>32</Width>
-                    <Left>442</Left>
+                    <Width>23</Width>
+                    <Left>510</Left>
                     <Top>6</Top>
                     <ZOrder>0</ZOrder>
                     <ID>0</ID>
@@ -2311,14 +2354,14 @@
                     <TextAlignment>Centred</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
-                    <PushedImage>0</PushedImage>
-                    <MouseoverImage>0</MouseoverImage>
-                    <Image>0</Image>
-                    <Text xml:space="preserve">Save to USB</Text>
-                    <Height>32</Height>
+                    <PushedImage>159</PushedImage>
+                    <MouseoverImage>161</MouseoverImage>
+                    <Image>162</Image>
+                    <Text />
+                    <Height>23</Height>
                     <Locked>False</Locked>
-                    <Width>128</Width>
-                    <Left>303</Left>
+                    <Width>23</Width>
+                    <Left>481</Left>
                     <Top>6</Top>
                     <ZOrder>6</ZOrder>
                     <ID>6</ID>
@@ -2329,8 +2372,8 @@
               <GUIMain>
                 <NormalGUI>
                   <OnClick />
-                  <Height>640</Height>
-                  <Width>480</Width>
+                  <Height>662</Height>
+                  <Width>539</Width>
                   <Left>241</Left>
                   <Top>64</Top>
                   <Clickable>True</Clickable>
@@ -2353,14 +2396,14 @@
                     <TextAlignment>TopMiddle</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
-                    <PushedImage>0</PushedImage>
-                    <MouseoverImage>0</MouseoverImage>
-                    <Image>0</Image>
-                    <Text>x</Text>
-                    <Height>32</Height>
+                    <PushedImage>156</PushedImage>
+                    <MouseoverImage>157</MouseoverImage>
+                    <Image>158</Image>
+                    <Text />
+                    <Height>23</Height>
                     <Locked>False</Locked>
-                    <Width>32</Width>
-                    <Left>442</Left>
+                    <Width>23</Width>
+                    <Left>510</Left>
                     <Top>6</Top>
                     <ZOrder>0</ZOrder>
                     <ID>0</ID>
@@ -2472,14 +2515,14 @@
                     <TextAlignment>Centred</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
-                    <PushedImage>0</PushedImage>
-                    <MouseoverImage>0</MouseoverImage>
-                    <Image>0</Image>
-                    <Text xml:space="preserve">Save to USB</Text>
-                    <Height>32</Height>
+                    <PushedImage>159</PushedImage>
+                    <MouseoverImage>161</MouseoverImage>
+                    <Image>162</Image>
+                    <Text />
+                    <Height>23</Height>
                     <Locked>False</Locked>
-                    <Width>128</Width>
-                    <Left>304</Left>
+                    <Width>23</Width>
+                    <Left>481</Left>
                     <Top>6</Top>
                     <ZOrder>6</ZOrder>
                     <ID>6</ID>
@@ -2490,8 +2533,8 @@
               <GUIMain>
                 <NormalGUI>
                   <OnClick />
-                  <Height>640</Height>
-                  <Width>480</Width>
+                  <Height>662</Height>
+                  <Width>539</Width>
                   <Left>241</Left>
                   <Top>64</Top>
                   <Clickable>True</Clickable>
@@ -2514,14 +2557,14 @@
                     <TextAlignment>TopMiddle</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
-                    <PushedImage>0</PushedImage>
-                    <MouseoverImage>0</MouseoverImage>
-                    <Image>0</Image>
-                    <Text>x</Text>
-                    <Height>32</Height>
+                    <PushedImage>156</PushedImage>
+                    <MouseoverImage>157</MouseoverImage>
+                    <Image>158</Image>
+                    <Text />
+                    <Height>23</Height>
                     <Locked>False</Locked>
-                    <Width>32</Width>
-                    <Left>442</Left>
+                    <Width>23</Width>
+                    <Left>510</Left>
                     <Top>6</Top>
                     <ZOrder>0</ZOrder>
                     <ID>0</ID>
@@ -2633,14 +2676,14 @@
                     <TextAlignment>Centred</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
-                    <PushedImage>0</PushedImage>
-                    <MouseoverImage>0</MouseoverImage>
-                    <Image>0</Image>
-                    <Text xml:space="preserve">Save to USB</Text>
-                    <Height>32</Height>
+                    <PushedImage>159</PushedImage>
+                    <MouseoverImage>161</MouseoverImage>
+                    <Image>162</Image>
+                    <Text />
+                    <Height>23</Height>
                     <Locked>False</Locked>
-                    <Width>128</Width>
-                    <Left>302</Left>
+                    <Width>23</Width>
+                    <Left>481</Left>
                     <Top>6</Top>
                     <ZOrder>6</ZOrder>
                     <ID>6</ID>
@@ -2651,8 +2694,8 @@
               <GUIMain>
                 <NormalGUI>
                   <OnClick />
-                  <Height>640</Height>
-                  <Width>480</Width>
+                  <Height>662</Height>
+                  <Width>539</Width>
                   <Left>241</Left>
                   <Top>64</Top>
                   <Clickable>True</Clickable>
@@ -2717,14 +2760,14 @@
                     <TextAlignment>TopMiddle</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
-                    <PushedImage>0</PushedImage>
-                    <MouseoverImage>0</MouseoverImage>
-                    <Image>0</Image>
-                    <Text>x</Text>
-                    <Height>32</Height>
+                    <PushedImage>156</PushedImage>
+                    <MouseoverImage>157</MouseoverImage>
+                    <Image>158</Image>
+                    <Text />
+                    <Height>23</Height>
                     <Locked>False</Locked>
-                    <Width>32</Width>
-                    <Left>444</Left>
+                    <Width>23</Width>
+                    <Left>510</Left>
                     <Top>5</Top>
                     <ZOrder>2</ZOrder>
                     <ID>2</ID>
@@ -2794,14 +2837,14 @@
                     <TextAlignment>Centred</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
-                    <PushedImage>0</PushedImage>
-                    <MouseoverImage>0</MouseoverImage>
-                    <Image>0</Image>
-                    <Text xml:space="preserve">Save to USB</Text>
-                    <Height>32</Height>
+                    <PushedImage>159</PushedImage>
+                    <MouseoverImage>161</MouseoverImage>
+                    <Image>162</Image>
+                    <Text />
+                    <Height>23</Height>
                     <Locked>False</Locked>
-                    <Width>128</Width>
-                    <Left>304</Left>
+                    <Width>23</Width>
+                    <Left>481</Left>
                     <Top>5</Top>
                     <ZOrder>7</ZOrder>
                     <ID>7</ID>
@@ -2841,14 +2884,14 @@
                     <TextAlignment>TopMiddle</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
-                    <PushedImage>0</PushedImage>
-                    <MouseoverImage>0</MouseoverImage>
-                    <Image>0</Image>
-                    <Text>x</Text>
-                    <Height>32</Height>
+                    <PushedImage>156</PushedImage>
+                    <MouseoverImage>157</MouseoverImage>
+                    <Image>158</Image>
+                    <Text />
+                    <Height>23</Height>
                     <Locked>False</Locked>
-                    <Width>32</Width>
-                    <Left>208</Left>
+                    <Width>23</Width>
+                    <Left>217</Left>
                     <Top>6</Top>
                     <ZOrder>0</ZOrder>
                     <ID>0</ID>
@@ -2883,14 +2926,14 @@
                     <TextAlignment>TopMiddle</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
-                    <PushedImage>0</PushedImage>
-                    <MouseoverImage>0</MouseoverImage>
-                    <Image>0</Image>
-                    <Text>x</Text>
-                    <Height>32</Height>
+                    <PushedImage>156</PushedImage>
+                    <MouseoverImage>157</MouseoverImage>
+                    <Image>158</Image>
+                    <Text />
+                    <Height>23</Height>
                     <Locked>False</Locked>
-                    <Width>32</Width>
-                    <Left>208</Left>
+                    <Width>23</Width>
+                    <Left>217</Left>
                     <Top>6</Top>
                     <ZOrder>0</ZOrder>
                     <ID>0</ID>
@@ -2912,7 +2955,7 @@
                   <BorderColor>65535</BorderColor>
                   <Transparency>0</Transparency>
                   <BackgroundColor>8</BackgroundColor>
-                  <BackgroundImage>133</BackgroundImage>
+                  <BackgroundImage>167</BackgroundImage>
                   <ID>19</ID>
                   <Name>Chat3</Name>
                 </NormalGUI>
@@ -2925,14 +2968,14 @@
                     <TextAlignment>TopMiddle</TextAlignment>
                     <TextColor>65535</TextColor>
                     <Font>0</Font>
-                    <PushedImage>0</PushedImage>
-                    <MouseoverImage>0</MouseoverImage>
-                    <Image>0</Image>
-                    <Text>x</Text>
-                    <Height>32</Height>
+                    <PushedImage>156</PushedImage>
+                    <MouseoverImage>157</MouseoverImage>
+                    <Image>158</Image>
+                    <Text />
+                    <Height>23</Height>
                     <Locked>False</Locked>
-                    <Width>32</Width>
-                    <Left>208</Left>
+                    <Width>23</Width>
+                    <Left>217</Left>
                     <Top>6</Top>
                     <ZOrder>0</ZOrder>
                     <ID>0</ID>
@@ -3026,14 +3069,14 @@
                 <TextAlignment>TopMiddle</TextAlignment>
                 <TextColor>65535</TextColor>
                 <Font>0</Font>
-                <PushedImage>0</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>0</Image>
-                <Text>x</Text>
-                <Height>32</Height>
+                <PushedImage>156</PushedImage>
+                <MouseoverImage>157</MouseoverImage>
+                <Image>158</Image>
+                <Text />
+                <Height>23</Height>
                 <Locked>False</Locked>
-                <Width>32</Width>
-                <Left>486</Left>
+                <Width>23</Width>
+                <Left>496</Left>
                 <Top>7</Top>
                 <ZOrder>3</ZOrder>
                 <ID>3</ID>
@@ -3139,15 +3182,15 @@
                 <TextAlignment>Centred</TextAlignment>
                 <TextColor>65535</TextColor>
                 <Font>0</Font>
-                <PushedImage>0</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>0</Image>
-                <Text>Print</Text>
-                <Height>32</Height>
+                <PushedImage>163</PushedImage>
+                <MouseoverImage>165</MouseoverImage>
+                <Image>166</Image>
+                <Text />
+                <Height>23</Height>
                 <Locked>False</Locked>
-                <Width>64</Width>
-                <Left>246</Left>
-                <Top>17</Top>
+                <Width>23</Width>
+                <Left>472</Left>
+                <Top>6</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
                 <Name>TicketPrintButton</Name>
@@ -3160,14 +3203,14 @@
                 <TextAlignment>TopMiddle</TextAlignment>
                 <TextColor>65535</TextColor>
                 <Font>0</Font>
-                <PushedImage>0</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>0</Image>
-                <Text>x</Text>
-                <Height>32</Height>
+                <PushedImage>156</PushedImage>
+                <MouseoverImage>157</MouseoverImage>
+                <Image>158</Image>
+                <Text />
+                <Height>23</Height>
                 <Locked>False</Locked>
-                <Width>32</Width>
-                <Left>521</Left>
+                <Width>23</Width>
+                <Left>530</Left>
                 <Top>6</Top>
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
@@ -3181,14 +3224,14 @@
                 <TextAlignment>Centred</TextAlignment>
                 <TextColor>65535</TextColor>
                 <Font>0</Font>
-                <PushedImage>0</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>0</Image>
-                <Text xml:space="preserve">Save to USB</Text>
-                <Height>32</Height>
+                <PushedImage>159</PushedImage>
+                <MouseoverImage>161</MouseoverImage>
+                <Image>162</Image>
+                <Text />
+                <Height>23</Height>
                 <Locked>False</Locked>
-                <Width>128</Width>
-                <Left>385</Left>
+                <Width>23</Width>
+                <Left>501</Left>
                 <Top>6</Top>
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
@@ -3252,15 +3295,15 @@
                 <TextAlignment>TopMiddle</TextAlignment>
                 <TextColor>65535</TextColor>
                 <Font>0</Font>
-                <PushedImage>0</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>0</Image>
-                <Text>x</Text>
-                <Height>32</Height>
+                <PushedImage>156</PushedImage>
+                <MouseoverImage>157</MouseoverImage>
+                <Image>158</Image>
+                <Text />
+                <Height>23</Height>
                 <Locked>False</Locked>
-                <Width>32</Width>
-                <Left>263</Left>
-                <Top>1</Top>
+                <Width>23</Width>
+                <Left>273</Left>
+                <Top>6</Top>
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
                 <Name>Button2</Name>
@@ -3390,8 +3433,8 @@
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
-            <CursorImage>17</CursorImage>
-            <Image>17</Image>
+            <CursorImage>132</CursorImage>
+            <Image>132</Image>
             <Description />
             <Name>TicketItem</Name>
             <Properties>
@@ -3436,8 +3479,8 @@
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
-            <CursorImage>17</CursorImage>
-            <Image>17</Image>
+            <CursorImage>130</CursorImage>
+            <Image>130</Image>
             <Description />
             <Name>ProfileItem1</Name>
             <Properties>
@@ -5089,7 +5132,7 @@ stop
             <Sprites>
               <Sprite Slot="108" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
                 <Source>
-                  <FileName>C:\Users\robert\Dropbox\Whistleblower\Justin Login\Justin.png</FileName>
+                  <FileName>C:\Users\Anand\Dropbox\Whistleblower\chat\Justin.png</FileName>
                 </Source>
               </Sprite>
               <Sprite Slot="84" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
@@ -5587,6 +5630,106 @@ stop
                   <FileName>C:\Users\sinat_000\Downloads\HiCeline\HiCeline\CelineTalk_0000_Frame-14.png</FileName>
                 </Source>
               </Sprite>
+              <Sprite Slot="167" Width="246" Height="410" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\Anand\Dropbox\Whistleblower\chat\Celine.png</FileName>
+                </Source>
+              </Sprite>
+            </Sprites>
+          </SpriteFolder>
+          <SpriteFolder Name="Documents">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="121" Width="546" Height="325" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\sinat_000\Downloads\Whistleblower\boulder2.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="122" Width="232" Height="227" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\sinat_000\Downloads\Whistleblower\Bugs.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="124" Width="271" Height="275" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Anand\Dropbox\Whistleblower\documents\earth2 copy.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="126" Width="530" Height="359" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\sinat_000\Downloads\Whistleblower\news2.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="131" Width="658" Height="465" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\sinat_000\Downloads\Whistleblower\ship.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="155" Width="661" Height="369" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\sinat_000\Downloads\earths.png</FileName>
+                </Source>
+              </Sprite>
+            </Sprites>
+          </SpriteFolder>
+          <SpriteFolder Name="Buttons">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="156" Width="23" Height="23" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Anand\Dropbox\Whistleblower\Buttons\CloseClicked.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="157" Width="23" Height="23" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\Anand\Dropbox\Whistleblower\Buttons\CloseHover.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="158" Width="23" Height="23" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\Anand\Dropbox\Whistleblower\Buttons\CloseNormal.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="159" Width="23" Height="23" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Anand\Dropbox\Whistleblower\Buttons\DLClicked.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="160" Width="23" Height="23" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Anand\Dropbox\Whistleblower\Buttons\DLDisabled.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="161" Width="23" Height="23" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\Anand\Dropbox\Whistleblower\Buttons\DLHover.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="162" Width="23" Height="23" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\Anand\Dropbox\Whistleblower\Buttons\DLNormal.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="163" Width="23" Height="23" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Anand\Dropbox\Whistleblower\Buttons\PrintClicked.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="164" Width="23" Height="23" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Anand\Dropbox\Whistleblower\Buttons\PrintDisabled.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="165" Width="23" Height="23" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\Anand\Dropbox\Whistleblower\Buttons\PrintHover.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="166" Width="23" Height="23" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>C:\Users\Anand\Dropbox\Whistleblower\Buttons\PrintNormal.png</FileName>
+                </Source>
+              </Sprite>
             </Sprites>
           </SpriteFolder>
         </SubFolders>
@@ -5695,34 +5838,14 @@ stop
               <FileName>C:\Users\sinat_000\Downloads\Whistleblower\news1.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="121" Width="546" Height="325" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-            <Source>
-              <FileName>C:\Users\sinat_000\Downloads\Whistleblower\boulder2.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="122" Width="232" Height="227" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-            <Source>
-              <FileName>C:\Users\sinat_000\Downloads\Whistleblower\Bugs.png</FileName>
-            </Source>
-          </Sprite>
           <Sprite Slot="123" Width="124" Height="123" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
             <Source>
               <FileName>C:\Users\sinat_000\Downloads\Whistleblower\Cal.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="124" Width="271" Height="275" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-            <Source>
-              <FileName>C:\Users\sinat_000\Downloads\Whistleblower\earth2.png</FileName>
-            </Source>
-          </Sprite>
           <Sprite Slot="125" Width="62" Height="66" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
             <Source>
               <FileName>C:\Users\sinat_000\Downloads\Whistleblower\lettericon.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="126" Width="530" Height="359" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-            <Source>
-              <FileName>C:\Users\sinat_000\Downloads\Whistleblower\news2.png</FileName>
             </Source>
           </Sprite>
           <Sprite Slot="127" Width="539" Height="662" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
@@ -5738,16 +5861,6 @@ stop
           <Sprite Slot="129" Width="539" Height="662" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
             <Source>
               <FileName>C:\Users\sinat_000\Downloads\Whistleblower\P3.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="131" Width="658" Height="465" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\sinat_000\Downloads\Whistleblower\ship.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="155" Width="661" Height="369" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
-            <Source>
-              <FileName>C:\Users\sinat_000\Downloads\earths.png</FileName>
             </Source>
           </Sprite>
         </Sprites>
@@ -6949,8 +7062,8 @@ stop
         </SubFolders>
         <AudioClips>
           <AudioClip>
-            <ScriptName>Ps4startup</ScriptName>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\ps4startup.mp3</SourceFileName>
+            <ScriptName>Ps4startup</ScriptName>
             <Index>1</Index>
             <Type>1</Type>
             <BundlingType>InGameEXE</BundlingType>
@@ -6958,11 +7071,11 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-25 19:45:50Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-24 23:45:50Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
-            <ScriptName>Print</ScriptName>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\print.wav</SourceFileName>
+            <ScriptName>Print</ScriptName>
             <Index>2</Index>
             <Type>1</Type>
             <BundlingType>InGameEXE</BundlingType>
@@ -6970,23 +7083,23 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-26 00:55:11Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-25 04:55:11Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
-            <ScriptName>Aldebaran</ScriptName>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\Aldebaran.wav</SourceFileName>
+            <ScriptName>Aldebaran</ScriptName>
             <Index>3</Index>
             <Type>1</Type>
             <BundlingType>InGameEXE</BundlingType>
             <FileType>WAV</FileType>
-            <DefaultVolume>-1</DefaultVolume>
+            <DefaultVolume>25</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-26 17:47:09Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-25 21:47:09Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
-            <ScriptName>Type</ScriptName>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\type2.wav</SourceFileName>
+            <ScriptName>Type</ScriptName>
             <Index>4</Index>
             <Type>1</Type>
             <BundlingType>InGameEXE</BundlingType>
@@ -6994,7 +7107,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-28 03:55:59Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-27 07:55:59Z</FileLastModifiedDate>
           </AudioClip>
         </AudioClips>
         <AudioClipFolder>
@@ -7008,24 +7121,24 @@ stop
     </AudioClips>
     <AudioClipTypes>
       <AudioClipType>
-        <Name xml:space="preserve">Ambient Sound</Name>
         <TypeID>1</TypeID>
+        <Name xml:space="preserve">Ambient Sound</Name>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
         <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
       </AudioClipType>
       <AudioClipType>
-        <Name>Music</Name>
         <TypeID>2</TypeID>
+        <Name>Music</Name>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>30</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
         <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
       </AudioClipType>
       <AudioClipType>
-        <Name>Sound</Name>
         <TypeID>3</TypeID>
+        <Name>Sound</Name>
         <MaxChannels>0</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
