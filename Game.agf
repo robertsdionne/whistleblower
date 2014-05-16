@@ -890,8 +890,8 @@
               <GUIMain>
                 <NormalGUI>
                   <OnClick>Raise_OnClick</OnClick>
-                  <Height>480</Height>
-                  <Width>480</Width>
+                  <Height>369</Height>
+                  <Width>661</Width>
                   <Left>478</Left>
                   <Top>157</Top>
                   <Clickable>True</Clickable>
@@ -953,8 +953,8 @@
               <GUIMain>
                 <NormalGUI>
                   <OnClick>Raise_OnClick</OnClick>
-                  <Height>480</Height>
-                  <Width>480</Width>
+                  <Height>227</Height>
+                  <Width>232</Width>
                   <Left>341</Left>
                   <Top>84</Top>
                   <Clickable>True</Clickable>
@@ -963,7 +963,7 @@
                   <ZOrder>0</ZOrder>
                   <BorderColor>52825</BorderColor>
                   <Transparency>0</Transparency>
-                  <BackgroundColor>8</BackgroundColor>
+                  <BackgroundColor>52825</BackgroundColor>
                   <BackgroundImage>122</BackgroundImage>
                   <ID>6</ID>
                   <Name>Document3</Name>
@@ -2948,7 +2948,7 @@
             <NormalGUI>
               <OnClick>Raise_OnClick</OnClick>
               <Height>336</Height>
-              <Width>704</Width>
+              <Width>525</Width>
               <Left>160</Left>
               <Top>112</Top>
               <Clickable>True</Clickable>
@@ -2969,7 +2969,7 @@
                 <CharacterID>-1</CharacterID>
                 <Height>256</Height>
                 <Locked>False</Locked>
-                <Width>608</Width>
+                <Width>450</Width>
                 <Left>16</Left>
                 <Top>16</Top>
                 <ZOrder>0</ZOrder>
@@ -3033,8 +3033,8 @@
                 <Height>32</Height>
                 <Locked>False</Locked>
                 <Width>32</Width>
-                <Left>669</Left>
-                <Top>3</Top>
+                <Left>486</Left>
+                <Top>7</Top>
                 <ZOrder>3</ZOrder>
                 <ID>3</ID>
                 <Name>Button4</Name>
