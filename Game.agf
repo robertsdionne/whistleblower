@@ -2912,7 +2912,7 @@
                   <BorderColor>65535</BorderColor>
                   <Transparency>0</Transparency>
                   <BackgroundColor>8</BackgroundColor>
-                  <BackgroundImage>108</BackgroundImage>
+                  <BackgroundImage>133</BackgroundImage>
                   <ID>19</ID>
                   <Name>Chat3</Name>
                 </NormalGUI>
@@ -6958,7 +6958,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-25 23:45:50Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-25 19:45:50Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>Print</ScriptName>
@@ -6970,7 +6970,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-26 04:55:11Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-26 00:55:11Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>Aldebaran</ScriptName>
@@ -6982,7 +6982,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-26 21:47:09Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-26 17:47:09Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>Type</ScriptName>
@@ -6994,7 +6994,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-28 07:55:59Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-28 03:55:59Z</FileLastModifiedDate>
           </AudioClip>
         </AudioClips>
         <AudioClipFolder>
