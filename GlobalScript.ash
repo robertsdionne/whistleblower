@@ -9,6 +9,8 @@ import function MaybeClose(Object *o);
 
 import function Raise(GUI *g);
 
+import function HideAll();
+
 import function OpenMail();
 
 import function OpenDocuments();
@@ -36,3 +38,7 @@ import function SaveCelineChatState(Dialog *theDialog);
 import function ResumeCelineChatState();
 
 import function StartPoliceTimer();
+
+import function TerribleEnding();
+
+import function OkEnding();
