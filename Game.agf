@@ -71,7 +71,7 @@
       <SaveGameFileExtension />
       <SaveGameFolderName>Whistleblower</SaveGameFolderName>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
-      <AudioIndexer>4</AudioIndexer>
+      <AudioIndexer>8</AudioIndexer>
     </Settings>
     <LipSync>
       <Type>None</Type>
@@ -4434,10 +4434,12 @@ stop
 return
 @1
 Celine: Oh, don't send it yet. Make sure you encrypt it first.
+  SignOut(Chat3);
   OkEnding();
 stop
 @2
 Celine: Great.
+  SignOut(Chat3);
 stop
 @3
 Celine: See you later.
@@ -7560,7 +7562,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-24 07:45:50Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-24 03:45:50Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\print.wav</SourceFileName>
@@ -7572,7 +7574,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-24 12:55:11Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-24 08:55:11Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\Aldebaran.wav</SourceFileName>
@@ -7584,7 +7586,7 @@ stop
             <DefaultVolume>25</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-25 05:47:09Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-25 01:47:09Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\type2.wav</SourceFileName>
@@ -7596,7 +7598,31 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-26 15:55:59Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-26 11:55:59Z</FileLastModifiedDate>
+          </AudioClip>
+          <AudioClip>
+            <SourceFileName>C:\Users\Anand\Dropbox\Whistleblower\sounds\Train.mp3</SourceFileName>
+            <ScriptName>Train</ScriptName>
+            <Index>6</Index>
+            <Type>1</Type>
+            <BundlingType>InGameEXE</BundlingType>
+            <FileType>MP3</FileType>
+            <DefaultVolume>-1</DefaultVolume>
+            <DefaultPriority>Inherit</DefaultPriority>
+            <DefaultRepeat>Inherit</DefaultRepeat>
+            <FileLastModifiedDate>2014-05-17 17:07:06Z</FileLastModifiedDate>
+          </AudioClip>
+          <AudioClip>
+            <SourceFileName>C:\Users\Anand\Dropbox\Whistleblower\sounds\breathe_run.wav</SourceFileName>
+            <ScriptName>BreatheRun</ScriptName>
+            <Index>8</Index>
+            <Type>1</Type>
+            <BundlingType>InGameEXE</BundlingType>
+            <FileType>WAV</FileType>
+            <DefaultVolume>-1</DefaultVolume>
+            <DefaultPriority>Inherit</DefaultPriority>
+            <DefaultRepeat>Inherit</DefaultRepeat>
+            <FileLastModifiedDate>2014-05-17 19:43:23Z</FileLastModifiedDate>
           </AudioClip>
         </AudioClips>
         <AudioClipFolder>
