@@ -4354,8 +4354,10 @@ stop
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
-Player: Ms. Ellephanta.
-Celine: Yes?
+Player: Ms. Ellephant.
+Celine: Hello.
+Celine: You are from the ARK Program?
+Celine: Emigration department?
   ResumeCelineChatState();
 stop]]></Script>
                 <DialogOptions />
@@ -4369,25 +4371,41 @@ stop]]></Script>
   SaveCelineChatState(this);
 return
 @1
-Celine: Certainly. You work for the ARK Group?
-Player: How did you know?
-Celine: We're deeply covering the evacuation plans.
+Celine: Yes, but only if I get to ask a plentitude of questions afterwards.
+Player: I'm afraid there will be no more ARK ships built from this point on.
+Celine: What do you mean. I'm not sure-
+Celine: Then when can we leave the planet?
 goto-dialog Celine3
 @2
-Celine: See you later.
+Celine: I cannot awsure that, unfortunately.
+Celine: Is this about there being more cargo ships than passenger ships in Wave 52?
+Player: How... did you know that?
+Celine: We are covering the evacuation, extensively, I assure you.
+Celine: Why ARE we transporting more equipment than lives?
+Celine: How is your prioritization faring in this weather?
+goto-dialog Celine4
+@3
+Celine: What? You've just called in.
+Celine: I have been requesting conference with ARK for months to no reply.
+Player: I'm sorry, I should- I will speak to you again soon.
   SignOut(Chat3);
-stop
-]]></Script>
+stop]]></Script>
                 <DialogOptions>
                   <DialogOption>
                     <ID>1</ID>
-                    <Text xml:space="preserve">Could you spare a moment of your time?</Text>
+                    <Text xml:space="preserve">I am. I have some... grave information about the program for the Globe. Do you- have a moment?</Text>
                     <Show>True</Show>
                     <Say>True</Say>
                   </DialogOption>
                   <DialogOption>
                     <ID>2</ID>
-                    <Text>Nevermind.</Text>
+                    <Text xml:space="preserve">Yes, but please, let that be off-record here.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>3</ID>
+                    <Text xml:space="preserve">I must go.</Text>
                     <Show>True</Show>
                     <Say>True</Say>
                   </DialogOption>
@@ -4402,23 +4420,41 @@ stop
   SaveCelineChatState(this);
 return
 @1
-Celine: That could be. The implications are shocking. Do you have evidence?
-goto-dialog Celine4
+Celine: ...
+Celine: I see.
+Celine: Is there nothing to be done?
+Player: No, nothing. ARK will fake a few accidents, say they're suspending production for a few years, and then we- they are never going to return.
+goto-dialog Celine6
 @2
-Celine: See you later.
+Celine: What are these plans exactly?
+Celine: ARK has become increasingly unreliable in its promises-
+Celine: production has become panicked and haphazard-
+Celine: the bureau has been unresponsive to any kind of discourse.
+Celine: Is there something the public should know?
+goto-dialog Celine5
+@3
+Celine: What? You've just called in.
+Celine: I have been requesting conference with ARK for months to no reply.
+Player: I'm sorry, I should- I will speak to you again soon.
   SignOut(Chat3);
 stop
 ]]></Script>
                 <DialogOptions>
                   <DialogOption>
                     <ID>1</ID>
-                    <Text xml:space="preserve">The ARK program is cancelling all future evacuation waves.</Text>
+                    <Text xml:space="preserve">Never. Or at least not for a long while. The production is terminating after Wave 52.</Text>
                     <Show>True</Show>
                     <Say>True</Say>
                   </DialogOption>
                   <DialogOption>
                     <ID>2</ID>
-                    <Text>Nevermind.</Text>
+                    <Text xml:space="preserve">Soon. Very soon. Big plans- big plans ahead.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>3</ID>
+                    <Text xml:space="preserve">I- never mind. I should get back to work.</Text>
                     <Show>True</Show>
                     <Say>True</Say>
                   </DialogOption>
@@ -4433,35 +4469,158 @@ stop
   SaveCelineChatState(this);
 return
 @1
-Celine: Oh, don't send it yet. Make sure you encrypt it first.
-  SignOut(Chat3);
-  OkEnding();
-stop
+Celine: Is it not? What are the people of this planet paying you for?
+Celine: The Globe would like to know when we, the regular, will be able to leave.
+goto-dialog Celine3
 @2
-Celine: Great.
-  SignOut(Chat3);
-stop
+Celine: I'm afraid I fail to see that from down here.
+Celine: You're sure there is nothing the public should know?
+goto-dialog Celine5
 @3
-Celine: See you later.
+Celine: What? You've just called in.
+Celine: I have been requesting conference with ARK for months to no reply.
+Player: I'm sorry, I should- I will speak to you again soon.
   SignOut(Chat3);
 stop
 ]]></Script>
                 <DialogOptions>
                   <DialogOption>
                     <ID>1</ID>
-                    <Text xml:space="preserve">I have a document archive I can transmit to you.</Text>
+                    <Text xml:space="preserve">That's, I'm not- that is not up to me.</Text>
                     <Show>True</Show>
                     <Say>True</Say>
                   </DialogOption>
                   <DialogOption>
                     <ID>2</ID>
-                    <Text xml:space="preserve">I need to prepare the evidence.</Text>
+                    <Text xml:space="preserve">Very well. I assure you, Ms. Ellephant, we have our priorities in order.</Text>
                     <Show>True</Show>
                     <Say>True</Say>
                   </DialogOption>
                   <DialogOption>
                     <ID>3</ID>
-                    <Text>Nevermind.</Text>
+                    <Text xml:space="preserve">...Fuck. I have to go.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+              <Dialog>
+                <ID>16</ID>
+                <Name>Celine5</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+  SaveCelineChatState(this);
+return
+@1
+Celine: NO. This is unacceptable, the public has a right to know-
+Player: I’m sorry.
+  SignOut(Chat3);
+stop
+@2
+Player: Yes. I'm afraid the production of ships will be terminating after Wave 52.
+Celine: ... I see.
+Celine: There is nothing to stop this I presume.
+Player: No there isn't. ARK will send its final cargo with its employees and the remains on our highest priority list of citizens and. And then nothing.
+goto-dialog Celine6
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Text xml:space="preserve">No. No nothing. I- fuck, this was a mistake. I should get back to work.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Text xml:space="preserve">… Yes.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+              <Dialog>
+                <ID>17</ID>
+                <Name>Celine6</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+  SaveCelineChatState(this);
+Celine: Do you have - hh - mmh.
+Celine: Excuse me. 
+Celine: I require evidence to publish this. Anything tangible to help the case and reveal the truth in its entirety to the world. Please send them to me.
+return
+@1
+Celine: Then this story is as credible as a bull's shit. You must give us something. Documents, letters, anything that will help sell the case. Compile them into an Archive and send them to me. We have to let the people know.
+goto-dialog Celine7
+@2
+goto-dialog Celine7
+@3
+Celine: NO. This is unacceptable, the public has a right to know-
+Player: I’m sorry.
+  SignOut(Chat3);
+stop
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Text xml:space="preserve">No I can't. I can't give evidence or a testimony, they will know who is responsible. This must be off-record.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Text>Alright.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>3</ID>
+                    <Text xml:space="preserve">I, I don't think I can do this. Good bye.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+              <Dialog>
+                <ID>18</ID>
+                <Name>Celine7</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+  SaveCelineChatState(this);
+return
+@1
+Celine: Please call back soon, as soon as possible.
+  SignOut(Chat3);
+stop
+@2
+Celine: Thank you. I will publish this immediately- watch your feed.
+  SignOut(Chat3);
+  OkEnding();
+stop
+@3
+Celine: Thank you. I will publish this immediately- watch your feed.
+  SignOut(Chat3);
+  OkEnding();
+stop
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Text xml:space="preserve">Hold on, I will prepare them.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Text xml:space="preserve">Here they are.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>3</ID>
+                    <Text xml:space="preserve">Here they are.</Text>
                     <Show>True</Show>
                     <Say>True</Say>
                   </DialogOption>
@@ -7562,7 +7721,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-24 03:45:50Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-23 23:45:50Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\print.wav</SourceFileName>
@@ -7574,7 +7733,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-24 08:55:11Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-24 04:55:11Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\Aldebaran.wav</SourceFileName>
@@ -7586,7 +7745,7 @@ stop
             <DefaultVolume>25</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-25 01:47:09Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-24 21:47:09Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\type2.wav</SourceFileName>
@@ -7598,7 +7757,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-26 11:55:59Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-26 07:55:59Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\Anand\Dropbox\Whistleblower\sounds\Train.mp3</SourceFileName>
@@ -7610,7 +7769,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-17 17:07:06Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-17 13:07:06Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\Anand\Dropbox\Whistleblower\sounds\breathe_run.wav</SourceFileName>
@@ -7622,7 +7781,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-17 19:43:23Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-17 15:43:23Z</FileLastModifiedDate>
           </AudioClip>
         </AudioClips>
         <AudioClipFolder>
