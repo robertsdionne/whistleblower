@@ -71,7 +71,7 @@
       <SaveGameFileExtension />
       <SaveGameFolderName>Whistleblower</SaveGameFolderName>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
-      <AudioIndexer>8</AudioIndexer>
+      <AudioIndexer>10</AudioIndexer>
     </Settings>
     <LipSync>
       <Type>None</Type>
@@ -634,6 +634,10 @@
           </UnloadedRoom>
           <UnloadedRoom>
             <Number>4</Number>
+            <Description IsNull="True" />
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>5</Number>
             <Description IsNull="True" />
           </UnloadedRoom>
         </UnloadedRooms>
@@ -3360,6 +3364,69 @@
               </GUIButton>
             </Controls>
           </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <OnClick />
+              <Height>128</Height>
+              <Width>192</Width>
+              <Left>0</Left>
+              <Top>0</Top>
+              <Clickable>True</Clickable>
+              <Visibility>PopupModal</Visibility>
+              <PopupYPos>0</PopupYPos>
+              <ZOrder>0</ZOrder>
+              <BorderColor>21162</BorderColor>
+              <Transparency>0</Transparency>
+              <BackgroundColor>8</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <ID>25</ID>
+              <Name>Quit</Name>
+            </NormalGUI>
+            <Controls>
+              <GUIButton>
+                <OnClick>QuitButton_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>Quit</Text>
+                <Height>30</Height>
+                <Locked>False</Locked>
+                <Width>128</Width>
+                <Left>32</Left>
+                <Top>24</Top>
+                <ZOrder>0</ZOrder>
+                <ID>0</ID>
+                <Name>QuitButton</Name>
+              </GUIButton>
+              <GUIButton>
+                <OnClick>PlayButton_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>TopMiddle</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>0</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text>Play</Text>
+                <Height>30</Height>
+                <Locked>False</Locked>
+                <Width>128</Width>
+                <Left>32</Left>
+                <Top>72</Top>
+                <ZOrder>1</ZOrder>
+                <ID>1</ID>
+                <Name>PlayButton</Name>
+              </GUIButton>
+            </Controls>
+          </GUIMain>
         </GUIs>
       </GUIFolder>
     </GUIs>
@@ -4183,7 +4250,7 @@ stop
                 <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 Player: Mr. Kuritzkes.
-Justin: Please, call me Justin.
+Justin: Hello. Please call me Justin.
   ResumeJustinChatState();
 stop]]></Script>
                 <DialogOptions />
@@ -4195,34 +4262,38 @@ stop]]></Script>
                 <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
   SaveJustinChatState(this);
+Justin: We’ve been waiting to hear from you about the state of emigration. 
+Justin: I hear the process is moving effectively, that there are big plans to come!
+Justin: And that we will have Earth evacuated within a few years.
+Justin: Would you care to elaborate on record?
 return
 @1
-Justin: I'm busy with these latest dispatches, unless you have a scoop.
+Justin: What is that?
 goto-dialog Justin3
 @2
-Justin: Tell me more...
+Justin: What do you mean?
 goto-dialog Justin3
 @3
-Justin: Until later.
+Justin: I- Alright?? Until next time.
   SignOut(Chat2);
 stop
 ]]></Script>
                 <DialogOptions>
                   <DialogOption>
                     <ID>1</ID>
-                    <Text xml:space="preserve">Do you have a moment?</Text>
+                    <Text xml:space="preserve">I’m afraid there’s a more important matter I’ve called in to you about. Off-record.</Text>
                     <Show>True</Show>
                     <Say>True</Say>
                   </DialogOption>
                   <DialogOption>
                     <ID>2</ID>
-                    <Text xml:space="preserve">I have some information you might want.</Text>
+                    <Text xml:space="preserve">That is. Patently untrue, unfortunately.</Text>
                     <Show>True</Show>
                     <Say>True</Say>
                   </DialogOption>
                   <DialogOption>
                     <ID>3</ID>
-                    <Text>Nevermind.</Text>
+                    <Text xml:space="preserve">Yes. Yes. It’s, everything’s fantastic. Excuse me I must, attend to something.</Text>
                     <Show>True</Show>
                     <Say>True</Say>
                   </DialogOption>
@@ -4237,33 +4308,45 @@ stop
   SaveJustinChatState(this);
 return
 @1
-Justin: Wow, that's big! But I'm going to need some solid evidence. Can you send me a document archive?
+Justin: Wait, what?
+Justin: No, no, no, no.
+Justin: This is very, very, extremely concerning.
+Justin: I cannot believe this is happening.
+Player: It’s true. The program will not be returning to Earth for a very long time after this final embarkment.
+Justin: This just cannot be. The world was promised a ticket out of here. Who will be on Wave 52?
 goto-dialog Justin4
 @2
-Justin: Okay, let me know when you're ready to transmit.
+Player: No one else will be able to leave Earth for a long time. Wave 52 will be ARK’s last wave for the extended future.
+Justin: WHAT?! No this can’t be.
+Justin: HOw- how is that possible!
+Justin: This is very, very, extremely concerning.
+Justin: Can we stop this from happening?
+Player: No there is nothing to be done. ARK will not be returning to Earth for the rest of the planet’s population for a very long time.
+Justin: Oh no. Who WILL be leaving on Wave 52?
   SignOut(Chat2);
 stop
 @3
-Justin: Until later.
+Justin: Wait. Wait, what is this information?
+Player: I should get back to work.
   SignOut(Chat2);
 stop
 ]]></Script>
                 <DialogOptions>
                   <DialogOption>
                     <ID>1</ID>
-                    <Text xml:space="preserve">The ARK program is cancelling all future evacuation waves.</Text>
+                    <Text xml:space="preserve">The ARK program is terminating all future evacuation waves. Wave 52 will be its last.</Text>
                     <Show>True</Show>
                     <Say>True</Say>
                   </DialogOption>
                   <DialogOption>
                     <ID>2</ID>
-                    <Text xml:space="preserve">Wait, first I need to grab the document archive.</Text>
+                    <Text xml:space="preserve">There will be no more emigration. At all.</Text>
                     <Show>True</Show>
                     <Say>True</Say>
                   </DialogOption>
                   <DialogOption>
                     <ID>3</ID>
-                    <Text>Nevermind.</Text>
+                    <Text xml:space="preserve">I- uh, I must go.</Text>
                     <Show>True</Show>
                     <Say>True</Say>
                   </DialogOption>
@@ -4278,36 +4361,29 @@ stop
   SaveJustinChatState(this);
 return
 @1
-Justin: Great, I've got it. I will notify you in the event its published.
-  justin_chat_state = 10;
-  StartPoliceTimer();
-  SignOut(Chat2);
-stop
+Justin: Oh. Oh I see.
+Justin: I must let the readers know.
+Justin: How would you like to be identified as.
+Justin: What is your name?
+goto-dialog Justin5
 @2
-Justin: Okay.
-  SignOut(Chat2);
-stop
-@3
-Justin: Until later.
-  SignOut(Chat2);
-stop
+Justin: Evidence, evidence, evidence.
+Justin: Do you have any solid evidence of this accusation?
+Justin: Documents, letters, anything you can get your hands on.
+Justin: Save them and compile them in an archive and send them over immediately.
+Justin: Oh, this is terrible.
+goto-dialog Justin6
 ]]></Script>
                 <DialogOptions>
                   <DialogOption>
                     <ID>1</ID>
-                    <Text xml:space="preserve">Alright, I possess the document archive. Transmitting now.</Text>
+                    <Text xml:space="preserve">Just the last of the prioritized applicants, the employees, and at least 30 ships of equipment and resources. No more.</Text>
                     <Show>True</Show>
                     <Say>True</Say>
                   </DialogOption>
                   <DialogOption>
                     <ID>2</ID>
-                    <Text xml:space="preserve">Hold on, I have more preparations to make.</Text>
-                    <Show>True</Show>
-                    <Say>True</Say>
-                  </DialogOption>
-                  <DialogOption>
-                    <ID>3</ID>
-                    <Text>Nevermind.</Text>
+                    <Text xml:space="preserve">That doesn’t matter. What do you need to publish this?</Text>
                     <Show>True</Show>
                     <Say>True</Say>
                   </DialogOption>
@@ -6017,6 +6093,41 @@ stop
                       <FileName>C:\Users\Anand\Dropbox\Whistleblower\ENDINGS\TERRIBLE ending - Send to Justin\VERYBADEND_0000_Frame-18.png</FileName>
                     </Source>
                   </Sprite>
+                  <Sprite Slot="204" Width="1024" Height="768" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\Banjo\Downloads\PRE-TERRIBLE ending - Send to Justin\VERYBADEND2_0006_Frame-1.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="205" Width="1024" Height="768" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\Banjo\Downloads\PRE-TERRIBLE ending - Send to Justin\VERYBADEND2_0000_Frame-7.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="206" Width="1024" Height="768" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\Banjo\Downloads\PRE-TERRIBLE ending - Send to Justin\VERYBADEND2_0001_Frame-6.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="207" Width="1024" Height="768" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\Banjo\Downloads\PRE-TERRIBLE ending - Send to Justin\VERYBADEND2_0002_Frame-5.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="208" Width="1024" Height="768" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\Banjo\Downloads\PRE-TERRIBLE ending - Send to Justin\VERYBADEND2_0003_Frame-4.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="209" Width="1024" Height="768" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\Banjo\Downloads\PRE-TERRIBLE ending - Send to Justin\VERYBADEND2_0004_Frame-3.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="210" Width="1024" Height="768" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\Banjo\Downloads\PRE-TERRIBLE ending - Send to Justin\VERYBADEND2_0005_Frame-2.png</FileName>
+                    </Source>
+                  </Sprite>
                 </Sprites>
               </SpriteFolder>
               <SpriteFolder Name="Ok">
@@ -6110,6 +6221,36 @@ stop
                   <Sprite Slot="203" Width="1024" Height="768" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
                     <Source>
                       <FileName>C:\Users\Anand\Dropbox\Whistleblower\ENDINGS\OK ending - Send to Celine unencrypted\BADEND_0000_Frame-18.png</FileName>
+                    </Source>
+                  </Sprite>
+                </Sprites>
+              </SpriteFolder>
+              <SpriteFolder Name="Neutral">
+                <SubFolders />
+                <Sprites>
+                  <Sprite Slot="211" Width="1024" Height="768" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\Banjo\Downloads\Neutral ending - Log Off\NEUTRALEND_0005_Frame-1.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="212" Width="1024" Height="768" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\Banjo\Downloads\Neutral ending - Log Off\NEUTRALEND_0003_Frame-3.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="213" Width="1024" Height="768" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\Banjo\Downloads\Neutral ending - Log Off\NEUTRALEND_0002_Frame-4.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="214" Width="1024" Height="768" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\Banjo\Downloads\Neutral ending - Log Off\NEUTRALEND_0001_Frame-5.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="215" Width="1024" Height="768" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\Banjo\Downloads\Neutral ending - Log Off\NEUTRALEND_0000_Frame-6.png</FileName>
                     </Source>
                   </Sprite>
                 </Sprites>
@@ -6663,6 +6804,311 @@ stop
                       <ViewFrame>
                         <ID>17</ID>
                         <Image>185</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>1</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>204</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>1</ID>
+                        <Image>204</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>2</ID>
+                        <Image>204</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>3</ID>
+                        <Image>204</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>4</ID>
+                        <Image>204</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>5</ID>
+                        <Image>204</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>6</ID>
+                        <Image>210</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>7</ID>
+                        <Image>204</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>8</ID>
+                        <Image>210</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>9</ID>
+                        <Image>204</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>10</ID>
+                        <Image>210</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>11</ID>
+                        <Image>210</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>12</ID>
+                        <Image>210</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>13</ID>
+                        <Image>210</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>14</ID>
+                        <Image>210</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>15</ID>
+                        <Image>209</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>16</ID>
+                        <Image>208</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>17</ID>
+                        <Image>207</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>18</ID>
+                        <Image>206</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>19</ID>
+                        <Image>205</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>20</ID>
+                        <Image>210</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>21</ID>
+                        <Image>209</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>22</ID>
+                        <Image>208</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>23</ID>
+                        <Image>207</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>24</ID>
+                        <Image>206</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>25</ID>
+                        <Image>205</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>26</ID>
+                        <Image>210</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>27</ID>
+                        <Image>209</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>28</ID>
+                        <Image>208</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>29</ID>
+                        <Image>207</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>30</ID>
+                        <Image>206</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>31</ID>
+                        <Image>205</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                </Loops>
+              </View>
+              <View>
+                <ID>16</ID>
+                <Name>NeutralView</Name>
+                <Loops>
+                  <Loop>
+                    <ID>0</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>211</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>1</ID>
+                        <Image>211</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>2</ID>
+                        <Image>211</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>3</ID>
+                        <Image>211</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>4</ID>
+                        <Image>211</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>5</ID>
+                        <Image>212</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>6</ID>
+                        <Image>213</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>7</ID>
+                        <Image>214</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>8</ID>
+                        <Image>215</Image>
                         <Flipped>False</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
@@ -7740,7 +8186,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-23 19:45:50Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-23 15:45:50Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\print.wav</SourceFileName>
@@ -7752,7 +8198,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-24 00:55:11Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-23 20:55:11Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\Aldebaran.wav</SourceFileName>
@@ -7764,7 +8210,7 @@ stop
             <DefaultVolume>25</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-24 17:47:09Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-24 13:47:09Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\type2.wav</SourceFileName>
@@ -7776,7 +8222,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-26 03:55:59Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-25 23:55:59Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\Anand\Dropbox\Whistleblower\sounds\Train.mp3</SourceFileName>
@@ -7788,7 +8234,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-17 09:07:06Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-17 05:07:06Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\Anand\Dropbox\Whistleblower\sounds\breathe_run.wav</SourceFileName>
@@ -7800,7 +8246,19 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-17 11:43:23Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-17 07:43:23Z</FileLastModifiedDate>
+          </AudioClip>
+          <AudioClip>
+            <SourceFileName>C:\Users\Banjo\Desktop\Tinnitus.wav</SourceFileName>
+            <ScriptName>Tinnitus</ScriptName>
+            <Index>10</Index>
+            <Type>1</Type>
+            <BundlingType>InGameEXE</BundlingType>
+            <FileType>WAV</FileType>
+            <DefaultVolume>-1</DefaultVolume>
+            <DefaultPriority>Inherit</DefaultPriority>
+            <DefaultRepeat>Inherit</DefaultRepeat>
+            <FileLastModifiedDate>2014-05-17 23:07:34Z</FileLastModifiedDate>
           </AudioClip>
         </AudioClips>
         <AudioClipFolder>
