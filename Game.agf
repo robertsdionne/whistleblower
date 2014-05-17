@@ -4377,7 +4377,7 @@ Celine: What do you mean. I'm not sure-
 Celine: Then when can we leave the planet?
 goto-dialog Celine3
 @2
-Celine: I cannot awsure that, unfortunately.
+Celine: I cannot assure that, unfortunately.
 Celine: Is this about there being more cargo ships than passenger ships in Wave 52?
 Player: How... did you know that?
 Celine: We are covering the evacuation, extensively, I assure you.
@@ -4423,7 +4423,8 @@ return
 Celine: ...
 Celine: I see.
 Celine: Is there nothing to be done?
-Player: No, nothing. ARK will fake a few accidents, say they're suspending production for a few years, and then we- they are never going to return.
+Player: No, nothing. ARK will fake a few accidents, say they're suspending production for a few years,
+Player: and then we- they are never going to return.
 goto-dialog Celine6
 @2
 Celine: What are these plans exactly?
@@ -4521,7 +4522,8 @@ stop
 Player: Yes. I'm afraid the production of ships will be terminating after Wave 52.
 Celine: ... I see.
 Celine: There is nothing to stop this I presume.
-Player: No there isn't. ARK will send its final cargo with its employees and the remains on our highest priority list of citizens and. And then nothing.
+Player: No there isn't. ARK will send its final cargo with its employee
+Player: and the remains on our highest priority list of citizens and. And then nothing.
 goto-dialog Celine6
 ]]></Script>
                 <DialogOptions>
@@ -4548,10 +4550,16 @@ goto-dialog Celine6
   SaveCelineChatState(this);
 Celine: Do you have - hh - mmh.
 Celine: Excuse me. 
-Celine: I require evidence to publish this. Anything tangible to help the case and reveal the truth in its entirety to the world. Please send them to me.
+Celine: I require evidence to publish this.
+Celine: Anything tangible to help the case and reveal the truth in its entirety to the world.
+Celine: Please send them to me.
 return
 @1
-Celine: Then this story is as credible as a bull's shit. You must give us something. Documents, letters, anything that will help sell the case. Compile them into an Archive and send them to me. We have to let the people know.
+Celine: Then this story is as credible as a bull's shit.
+Celine: You must give us something.
+Celine: Documents, letters, anything that will help sell the case.
+Celine: Compile them into an Archive and send them to me.
+Celine: We have to let the people know.
 goto-dialog Celine7
 @2
 goto-dialog Celine7
@@ -4604,6 +4612,11 @@ Celine: Thank you. I will publish this immediately- watch your feed.
   SignOut(Chat3);
   OkEnding();
 stop
+@4
+Celine: NO. This is unacceptable, the public has a right to know-
+Player: I’m sorry.
+  SignOut(Chat3);
+stop
 ]]></Script>
                 <DialogOptions>
                   <DialogOption>
@@ -4621,6 +4634,12 @@ stop
                   <DialogOption>
                     <ID>3</ID>
                     <Text xml:space="preserve">Here they are.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>4</ID>
+                    <Text xml:space="preserve">I, I don't think I can do this. Good bye.</Text>
                     <Show>True</Show>
                     <Say>True</Say>
                   </DialogOption>
@@ -7721,7 +7740,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-23 23:45:50Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-23 19:45:50Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\print.wav</SourceFileName>
@@ -7733,7 +7752,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-24 04:55:11Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-24 00:55:11Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\Aldebaran.wav</SourceFileName>
@@ -7745,7 +7764,7 @@ stop
             <DefaultVolume>25</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-24 21:47:09Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-24 17:47:09Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\type2.wav</SourceFileName>
@@ -7757,7 +7776,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-26 07:55:59Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-26 03:55:59Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\Anand\Dropbox\Whistleblower\sounds\Train.mp3</SourceFileName>
@@ -7769,7 +7788,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-17 13:07:06Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-17 09:07:06Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\Anand\Dropbox\Whistleblower\sounds\breathe_run.wav</SourceFileName>
@@ -7781,7 +7800,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-17 15:43:23Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-17 11:43:23Z</FileLastModifiedDate>
           </AudioClip>
         </AudioClips>
         <AudioClipFolder>
