@@ -3774,8 +3774,8 @@
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
             <StartingRoom>2</StartingRoom>
-            <StartX>59</StartX>
-            <StartY>128</StartY>
+            <StartX>57</StartX>
+            <StartY>114</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
@@ -3982,8 +3982,6 @@
 @S  // Dialog startup entry point
 Player: Hey Horace.
 Horace: Hi.
-Player: 0123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789
-Horace: -123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789
   ResumeHoraceChatState();
 stop
 ]]></Script>
@@ -4168,7 +4166,8 @@ Player: But they don't know, do they. That they'll have to.
 goto-dialog Horace6
 @2
 Horace: Nothing. That's the point.
-Horace: There is nothing but their word on our job contract that protects us from being left on this decaying rock.
+Horace: There is nothing but their word on our job contract...
+Horace: ... that protects us from being left on this decaying rock.
 Horace: Not money, not fame, not connection.
 Horace: Careful what you do, man.
 Horace: We're nothing to them, don't you see that?
@@ -4218,7 +4217,8 @@ Horace: Why do you ask that?
 Player: No reason.
 Horace: Listen, the Antarctic doesn't exist anymore.
 Horace: There isn't any wind.
-Horace: I haven't seen the moon in 3 months because I can't find the time to take the drive.
+Horace: I haven't seen the moon in 3 months because...
+Horace: ... I can't find the time to take the drive.
 Horace: If there is one, they never built this rock to last.
 goto-dialog Horace7
 @2
@@ -4226,7 +4226,8 @@ Horace: Does it matter?
 Player: We can't even keep ourselves alive, let alone each other.
 Player: What's the point.
 Horace: Defeatist of you.
-Horace: You have a rare chance of continuing that self-righteous life of yours on a living planet, I'd suggest you take it.
+Horace: You have a rare chance of continuing that self-righteous life...
+Horace: ... of yours on a living planet, I'd suggest you take it.
 goto-dialog Horace7
 @3
 Horace: Shut up, get on that ship, and I'll see you in a month when we wake up on that Boulder.
@@ -4399,7 +4400,8 @@ Horace: That is the worst idea I have ever heard.
 Horace: You've gotta be joking.
 Player: No, I can do it anonymously.
 Player: Do you know how to encrypt archive files on this terminal?
-Player: So that the servers can't detect when and what and from or to whom something is sent?
+Player: So that the servers can't detect when and what...
+Player: ... and from or to whom something is sent?
 Horace: You- you need to enter a code.
 Horace: But no, you're not sending it anywhere.
 Horace: I'm not going to be a party in this.
@@ -5532,6 +5534,11 @@ stop
           <Name>saved_profiles</Name>
           <Type>int</Type>
           <DefaultValue>0</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>knowledge</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
         </GlobalVariable>
       </Variables>
     </GlobalVariables>
@@ -8907,7 +8914,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-21 23:45:50Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-21 07:45:50Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\print.wav</SourceFileName>
@@ -8919,7 +8926,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-22 04:55:11Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-21 12:55:11Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\Aldebaran.wav</SourceFileName>
@@ -8931,7 +8938,7 @@ stop
             <DefaultVolume>25</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-22 21:47:09Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-22 05:47:09Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\type2.wav</SourceFileName>
@@ -8943,7 +8950,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-24 07:55:59Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-23 15:55:59Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\Anand\Dropbox\Whistleblower\sounds\Train.mp3</SourceFileName>
@@ -8955,7 +8962,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-15 13:07:06Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-14 21:07:06Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\Anand\Dropbox\Whistleblower\sounds\breathe_run.wav</SourceFileName>
@@ -8967,7 +8974,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-15 15:43:23Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-14 23:43:23Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\Banjo\Desktop\Tinnitus.wav</SourceFileName>
@@ -8979,7 +8986,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-16 07:07:34Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-15 15:07:34Z</FileLastModifiedDate>
           </AudioClip>
         </AudioClips>
         <AudioClipFolder>
