@@ -52,3 +52,5 @@ import function OkEnding();
 import function NeutralEnding();
 
 import function GreatEnding();
+
+import function MaybeShowNews();

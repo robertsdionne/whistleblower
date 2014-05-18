@@ -71,7 +71,7 @@
       <SaveGameFileExtension />
       <SaveGameFolderName>Whistleblower</SaveGameFolderName>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
-      <AudioIndexer>10</AudioIndexer>
+      <AudioIndexer>11</AudioIndexer>
     </Settings>
     <LipSync>
       <Type>None</Type>
@@ -3397,8 +3397,8 @@
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
-            <CursorImage>16</CursorImage>
-            <Image>16</Image>
+            <CursorImage>235</CursorImage>
+            <Image>235</Image>
             <Description />
             <Name>Letter</Name>
             <Properties>
@@ -3798,7 +3798,7 @@
               <Event Index="1" />
               <Event Index="2" />
               <Event Index="3" />
-              <Event Index="4" />
+              <Event Index="4">cNewsFeed_AnyClick</Event>
               <Event Index="5" />
               <Event Index="6" />
               <Event Index="7" />
@@ -6134,6 +6134,11 @@ stop
               <Sprite Slot="130" Width="56" Height="66" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
                 <Source>
                   <FileName>C:\Users\sinat_000\Downloads\Whistleblower\profileicons.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="235" Width="62" Height="66" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\Banjo\Downloads\lettericon.png</FileName>
                 </Source>
               </Sprite>
             </Sprites>
@@ -8914,7 +8919,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-21 07:45:50Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-21 03:45:50Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\print.wav</SourceFileName>
@@ -8926,7 +8931,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-21 12:55:11Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-21 08:55:11Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\Aldebaran.wav</SourceFileName>
@@ -8938,7 +8943,7 @@ stop
             <DefaultVolume>25</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-22 05:47:09Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-22 01:47:09Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\type2.wav</SourceFileName>
@@ -8950,7 +8955,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-23 15:55:59Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-23 11:55:59Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\Anand\Dropbox\Whistleblower\sounds\Train.mp3</SourceFileName>
@@ -8962,7 +8967,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-14 21:07:06Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-14 17:07:06Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\Anand\Dropbox\Whistleblower\sounds\breathe_run.wav</SourceFileName>
@@ -8974,7 +8979,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-14 23:43:23Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-14 19:43:23Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\Banjo\Desktop\Tinnitus.wav</SourceFileName>
@@ -8986,7 +8991,19 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-15 15:07:34Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-15 11:07:34Z</FileLastModifiedDate>
+          </AudioClip>
+          <AudioClip>
+            <SourceFileName>C:\Users\Banjo\Downloads\error.wav</SourceFileName>
+            <ScriptName>Error</ScriptName>
+            <Index>11</Index>
+            <Type>1</Type>
+            <BundlingType>InGameEXE</BundlingType>
+            <FileType>WAV</FileType>
+            <DefaultVolume>-1</DefaultVolume>
+            <DefaultPriority>Inherit</DefaultPriority>
+            <DefaultRepeat>Inherit</DefaultRepeat>
+            <FileLastModifiedDate>2014-05-18 20:15:01Z</FileLastModifiedDate>
           </AudioClip>
         </AudioClips>
         <AudioClipFolder>
