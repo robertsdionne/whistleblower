@@ -42,3 +42,7 @@ import function StartPoliceTimer();
 import function TerribleEnding();
 
 import function OkEnding();
+
+import function NeutralEnding();
+
+import function GreatEnding();

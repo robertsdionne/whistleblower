@@ -640,6 +640,10 @@
             <Number>5</Number>
             <Description IsNull="True" />
           </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>6</Number>
+            <Description IsNull="True" />
+          </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
     </Rooms>
@@ -3394,7 +3398,7 @@
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
-                <Text>Quit</Text>
+                <Text>Shutdown</Text>
                 <Height>30</Height>
                 <Locked>False</Locked>
                 <Width>128</Width>
@@ -3415,7 +3419,7 @@
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
-                <Text>Play</Text>
+                <Text>Cancel</Text>
                 <Height>30</Height>
                 <Locked>False</Locked>
                 <Width>128</Width>
@@ -4207,7 +4211,7 @@ stop
   SaveHoraceChatState(this);
 return
 @1
-Horace: What will that do? It'll only panick them, and nothing’s gonna change.
+Horace: What will that do? It'll only panick them, and nothing's gonna change.
 return
 @2
 Horace: You and me? Nothing. But the other passengers have something going for them, money for one.
@@ -4262,7 +4266,7 @@ stop]]></Script>
                 <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
   SaveJustinChatState(this);
-Justin: We’ve been waiting to hear from you about the state of emigration. 
+Justin: We've been waiting to hear from you about the state of emigration. 
 Justin: I hear the process is moving effectively, that there are big plans to come!
 Justin: And that we will have Earth evacuated within a few years.
 Justin: Would you care to elaborate on record?
@@ -4281,7 +4285,7 @@ stop
                 <DialogOptions>
                   <DialogOption>
                     <ID>1</ID>
-                    <Text xml:space="preserve">I’m afraid there’s a more important matter I’ve called in to you about. Off-record.</Text>
+                    <Text xml:space="preserve">I'm afraid there's a more important matter I've called in to you about. Off-record.</Text>
                     <Show>True</Show>
                     <Say>True</Say>
                   </DialogOption>
@@ -4293,7 +4297,7 @@ stop
                   </DialogOption>
                   <DialogOption>
                     <ID>3</ID>
-                    <Text xml:space="preserve">Yes. Yes. It’s, everything’s fantastic. Excuse me I must, attend to something.</Text>
+                    <Text xml:space="preserve">Yes. Yes. It's, everything's fantastic. Excuse me I must, attend to something.</Text>
                     <Show>True</Show>
                     <Say>True</Say>
                   </DialogOption>
@@ -4312,19 +4316,23 @@ Justin: Wait, what?
 Justin: No, no, no, no.
 Justin: This is very, very, extremely concerning.
 Justin: I cannot believe this is happening.
-Player: It’s true. The program will not be returning to Earth for a very long time after this final embarkment.
-Justin: This just cannot be. The world was promised a ticket out of here. Who will be on Wave 52?
+Player: It's true.
+Player: The program will not be returning to Earth for a very long time after this final embarkment.
+Justin: This just cannot be.
+Justin: The world was promised a ticket out of here.
+Justin: Who will be on Wave 52?
 goto-dialog Justin4
 @2
-Player: No one else will be able to leave Earth for a long time. Wave 52 will be ARK’s last wave for the extended future.
-Justin: WHAT?! No this can’t be.
+Player: No one else will be able to leave Earth for a long time.
+Player: Wave 52 will be ARK's last wave for the extended future.
+Justin: WHAT?! No this can't be.
 Justin: HOw- how is that possible!
 Justin: This is very, very, extremely concerning.
 Justin: Can we stop this from happening?
-Player: No there is nothing to be done. ARK will not be returning to Earth for the rest of the planet’s population for a very long time.
+Player: No there is nothing to be done.
+Player: ARK will not be returning to Earth for the rest of the planet's population for a very long time.
 Justin: Oh no. Who WILL be leaving on Wave 52?
-  SignOut(Chat2);
-stop
+goto-dialog Justin4
 @3
 Justin: Wait. Wait, what is this information?
 Player: I should get back to work.
@@ -4362,7 +4370,7 @@ stop
 return
 @1
 Justin: Oh. Oh I see.
-Justin: I must let the readers know.
+Justin: I must let the readers know. 
 Justin: How would you like to be identified as.
 Justin: What is your name?
 goto-dialog Justin5
@@ -4383,7 +4391,7 @@ goto-dialog Justin6
                   </DialogOption>
                   <DialogOption>
                     <ID>2</ID>
-                    <Text xml:space="preserve">That doesn’t matter. What do you need to publish this?</Text>
+                    <Text xml:space="preserve">That doesn't matter. What do you need to publish this?</Text>
                     <Show>True</Show>
                     <Say>True</Say>
                   </DialogOption>
@@ -4396,24 +4404,144 @@ goto-dialog Justin6
                 <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
   SaveJustinChatState(this);
-Justin: We're still reviewing the archive. I will notify you in the event we publish.
+return
+@1
+Justin: Thank you.
+Justin: Now to publish this terrible news, and to make it convincing.
+Justin: We must tell the world what is happening.
+Justin: Do you have any solid evidence of this accusation?
+goto-dialog Justin6
+@2
+Justin: Evidence, evidence, evidence.
+Justin: Do you have any solid substantiation of this accusation?
+Justin: Documents, letters, anything you can get your hands on.
+Justin: Save them and compile them in an archive and send them over immediately.
+Justin: Oh, this is terrible.
+goto-dialog Justin6
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Text xml:space="preserve">I am identified as _______ within the program.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Text xml:space="preserve">That doesn't matter. What do you need to publish this?</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+              <Dialog>
+                <ID>11</ID>
+                <Name>Justin6</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+  SaveJustinChatState(this);
+return
+@1
+Justin: Then how do I know you're not falsifying information and incriminating the program inaccurately?
+Justin: You must give me enough information to make this story credible.
+Justin: _______,  7 billion lives are at stake. 
+goto-dialog Justin7
+@2
+Justin: Wait! What about the evidence!
+Player: I'm sorry, Mr. Kuritzkes.
+  SignOut(Chat2);
+stop
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Text xml:space="preserve">No I can't. I can't give evidence or a testimony, they will know who is responsible. This must be off-record.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Text xml:space="preserve">Uh, fuck. I should - excuse me.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+              <Dialog>
+                <ID>19</ID>
+                <Name>Justin7</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+  SaveJustinChatState(this);
+return
+@1
+Justin: Please, please call back soon.
+Justin: This is urgent matter.
+Justin: The world thanks you.
+  SignOut(Chat2);
+stop
+@2
+Justin: Thank God, thank you for your work.
+Justin: We will review the information and publish it immediately.
+Justin: We will notify you in the event it's published.
+  StartPoliceTimer();
+  SignOut(Chat2);
+stop
+@3
+Justin: Wait! What about the evidence!
+Player: I'm sorry, Mr. Kuritzkes.
+  SignOut(Chat2);
+stop
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Text xml:space="preserve">Hold on, I will prepare them.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Text xml:space="preserve">Here they are.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>3</ID>
+                    <Text xml:space="preserve">I- uh, I must go.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+              <Dialog>
+                <ID>20</ID>
+                <Name>Justin8</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+Justin: We're still reviewing the archive. I will notify you about the leak soon.
   SignOut(Chat2);
 stop
 ]]></Script>
                 <DialogOptions />
               </Dialog>
               <Dialog>
-                <ID>11</ID>
-                <Name>Justin6</Name>
-                <ShowTextParser>True</ShowTextParser>
+                <ID>21</ID>
+                <Name>Justin9</Name>
+                <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
-Justin: Are you alone in the office right now?
-Player: Yes.
-Justin: We're sending someone over to consult with you about the leak.
+Justin: Hello ________, are you alone in the office right now?
+Player: Yes
+Justin: Great! We're sending someone over now to consult with you about the leak.
 Justin: Please stay where you are.
 Justin: Thank you for your cooperation.
-Justin: The information is very valuable.
+Justin: The information you sent us is very valuable.
+Justin: Safe trip!
+  SignOut(Chat3);
   TerribleEnding();
 stop
 ]]></Script>
@@ -4496,7 +4624,7 @@ stop]]></Script>
   SaveCelineChatState(this);
 return
 @1
-Celine: ...
+Celine: Oh...
 Celine: I see.
 Celine: Is there nothing to be done?
 Player: No, nothing. ARK will fake a few accidents, say they're suspending production for a few years,
@@ -4591,7 +4719,7 @@ stop
 return
 @1
 Celine: NO. This is unacceptable, the public has a right to know-
-Player: I’m sorry.
+Player: I'm sorry.
   SignOut(Chat3);
 stop
 @2
@@ -4641,7 +4769,7 @@ goto-dialog Celine7
 goto-dialog Celine7
 @3
 Celine: NO. This is unacceptable, the public has a right to know-
-Player: I’m sorry.
+Player: I'm sorry.
   SignOut(Chat3);
 stop
 ]]></Script>
@@ -4686,11 +4814,11 @@ stop
 @3
 Celine: Thank you. I will publish this immediately- watch your feed.
   SignOut(Chat3);
-  OkEnding();
+  GreatEnding();
 stop
 @4
 Celine: NO. This is unacceptable, the public has a right to know-
-Player: I’m sorry.
+Player: I'm sorry.
   SignOut(Chat3);
 stop
 ]]></Script>
@@ -6255,6 +6383,66 @@ stop
                   </Sprite>
                 </Sprites>
               </SpriteFolder>
+              <SpriteFolder Name="Great">
+                <SubFolders />
+                <Sprites>
+                  <Sprite Slot="216" Width="1024" Height="768" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\Banjo\Downloads\GREAT ending - Send to Celine encrypted\1.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="217" Width="1024" Height="768" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\Banjo\Downloads\GREAT ending - Send to Celine encrypted\2.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="218" Width="1024" Height="768" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\Banjo\Downloads\GREAT ending - Send to Celine encrypted\3.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="219" Width="1024" Height="768" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\Banjo\Downloads\GREAT ending - Send to Celine encrypted\4.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="220" Width="1024" Height="768" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\Banjo\Downloads\GREAT ending - Send to Celine encrypted\5.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="221" Width="1024" Height="768" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\Banjo\Downloads\GREAT ending - Send to Celine encrypted\6.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="222" Width="1024" Height="768" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\Banjo\Downloads\GREAT ending - Send to Celine encrypted\7.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="223" Width="1024" Height="768" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\Banjo\Downloads\GREAT ending - Send to Celine encrypted\8.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="224" Width="1024" Height="768" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\Banjo\Downloads\GREAT ending - Send to Celine encrypted\9a.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="225" Width="1024" Height="768" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\Banjo\Downloads\GREAT ending - Send to Celine encrypted\9b.png</FileName>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="226" Width="1024" Height="768" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+                    <Source>
+                      <FileName>C:\Users\Banjo\Downloads\GREAT ending - Send to Celine encrypted\9c.png</FileName>
+                    </Source>
+                  </Sprite>
+                </Sprites>
+              </SpriteFolder>
             </SubFolders>
             <Sprites />
           </SpriteFolder>
@@ -6818,12 +7006,12 @@ stop
                         <ID>0</ID>
                         <Image>204</Image>
                         <Flipped>False</Flipped>
-                        <Delay>0</Delay>
+                        <Delay>50</Delay>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <ID>1</ID>
-                        <Image>204</Image>
+                        <Image>210</Image>
                         <Flipped>False</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
@@ -6837,7 +7025,7 @@ stop
                       </ViewFrame>
                       <ViewFrame>
                         <ID>3</ID>
-                        <Image>204</Image>
+                        <Image>210</Image>
                         <Flipped>False</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
@@ -6851,7 +7039,7 @@ stop
                       </ViewFrame>
                       <ViewFrame>
                         <ID>5</ID>
-                        <Image>204</Image>
+                        <Image>210</Image>
                         <Flipped>False</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
@@ -6865,7 +7053,7 @@ stop
                       </ViewFrame>
                       <ViewFrame>
                         <ID>7</ID>
-                        <Image>204</Image>
+                        <Image>210</Image>
                         <Flipped>False</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
@@ -6879,163 +7067,211 @@ stop
                       </ViewFrame>
                       <ViewFrame>
                         <ID>9</ID>
-                        <Image>204</Image>
+                        <Image>210</Image>
                         <Flipped>False</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <ID>10</ID>
-                        <Image>210</Image>
+                        <Image>209</Image>
                         <Flipped>False</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <ID>11</ID>
-                        <Image>210</Image>
+                        <Image>208</Image>
                         <Flipped>False</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <ID>12</ID>
-                        <Image>210</Image>
+                        <Image>207</Image>
                         <Flipped>False</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <ID>13</ID>
-                        <Image>210</Image>
+                        <Image>206</Image>
                         <Flipped>False</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <ID>14</ID>
-                        <Image>210</Image>
+                        <Image>205</Image>
                         <Flipped>False</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <ID>15</ID>
-                        <Image>209</Image>
+                        <Image>210</Image>
                         <Flipped>False</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <ID>16</ID>
-                        <Image>208</Image>
+                        <Image>209</Image>
                         <Flipped>False</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <ID>17</ID>
-                        <Image>207</Image>
+                        <Image>208</Image>
                         <Flipped>False</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <ID>18</ID>
-                        <Image>206</Image>
+                        <Image>207</Image>
                         <Flipped>False</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <ID>19</ID>
-                        <Image>205</Image>
+                        <Image>206</Image>
                         <Flipped>False</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <ID>20</ID>
-                        <Image>210</Image>
+                        <Image>205</Image>
                         <Flipped>False</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <ID>21</ID>
-                        <Image>209</Image>
-                        <Flipped>False</Flipped>
-                        <Delay>0</Delay>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <ID>22</ID>
-                        <Image>208</Image>
-                        <Flipped>False</Flipped>
-                        <Delay>0</Delay>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <ID>23</ID>
-                        <Image>207</Image>
-                        <Flipped>False</Flipped>
-                        <Delay>0</Delay>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <ID>24</ID>
-                        <Image>206</Image>
-                        <Flipped>False</Flipped>
-                        <Delay>0</Delay>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <ID>25</ID>
-                        <Image>205</Image>
-                        <Flipped>False</Flipped>
-                        <Delay>0</Delay>
-                        <Sound>0</Sound>
-                      </ViewFrame>
-                      <ViewFrame>
-                        <ID>26</ID>
                         <Image>210</Image>
                         <Flipped>False</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
-                        <ID>27</ID>
+                        <ID>22</ID>
                         <Image>209</Image>
                         <Flipped>False</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
-                        <ID>28</ID>
+                        <ID>23</ID>
                         <Image>208</Image>
                         <Flipped>False</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
-                        <ID>29</ID>
+                        <ID>24</ID>
                         <Image>207</Image>
                         <Flipped>False</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
-                        <ID>30</ID>
+                        <ID>25</ID>
                         <Image>206</Image>
                         <Flipped>False</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
-                        <ID>31</ID>
+                        <ID>26</ID>
                         <Image>205</Image>
                         <Flipped>False</Flipped>
                         <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>2</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>204</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>50</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>1</ID>
+                        <Image>210</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>2</ID>
+                        <Image>204</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>3</ID>
+                        <Image>210</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>4</ID>
+                        <Image>204</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>5</ID>
+                        <Image>210</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>50</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>6</ID>
+                        <Image>209</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>7</ID>
+                        <Image>208</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>8</ID>
+                        <Image>207</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>9</ID>
+                        <Image>206</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>10</ID>
+                        <Image>205</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>125</Delay>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
@@ -7087,30 +7323,196 @@ stop
                       </ViewFrame>
                       <ViewFrame>
                         <ID>5</ID>
-                        <Image>212</Image>
+                        <Image>211</Image>
                         <Flipped>False</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <ID>6</ID>
-                        <Image>213</Image>
+                        <Image>211</Image>
                         <Flipped>False</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <ID>7</ID>
-                        <Image>214</Image>
+                        <Image>211</Image>
                         <Flipped>False</Flipped>
                         <Delay>0</Delay>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <ID>8</ID>
+                        <Image>212</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>9</ID>
+                        <Image>213</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>10</ID>
+                        <Image>214</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>11</ID>
                         <Image>215</Image>
                         <Flipped>False</Flipped>
                         <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                </Loops>
+              </View>
+              <View>
+                <ID>17</ID>
+                <Name>GreatView</Name>
+                <Loops>
+                  <Loop>
+                    <ID>0</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>216</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>70</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>1</ID>
+                        <Image>217</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>2</ID>
+                        <Image>216</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>70</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>3</ID>
+                        <Image>217</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>4</ID>
+                        <Image>218</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>70</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>5</ID>
+                        <Image>219</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>6</ID>
+                        <Image>218</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>70</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>7</ID>
+                        <Image>219</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>8</ID>
+                        <Image>220</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>70</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>9</ID>
+                        <Image>221</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>10</ID>
+                        <Image>220</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>70</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>11</ID>
+                        <Image>221</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>12</ID>
+                        <Image>223</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>70</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>13</ID>
+                        <Image>222</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>14</ID>
+                        <Image>223</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>70</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>15</ID>
+                        <Image>225</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>16</ID>
+                        <Image>224</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>70</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>17</ID>
+                        <Image>225</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <ID>18</ID>
+                        <Image>226</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>70</Delay>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
@@ -8186,7 +8588,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-23 11:45:50Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-22 19:45:50Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\print.wav</SourceFileName>
@@ -8198,7 +8600,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-23 16:55:11Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-23 00:55:11Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\Aldebaran.wav</SourceFileName>
@@ -8210,7 +8612,7 @@ stop
             <DefaultVolume>25</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-24 09:47:09Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-23 17:47:09Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\type2.wav</SourceFileName>
@@ -8222,7 +8624,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-25 19:55:59Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-25 03:55:59Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\Anand\Dropbox\Whistleblower\sounds\Train.mp3</SourceFileName>
@@ -8234,7 +8636,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-17 01:07:06Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-16 09:07:06Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\Anand\Dropbox\Whistleblower\sounds\breathe_run.wav</SourceFileName>
@@ -8246,7 +8648,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-17 03:43:23Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-16 11:43:23Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\Banjo\Desktop\Tinnitus.wav</SourceFileName>
@@ -8258,7 +8660,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-17 19:07:34Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-17 03:07:34Z</FileLastModifiedDate>
           </AudioClip>
         </AudioClips>
         <AudioClipFolder>
