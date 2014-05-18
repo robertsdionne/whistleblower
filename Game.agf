@@ -71,7 +71,7 @@
       <SaveGameFileExtension />
       <SaveGameFolderName>Whistleblower</SaveGameFolderName>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
-      <AudioIndexer>11</AudioIndexer>
+      <AudioIndexer>15</AudioIndexer>
     </Settings>
     <LipSync>
       <Type>None</Type>
@@ -3735,7 +3735,7 @@
             <BlinkingView>0</BlinkingView>
             <StartingRoom>1</StartingRoom>
             <StartX>512</StartX>
-            <StartY>288</StartY>
+            <StartY>250</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>10</MovementSpeed>
             <MovementSpeedX>3</MovementSpeedX>
@@ -3815,7 +3815,7 @@
             <BlinkingView>0</BlinkingView>
             <StartingRoom>2</StartingRoom>
             <StartX>512</StartX>
-            <StartY>320</StartY>
+            <StartY>346</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
@@ -3855,7 +3855,7 @@
             <BlinkingView>0</BlinkingView>
             <StartingRoom>2</StartingRoom>
             <StartX>512</StartX>
-            <StartY>320</StartY>
+            <StartY>346</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
@@ -3895,7 +3895,7 @@
             <BlinkingView>0</BlinkingView>
             <StartingRoom>2</StartingRoom>
             <StartX>512</StartX>
-            <StartY>320</StartY>
+            <StartY>346</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
@@ -8919,7 +8919,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-21 03:45:50Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-20 23:45:50Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\print.wav</SourceFileName>
@@ -8931,7 +8931,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-21 08:55:11Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-21 04:55:11Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\Aldebaran.wav</SourceFileName>
@@ -8943,7 +8943,7 @@ stop
             <DefaultVolume>25</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-22 01:47:09Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-21 21:47:09Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\type2.wav</SourceFileName>
@@ -8955,7 +8955,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-23 11:55:59Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-23 07:55:59Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\Anand\Dropbox\Whistleblower\sounds\Train.mp3</SourceFileName>
@@ -8967,7 +8967,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-14 17:07:06Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-14 13:07:06Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\Anand\Dropbox\Whistleblower\sounds\breathe_run.wav</SourceFileName>
@@ -8979,7 +8979,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-14 19:43:23Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-14 15:43:23Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\Banjo\Desktop\Tinnitus.wav</SourceFileName>
@@ -8991,7 +8991,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-15 11:07:34Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-15 07:07:34Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\Banjo\Downloads\error.wav</SourceFileName>
@@ -9003,7 +9003,55 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-18 20:15:01Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-18 16:15:01Z</FileLastModifiedDate>
+          </AudioClip>
+          <AudioClip>
+            <SourceFileName>C:\Users\Banjo\Desktop\computer_hum.wav</SourceFileName>
+            <ScriptName>ComputerHum</ScriptName>
+            <Index>12</Index>
+            <Type>2</Type>
+            <BundlingType>InGameEXE</BundlingType>
+            <FileType>WAV</FileType>
+            <DefaultVolume>20</DefaultVolume>
+            <DefaultPriority>Inherit</DefaultPriority>
+            <DefaultRepeat>Inherit</DefaultRepeat>
+            <FileLastModifiedDate>2014-05-18 20:46:21Z</FileLastModifiedDate>
+          </AudioClip>
+          <AudioClip>
+            <SourceFileName>C:\Users\Banjo\Desktop\manual_shutdown.wav</SourceFileName>
+            <ScriptName>ManualShutdown</ScriptName>
+            <Index>13</Index>
+            <Type>1</Type>
+            <BundlingType>InGameEXE</BundlingType>
+            <FileType>WAV</FileType>
+            <DefaultVolume>-1</DefaultVolume>
+            <DefaultPriority>Inherit</DefaultPriority>
+            <DefaultRepeat>Inherit</DefaultRepeat>
+            <FileLastModifiedDate>2014-05-18 20:53:02Z</FileLastModifiedDate>
+          </AudioClip>
+          <AudioClip>
+            <SourceFileName>C:\Users\Banjo\Desktop\airplane.wav</SourceFileName>
+            <ScriptName>Airplane</ScriptName>
+            <Index>14</Index>
+            <Type>2</Type>
+            <BundlingType>InGameEXE</BundlingType>
+            <FileType>WAV</FileType>
+            <DefaultVolume>-1</DefaultVolume>
+            <DefaultPriority>Inherit</DefaultPriority>
+            <DefaultRepeat>Inherit</DefaultRepeat>
+            <FileLastModifiedDate>2014-05-18 21:00:11Z</FileLastModifiedDate>
+          </AudioClip>
+          <AudioClip>
+            <SourceFileName xml:space="preserve">C:\Users\Banjo\Downloads\seat belt.wav</SourceFileName>
+            <ScriptName>SeatBelt</ScriptName>
+            <Index>15</Index>
+            <Type>1</Type>
+            <BundlingType>InGameEXE</BundlingType>
+            <FileType>WAV</FileType>
+            <DefaultVolume>-1</DefaultVolume>
+            <DefaultPriority>Inherit</DefaultPriority>
+            <DefaultRepeat>Inherit</DefaultRepeat>
+            <FileLastModifiedDate>2014-05-18 21:34:43Z</FileLastModifiedDate>
           </AudioClip>
         </AudioClips>
         <AudioClipFolder>
