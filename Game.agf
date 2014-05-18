@@ -3768,14 +3768,14 @@
             <ID>1</ID>
             <ScriptName>cNewsFeed</ScriptName>
             <RealName xml:space="preserve">News Feed</RealName>
-            <NormalView>3</NormalView>
-            <SpeechView>2</SpeechView>
+            <NormalView>19</NormalView>
+            <SpeechView>18</SpeechView>
             <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
             <StartingRoom>2</StartingRoom>
-            <StartX>160</StartX>
-            <StartY>120</StartY>
+            <StartX>59</StartX>
+            <StartY>128</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
@@ -3934,8 +3934,8 @@
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
             <StartingRoom>2</StartingRoom>
-            <StartX>160</StartX>
-            <StartY>120</StartY>
+            <StartX>167</StartX>
+            <StartY>128</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
@@ -4718,7 +4718,7 @@ stop
                 <DialogOptions>
                   <DialogOption>
                     <ID>1</ID>
-                    <Text xml:space="preserve">Hold on, I will prepare them.</Text>
+                    <Text xml:space="preserve">Hold on, I will prepare the documents.</Text>
                     <Show>True</Show>
                     <Say>True</Say>
                   </DialogOption>
@@ -4780,8 +4780,6 @@ stop
 @S  // Dialog startup entry point
 Player: Ms. Ellephant.
 Celine: Hello.
-Celine: You are from the ARK Program?
-Celine: Emigration department?
   ResumeCelineChatState();
 stop]]></Script>
                 <DialogOptions />
@@ -4792,6 +4790,8 @@ stop]]></Script>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
+Celine: You are from the ARK Program?
+Celine: Emigration department?
   SaveCelineChatState(this);
 return
 @1
@@ -4895,18 +4895,13 @@ stop
 return
 @1
 Celine: Is it not? What are the people of this planet paying you for?
-Celine: The Globe would like to know when we, the regular, will be able to leave.
+Celine: The Globe would like to know when we will be able to leave.
 goto-dialog Celine3
 @2
 Celine: I'm afraid I fail to see that from down here.
 Celine: You're sure there is nothing the public should know?
 goto-dialog Celine5
-@3
-Celine: What? You've just called in.
-Celine: I have been requesting conference with ARK for months to no reply.
-Player: I'm sorry, I should- I will speak to you again soon.
-  SignOut(Chat3);
-stop
+
 ]]></Script>
                 <DialogOptions>
                   <DialogOption>
@@ -4918,12 +4913,6 @@ stop
                   <DialogOption>
                     <ID>2</ID>
                     <Text xml:space="preserve">Very well. I assure you, Ms. Ellephant, we have our priorities in order.</Text>
-                    <Show>True</Show>
-                    <Say>True</Say>
-                  </DialogOption>
-                  <DialogOption>
-                    <ID>3</ID>
-                    <Text xml:space="preserve">...Fuck. I have to go.</Text>
                     <Show>True</Show>
                     <Say>True</Say>
                   </DialogOption>
@@ -4949,6 +4938,7 @@ Celine: There is nothing to stop this I presume.
 Player: No there isn't. ARK will send its final cargo with its employee
 Player: and the remains on our highest priority list of citizens and. And then nothing.
 goto-dialog Celine6
+
 ]]></Script>
                 <DialogOptions>
                   <DialogOption>
@@ -4959,9 +4949,9 @@ goto-dialog Celine6
                   </DialogOption>
                   <DialogOption>
                     <ID>2</ID>
-                    <Text xml:space="preserve">... Yes.</Text>
+                    <Text>Yes.</Text>
                     <Show>True</Show>
-                    <Say>True</Say>
+                    <Say>False</Say>
                   </DialogOption>
                 </DialogOptions>
               </Dialog>
@@ -6074,6 +6064,16 @@ stop
                   <FileName>C:\Users\robert\Dropbox\Whistleblower\News Art\Protests.png</FileName>
                 </Source>
               </Sprite>
+              <Sprite Slot="232" Width="75" Height="74" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\sinat_000\Downloads\Whistleblower (1)\New.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="233" Width="75" Height="74" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\sinat_000\Downloads\Whistleblower (1)\NewsNew.png</FileName>
+                </Source>
+              </Sprite>
             </Sprites>
           </SpriteFolder>
           <SpriteFolder Name="Icons">
@@ -6822,6 +6822,11 @@ stop
               <FileName>C:\Users\Banjo\Downloads\Offline.png</FileName>
             </Source>
           </Sprite>
+          <Sprite Slot="234" Width="211" Height="211" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\sinat_000\Downloads\TODO.png</FileName>
+            </Source>
+          </Sprite>
         </Sprites>
       </SpriteFolder>
     </Sprites>
@@ -6961,6 +6966,75 @@ stop
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
+                  </Loop>
+                </Loops>
+              </View>
+              <View>
+                <ID>18</ID>
+                <Name>NEWNEW</Name>
+                <Loops>
+                  <Loop>
+                    <ID>0</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>233</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                </Loops>
+              </View>
+              <View>
+                <ID>19</ID>
+                <Name>NEWS</Name>
+                <Loops>
+                  <Loop>
+                    <ID>0</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>232</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>1</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>0</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>2</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <ID>0</ID>
+                        <Image>0</Image>
+                        <Flipped>False</Flipped>
+                        <Delay>0</Delay>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                  <Loop>
+                    <ID>3</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames />
                   </Loop>
                 </Loops>
               </View>
@@ -8833,7 +8907,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-22 07:45:50Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-21 23:45:50Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\print.wav</SourceFileName>
@@ -8845,7 +8919,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-22 12:55:11Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-22 04:55:11Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\Aldebaran.wav</SourceFileName>
@@ -8857,7 +8931,7 @@ stop
             <DefaultVolume>25</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-23 05:47:09Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-22 21:47:09Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\type2.wav</SourceFileName>
@@ -8869,7 +8943,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-24 15:55:59Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-24 07:55:59Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\Anand\Dropbox\Whistleblower\sounds\Train.mp3</SourceFileName>
@@ -8881,7 +8955,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-15 21:07:06Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-15 13:07:06Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\Anand\Dropbox\Whistleblower\sounds\breathe_run.wav</SourceFileName>
@@ -8893,7 +8967,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-15 23:43:23Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-15 15:43:23Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\Banjo\Desktop\Tinnitus.wav</SourceFileName>
@@ -8905,7 +8979,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-16 15:07:34Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-16 07:07:34Z</FileLastModifiedDate>
           </AudioClip>
         </AudioClips>
         <AudioClipFolder>
