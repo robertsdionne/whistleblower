@@ -19,6 +19,12 @@ import function OpenWork();
 
 import function OpenChat();
 
+import function OpenHoraceChat();
+
+import function OpenJustinChat();
+
+import function OpenCelineChat();
+
 import function OpenDrive();
 
 import function OpenTerminal();

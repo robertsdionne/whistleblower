@@ -2875,7 +2875,7 @@
             <GUIs>
               <GUIMain>
                 <NormalGUI>
-                  <OnClick>Chat1_OnClick</OnClick>
+                  <OnClick />
                   <Height>410</Height>
                   <Width>246</Width>
                   <Left>144</Left>
@@ -2891,33 +2891,11 @@
                   <ID>17</ID>
                   <Name>Chat1</Name>
                 </NormalGUI>
-                <Controls>
-                  <GUIButton>
-                    <OnClick>CloseButton_OnClick</OnClick>
-                    <ClickAction>RunScript</ClickAction>
-                    <NewModeNumber>0</NewModeNumber>
-                    <ClipImage>False</ClipImage>
-                    <TextAlignment>TopMiddle</TextAlignment>
-                    <TextColor>65535</TextColor>
-                    <Font>0</Font>
-                    <PushedImage>156</PushedImage>
-                    <MouseoverImage>157</MouseoverImage>
-                    <Image>158</Image>
-                    <Text />
-                    <Height>23</Height>
-                    <Locked>False</Locked>
-                    <Width>23</Width>
-                    <Left>217</Left>
-                    <Top>6</Top>
-                    <ZOrder>0</ZOrder>
-                    <ID>0</ID>
-                    <Name>ChatCloseButton1</Name>
-                  </GUIButton>
-                </Controls>
+                <Controls />
               </GUIMain>
               <GUIMain>
                 <NormalGUI>
-                  <OnClick>Chat2_OnClick</OnClick>
+                  <OnClick />
                   <Height>410</Height>
                   <Width>246</Width>
                   <Left>400</Left>
@@ -2925,7 +2903,7 @@
                   <Clickable>True</Clickable>
                   <Visibility>NormalButInitiallyOff</Visibility>
                   <PopupYPos>0</PopupYPos>
-                  <ZOrder>1</ZOrder>
+                  <ZOrder>2</ZOrder>
                   <BorderColor>65535</BorderColor>
                   <Transparency>0</Transparency>
                   <BackgroundColor>8</BackgroundColor>
@@ -2933,33 +2911,11 @@
                   <ID>18</ID>
                   <Name>Chat2</Name>
                 </NormalGUI>
-                <Controls>
-                  <GUIButton>
-                    <OnClick>CloseButton_OnClick</OnClick>
-                    <ClickAction>RunScript</ClickAction>
-                    <NewModeNumber>0</NewModeNumber>
-                    <ClipImage>False</ClipImage>
-                    <TextAlignment>TopMiddle</TextAlignment>
-                    <TextColor>65535</TextColor>
-                    <Font>0</Font>
-                    <PushedImage>156</PushedImage>
-                    <MouseoverImage>157</MouseoverImage>
-                    <Image>158</Image>
-                    <Text />
-                    <Height>23</Height>
-                    <Locked>False</Locked>
-                    <Width>23</Width>
-                    <Left>217</Left>
-                    <Top>6</Top>
-                    <ZOrder>0</ZOrder>
-                    <ID>0</ID>
-                    <Name>ChatCloseButton2</Name>
-                  </GUIButton>
-                </Controls>
+                <Controls />
               </GUIMain>
               <GUIMain>
                 <NormalGUI>
-                  <OnClick>Chat3_OnClick</OnClick>
+                  <OnClick />
                   <Height>410</Height>
                   <Width>246</Width>
                   <Left>656</Left>
@@ -2967,7 +2923,7 @@
                   <Clickable>True</Clickable>
                   <Visibility>NormalButInitiallyOff</Visibility>
                   <PopupYPos>0</PopupYPos>
-                  <ZOrder>0</ZOrder>
+                  <ZOrder>2</ZOrder>
                   <BorderColor>65535</BorderColor>
                   <Transparency>0</Transparency>
                   <BackgroundColor>8</BackgroundColor>
@@ -2975,29 +2931,27 @@
                   <ID>19</ID>
                   <Name>Chat3</Name>
                 </NormalGUI>
-                <Controls>
-                  <GUIButton>
-                    <OnClick>CloseButton_OnClick</OnClick>
-                    <ClickAction>RunScript</ClickAction>
-                    <NewModeNumber>0</NewModeNumber>
-                    <ClipImage>False</ClipImage>
-                    <TextAlignment>TopMiddle</TextAlignment>
-                    <TextColor>65535</TextColor>
-                    <Font>0</Font>
-                    <PushedImage>156</PushedImage>
-                    <MouseoverImage>157</MouseoverImage>
-                    <Image>158</Image>
-                    <Text />
-                    <Height>23</Height>
-                    <Locked>False</Locked>
-                    <Width>23</Width>
-                    <Left>217</Left>
-                    <Top>6</Top>
-                    <ZOrder>0</ZOrder>
-                    <ID>0</ID>
-                    <Name>ChatCloseButton3</Name>
-                  </GUIButton>
-                </Controls>
+                <Controls />
+              </GUIMain>
+              <GUIMain>
+                <NormalGUI>
+                  <OnClick />
+                  <Height>192</Height>
+                  <Width>658</Width>
+                  <Left>183</Left>
+                  <Top>160</Top>
+                  <Clickable>True</Clickable>
+                  <Visibility>NormalButInitiallyOff</Visibility>
+                  <PopupYPos>0</PopupYPos>
+                  <ZOrder>0</ZOrder>
+                  <BorderColor>52825</BorderColor>
+                  <Transparency>0</Transparency>
+                  <BackgroundColor>52825</BackgroundColor>
+                  <BackgroundImage>227</BackgroundImage>
+                  <ID>26</ID>
+                  <Name>DialogBox</Name>
+                </NormalGUI>
+                <Controls />
               </GUIMain>
             </GUIs>
           </GUIFolder>
@@ -3788,7 +3742,7 @@
             <MovementSpeedY>0</MovementSpeedY>
             <AnimationDelay>4</AnimationDelay>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>65535</SpeechColor>
+            <SpeechColor>33823</SpeechColor>
             <Solid>True</Solid>
             <Clickable>True</Clickable>
             <UseRoomAreaScaling>True</UseRoomAreaScaling>
@@ -3868,7 +3822,7 @@
             <MovementSpeedY>0</MovementSpeedY>
             <AnimationDelay>4</AnimationDelay>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>63488</SpeechColor>
+            <SpeechColor>43851</SpeechColor>
             <Solid>True</Solid>
             <Clickable>True</Clickable>
             <UseRoomAreaScaling>True</UseRoomAreaScaling>
@@ -3948,7 +3902,7 @@
             <MovementSpeedY>0</MovementSpeedY>
             <AnimationDelay>4</AnimationDelay>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>63</SpeechColor>
+            <SpeechColor>52459</SpeechColor>
             <Solid>True</Solid>
             <Clickable>True</Clickable>
             <UseRoomAreaScaling>True</UseRoomAreaScaling>
@@ -4022,6 +3976,21 @@
             <Dialogs>
               <Dialog>
                 <ID>0</ID>
+                <Name>Horace1</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+Player: Hey Horace.
+Horace: Hi.
+Player: 0123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789
+Horace: -123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789-123456789
+  ResumeHoraceChatState();
+stop
+]]></Script>
+                <DialogOptions />
+              </Dialog>
+              <Dialog>
+                <ID>2</ID>
                 <Name>Horace2</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
@@ -4029,14 +3998,24 @@
   SaveHoraceChatState(this);
 return
 @1
-Horace: Same old, same old. Leaving the magnetic field in two days.
+Horace: Same old, same old.
+Horace: Leaving the magnetic field in two days.
+Player: Oh, you too? What a coincidence.
+Horace: Funny.
+Horace: Since it was the only reason I agreed to work here.
+Horace: End-of-days-proof.
 goto-dialog Horace3
 @2
-Horace: Yep. We're getting outta here, huh?
+Horace: Yep. We're getting outta here, huh.
+Player: Leaving the rest of life behind.
+Horace: You can't say that you didn't see it coming.
 goto-dialog Horace3
 @3
-Horace: ... Yeah
-goto-dialog Horace4
+Horace: ... Yeah. I guess we're out of jobs.
+Horace: ...
+Horace: I'm sure they're planning on returning after they settle in.
+Player: I somehow doubt that.
+goto-dialog Horace3
 @4
 Horace: K.
   SignOut(Chat1);
@@ -4063,47 +4042,7 @@ stop
                   </DialogOption>
                   <DialogOption>
                     <ID>4</ID>
-                    <Text>Brb.</Text>
-                    <Show>True</Show>
-                    <Say>True</Say>
-                  </DialogOption>
-                </DialogOptions>
-              </Dialog>
-              <Dialog>
-                <ID>2</ID>
-                <Name>Horace3</Name>
-                <ShowTextParser>False</ShowTextParser>
-                <Script><![CDATA[// Dialog script file
-@S  // Dialog startup entry point
-  SaveHoraceChatState(this);
-return
-@1
-Horace: Yeah. Did you see that report?
-goto-dialog Horace4
-@2
-Horace: I'm packing. Get off this forsaken rock.
-goto-dialog Horace5
-@3
-Horace: K.
-  SignOut(Chat1);
-stop
-]]></Script>
-                <DialogOptions>
-                  <DialogOption>
-                    <ID>1</ID>
-                    <Text xml:space="preserve">I guess they're terminating the program.</Text>
-                    <Show>True</Show>
-                    <Say>True</Say>
-                  </DialogOption>
-                  <DialogOption>
-                    <ID>2</ID>
-                    <Text xml:space="preserve">What are you gonna do?</Text>
-                    <Show>True</Show>
-                    <Say>True</Say>
-                  </DialogOption>
-                  <DialogOption>
-                    <ID>3</ID>
-                    <Text>Brb.</Text>
+                    <Text>BRB.</Text>
                     <Show>True</Show>
                     <Say>True</Say>
                   </DialogOption>
@@ -4111,7 +4050,7 @@ stop
               </Dialog>
               <Dialog>
                 <ID>3</ID>
-                <Name>Horace4</Name>
+                <Name>Horace3</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
@@ -4119,10 +4058,10 @@ stop
 return
 @1
 Horace: It's a smart move, cut your losses quick, keep everything.
-goto-dialog Horace5
+goto-dialog Horace4
 @2
 Horace: Well they're gonna be down 1 by the end of the week, that's for sure.
-goto-dialog Horace5
+goto-dialog Horace4
 @3
 Horace: K.
   SignOut(Chat1);
@@ -4137,13 +4076,13 @@ stop
                   </DialogOption>
                   <DialogOption>
                     <ID>2</ID>
-                    <Text xml:space="preserve">7 billion. There's still 7 billion here!</Text>
+                    <Text xml:space="preserve">7 billion. There's still 7 billion here.</Text>
                     <Show>True</Show>
                     <Say>True</Say>
                   </DialogOption>
                   <DialogOption>
                     <ID>3</ID>
-                    <Text>Brb.</Text>
+                    <Text>BRB.</Text>
                     <Show>True</Show>
                     <Say>True</Say>
                   </DialogOption>
@@ -4151,19 +4090,34 @@ stop
               </Dialog>
               <Dialog>
                 <ID>4</ID>
-                <Name>Horace5</Name>
+                <Name>Horace4</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
   SaveHoraceChatState(this);
 return
 @1
-Horace: To the rest? Yeah, but what can be done?
-goto-dialog Horace6
+Horace: To the rest? Yeah, but what can be done? Nothing.
+Player: There must be some way.
+Horace: Yeah, hah, and lose your ticket?
+Horace: Think about that for a minute.
+Horace: I know you're not that stupid.
+goto-dialog Horace5
 @2
 Horace: You should be more glad, you're lucky.
-goto-dialog Horace6
+Horace: You're not gonna be one of the people rotting here, losing ground by the minute.
+Player: I know. It's just-
+Horace: What, too good?
+Horace: Your conscience is going to kill you one day, man.
+Player: Probably.
+goto-dialog Horace5
 @3
+Horace: Nope, and I care not to.
+Horace: I worked too long and hard for this.
+Player: Most of the human population will be wiped out because of what, fear? Greed? Whichever.
+Horace: Whichever.
+goto-dialog Horace6
+@4
 Horace: K.
   SignOut(Chat1);
 stop
@@ -4183,7 +4137,13 @@ stop
                   </DialogOption>
                   <DialogOption>
                     <ID>3</ID>
-                    <Text>Brb.</Text>
+                    <Text xml:space="preserve">I'm glad as hell I'm leaving. Could you imagine?</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>4</ID>
+                    <Text>BRB.</Text>
                     <Show>True</Show>
                     <Say>True</Say>
                   </DialogOption>
@@ -4191,31 +4151,34 @@ stop
               </Dialog>
               <Dialog>
                 <ID>5</ID>
-                <Name>Horace1</Name>
-                <ShowTextParser>False</ShowTextParser>
-                <Script><![CDATA[// Dialog script file
-@S  // Dialog startup entry point
-Player: Hey Horace.
-Horace: Hi.
-  ResumeHoraceChatState();
-stop
-]]></Script>
-                <DialogOptions />
-              </Dialog>
-              <Dialog>
-                <ID>6</ID>
-                <Name>Horace6</Name>
+                <Name>Horace5</Name>
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
   SaveHoraceChatState(this);
 return
 @1
-Horace: What will that do? It'll only panick them, and nothing's gonna change.
-return
+Horace: What will that do? Panic them, make a mess.
+Horace: They're worse off knowing, and nothing will change.
+Player: Are they? I mean, I can't just- fuck.
+Horace: What, can't leave?
+Horace: There are 7 billion people who will gladly take your place, man, just say the word.
+Horace: They'll kill for your seat on that ship, you know that.
+Player: But they don't know, do they. That they'll have to.
+goto-dialog Horace6
 @2
-Horace: You and me? Nothing. But the other passengers have something going for them, money for one.
-return
+Horace: Nothing. That's the point.
+Horace: There is nothing but their word on our job contract that protects us from being left on this decaying rock.
+Horace: Not money, not fame, not connection.
+Horace: Careful what you do, man.
+Horace: We're nothing to them, don't you see that?
+Player: I do, but. Fuck. I can't just-
+Horace: What, can't leave?
+Horace: There are 7 billion people who will gladly take your place, just say the word.
+Horace: They'll kill for your seat on that ship, you know that.
+Horace: As quick as anything.
+Player: I know.
+goto-dialog Horace6
 @3
 Horace: K.
   SignOut(Chat1);
@@ -4224,7 +4187,7 @@ stop
                 <DialogOptions>
                   <DialogOption>
                     <ID>1</ID>
-                    <Text xml:space="preserve">Shouldn't they at least know? That there isn't going to be another ship?</Text>
+                    <Text xml:space="preserve">Shouldn't they at least know? That there isn't going to be another wave?</Text>
                     <Show>True</Show>
                     <Say>True</Say>
                   </DialogOption>
@@ -4236,7 +4199,264 @@ stop
                   </DialogOption>
                   <DialogOption>
                     <ID>3</ID>
-                    <Text>Brb.</Text>
+                    <Text>BRB.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+              <Dialog>
+                <ID>6</ID>
+                <Name>Horace6</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+  SaveHoraceChatState(this);
+return
+@1
+Horace: Why do you ask that?
+Player: No reason.
+Horace: Listen, the Antarctic doesn't exist anymore.
+Horace: There isn't any wind.
+Horace: I haven't seen the moon in 3 months because I can't find the time to take the drive.
+Horace: If there is one, they never built this rock to last.
+goto-dialog Horace7
+@2
+Horace: Does it matter?
+Player: We can't even keep ourselves alive, let alone each other.
+Player: What's the point.
+Horace: Defeatist of you.
+Horace: You have a rare chance of continuing that self-righteous life of yours on a living planet, I'd suggest you take it.
+goto-dialog Horace7
+@3
+Horace: Shut up, get on that ship, and I'll see you in a month when we wake up on that Boulder.
+Player: Is that all?
+Horace: That's all.
+goto-dialog Horace7
+@4
+Horace: K.
+  SignOut(Chat1);
+stop
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Text xml:space="preserve">Do you believe in God, Horace?</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Text xml:space="preserve">Do you think human beings are worth saving?</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>3</ID>
+                    <Text xml:space="preserve">What can I do?</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>4</ID>
+                    <Text>BRB.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+              <Dialog>
+                <ID>22</ID>
+                <Name>Horace7</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+  SaveHoraceChatState(this);
+return
+@1
+Horace: To whom?
+Player: To the Globe, the Times, whoever.
+Horace: That's dangerous, the servers here keep track of what goes in and out.
+Horace: They'll be able to tell who you talked to and what you send them.
+Horace: They'll be on you the moment you say a word.
+Player: Right.
+goto-dialog Horace8
+@2
+Horace: K.
+  SignOut(Chat1);
+stop
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Text xml:space="preserve">What if I were to say something?</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Text>BRB.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+              <Dialog>
+                <ID>23</ID>
+                <Name>Horace8</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+  SaveHoraceChatState(this);
+return
+@1
+Horace: What are you up to.
+  SignOut(Chat1);
+stop
+@2
+Horace: Unless it's with packing, I'm unavailable.
+Player: They should know what's happening.
+Player: It's the right thing.
+Horace: Is it? Isn't that cruel as well?
+goto-dialog Horace9
+@3
+Horace: K.
+  SignOut(Chat1);
+stop
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Text xml:space="preserve">Hold on.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Text xml:space="preserve">I need your help.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>3</ID>
+                    <Text>BRB.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+              <Dialog>
+                <ID>24</ID>
+                <Name>Horace9</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+  SaveHoraceChatState(this);
+return
+@1
+Horace: Of course you would have.
+Horace: Fine. What do you need?
+goto-dialog Horace10
+@2
+Horace: ... Fine. What do you need?
+goto-dialog Horace10
+@3
+Horace: It's for the best.
+  SignOut(Chat1);
+stop
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Text xml:space="preserve">Maybe. but if it was me I would've liked to know.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Text xml:space="preserve">Just help me, Horace. Last workplace favor.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>3</ID>
+                    <Text xml:space="preserve">Fuck. I gotta go.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+              <Dialog>
+                <ID>25</ID>
+                <Name>Horace10</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+  SaveHoraceChatState(this);
+return
+@1
+Horace: That is the worst idea I have ever heard.
+Horace: You've gotta be joking.
+Player: No, I can do it anonymously.
+Player: Do you know how to encrypt archive files on this terminal?
+Player: So that the servers can't detect when and what and from or to whom something is sent?
+Horace: You- you need to enter a code.
+Horace: But no, you're not sending it anywhere.
+Horace: I'm not going to be a party in this.
+goto-dialog Horace11
+@2
+Horace: You'd need to use the Terminal.
+Horace: Type in the command.
+Horace: You'll need a code, but-
+Horace: But this can NOT come back to me. I will not be a part in this.
+goto-dialog Horace11
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Text xml:space="preserve">What if I can leak it. You know, to the press. Just- tell them what's coming up, give them a warning.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Text xml:space="preserve">How do you encrypt archives on this thing?</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                </DialogOptions>
+              </Dialog>
+              <Dialog>
+                <ID>26</ID>
+                <Name>Horace11</Name>
+                <ShowTextParser>False</ShowTextParser>
+                <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+  SaveHoraceChatState(this);
+return
+@1
+Horace: ... Alright.
+Horace: The password to encrypt files is DELTA. Case-sensitive.
+Player: Thanks Horace. Have a good trip.
+Horace: Be careful. This is life or death. Think hard.
+  SignOut(Chat1);
+stop
+@2
+Horace: It's for the best. I'm off work now.
+Horace: I'll see you on the other side, my friend.
+  SignOut(Chat1);
+stop
+]]></Script>
+                <DialogOptions>
+                  <DialogOption>
+                    <ID>1</ID>
+                    <Text xml:space="preserve">I promise you this will never come back to you.</Text>
+                    <Show>True</Show>
+                    <Say>True</Say>
+                  </DialogOption>
+                  <DialogOption>
+                    <ID>2</ID>
+                    <Text xml:space="preserve">I.. I don't know. I don't know what I'm thinking. God, I- I'm sorry I asked.</Text>
                     <Show>True</Show>
                     <Say>True</Say>
                   </DialogOption>
@@ -4535,7 +4755,7 @@ stop
                 <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 Justin: Hello ________, are you alone in the office right now?
-Player: Yes
+Player: Yes.
 Justin: Great! We're sending someone over now to consult with you about the leak.
 Justin: Please stay where you are.
 Justin: Thank you for your cooperation.
@@ -4739,7 +4959,7 @@ goto-dialog Celine6
                   </DialogOption>
                   <DialogOption>
                     <ID>2</ID>
-                    <Text xml:space="preserve">… Yes.</Text>
+                    <Text xml:space="preserve">... Yes.</Text>
                     <Show>True</Show>
                     <Say>True</Say>
                   </DialogOption>
@@ -5296,7 +5516,7 @@ stop
         <GlobalVariable>
           <Name>horace_chat_state</Name>
           <Type>int</Type>
-          <DefaultValue>0</DefaultValue>
+          <DefaultValue>2</DefaultValue>
         </GlobalVariable>
         <GlobalVariable>
           <Name>justin_chat_state</Name>
@@ -6575,6 +6795,31 @@ stop
           <Sprite Slot="129" Width="539" Height="662" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
             <Source>
               <FileName>C:\Users\sinat_000\Downloads\Whistleblower\P3.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="227" Width="658" Height="192" ColorDepth="32" Resolution="HighRes" AlphaChannel="True">
+            <Source>
+              <FileName>C:\Users\Banjo\Downloads\Dialogue (1).png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="228" Width="246" Height="49" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Banjo\Downloads\MinimizeH.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="229" Width="246" Height="49" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Banjo\Downloads\MinimizeJ.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="230" Width="246" Height="49" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Banjo\Downloads\MinimizeC.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="231" Width="40" Height="49" ColorDepth="32" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Banjo\Downloads\Offline.png</FileName>
             </Source>
           </Sprite>
         </Sprites>
@@ -8588,7 +8833,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-22 19:45:50Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-22 11:45:50Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\print.wav</SourceFileName>
@@ -8600,7 +8845,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-23 00:55:11Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-22 16:55:11Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\Aldebaran.wav</SourceFileName>
@@ -8612,7 +8857,7 @@ stop
             <DefaultVolume>25</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-23 17:47:09Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-23 09:47:09Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\robert\Dropbox\Whistleblower\placeholders\sounds\type2.wav</SourceFileName>
@@ -8624,7 +8869,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-25 03:55:59Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-24 19:55:59Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\Anand\Dropbox\Whistleblower\sounds\Train.mp3</SourceFileName>
@@ -8636,7 +8881,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-16 09:07:06Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-16 01:07:06Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\Anand\Dropbox\Whistleblower\sounds\breathe_run.wav</SourceFileName>
@@ -8648,7 +8893,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-16 11:43:23Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-16 03:43:23Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <SourceFileName>C:\Users\Banjo\Desktop\Tinnitus.wav</SourceFileName>
@@ -8660,7 +8905,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-17 03:07:34Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-16 19:07:34Z</FileLastModifiedDate>
           </AudioClip>
         </AudioClips>
         <AudioClipFolder>
