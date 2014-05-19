@@ -3275,9 +3275,9 @@
           <GUIMain>
             <NormalGUI>
               <OnClick />
-              <Height>108</Height>
-              <Width>302</Width>
-              <Left>361</Left>
+              <Height>89</Height>
+              <Width>364</Width>
+              <Left>330</Left>
               <Top>330</Top>
               <Clickable>True</Clickable>
               <Visibility>NormalButInitiallyOff</Visibility>
@@ -3301,7 +3301,7 @@
                 <Locked>False</Locked>
                 <Width>270</Width>
                 <Left>20</Left>
-                <Top>73</Top>
+                <Top>53</Top>
                 <ZOrder>0</ZOrder>
                 <ID>0</ID>
                 <Name>TerminalCommand</Name>
@@ -3315,7 +3315,7 @@
                 <Locked>False</Locked>
                 <Width>286</Width>
                 <Left>8</Left>
-                <Top>43</Top>
+                <Top>23</Top>
                 <ZOrder>1</ZOrder>
                 <ID>1</ID>
                 <Name>TerminalOutput</Name>
@@ -3335,8 +3335,8 @@
                 <Height>23</Height>
                 <Locked>False</Locked>
                 <Width>23</Width>
-                <Left>273</Left>
-                <Top>6</Top>
+                <Left>335</Left>
+                <Top>0</Top>
                 <ZOrder>2</ZOrder>
                 <ID>2</ID>
                 <Name>Button2</Name>
@@ -8978,7 +8978,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-20 07:45:50Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-20 03:45:50Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>Print</ScriptName>
@@ -8990,7 +8990,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-20 12:55:11Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-20 08:55:11Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>Type</ScriptName>
@@ -9002,7 +9002,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-22 15:55:59Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-22 11:55:59Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>Train</ScriptName>
@@ -9014,7 +9014,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-13 21:07:06Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-13 17:07:06Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>BreatheRun</ScriptName>
@@ -9026,7 +9026,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-13 23:43:23Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-13 19:43:23Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>Tinnitus</ScriptName>
@@ -9038,7 +9038,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-14 15:07:34Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-14 11:07:34Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>Error</ScriptName>
@@ -9050,7 +9050,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-18 00:15:01Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-17 20:15:01Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>ComputerHum</ScriptName>
@@ -9062,7 +9062,7 @@ stop
             <DefaultVolume>5</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-18 04:46:21Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-18 00:46:21Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>ForcedShutdown</ScriptName>
@@ -9074,7 +9074,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-18 04:53:02Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-18 00:53:02Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>Airplane</ScriptName>
@@ -9086,7 +9086,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-18 05:00:11Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-18 01:00:11Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>SeatBelt</ScriptName>
@@ -9098,7 +9098,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-18 05:34:43Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-18 01:34:43Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>ManualShutdown</ScriptName>
@@ -9110,7 +9110,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-18 09:41:52Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-18 05:41:52Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>NewsSound</ScriptName>
@@ -9122,7 +9122,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-18 09:49:38Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-18 05:49:38Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>Glados</ScriptName>
@@ -9134,7 +9134,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-18 11:17:12Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-18 07:17:12Z</FileLastModifiedDate>
           </AudioClip>
         </AudioClips>
         <AudioClipFolder>
