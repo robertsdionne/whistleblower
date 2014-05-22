@@ -4019,12 +4019,12 @@ stop
   SaveHoraceChatState(this);
 return
 @1
-Horace: Same old, same old.
+Horace: Doing alright.
 Horace: Leaving the magnetic field in two days.
-Player: Oh, you too? What a coincidence.
-Horace: Funny.
+Player: Funny.
+Horace: I better be out of here.
 Horace: Since it was the only reason I agreed to work here.
-Horace: End-of-days-proof.
+Horace: Well good dental, and end-of-days-proof.
 goto-dialog Horace3
 @2
 Horace: Yep. We're getting outta here, huh.
@@ -4057,7 +4057,7 @@ stop
                   </DialogOption>
                   <DialogOption>
                     <ID>3</ID>
-                    <Text xml:space="preserve">They're stopping the waves.</Text>
+                    <Text xml:space="preserve">They're going to stop sending Waves.</Text>
                     <Show>True</Show>
                     <Say>True</Say>
                   </DialogOption>
@@ -4419,28 +4419,27 @@ stop
   SaveHoraceChatState(this);
 return
 @1
-Horace: That is the worst idea I have ever heard.
-Horace: You've gotta be joking.
-Player: No, I can do it anonymously.
+Player: Just- tell them what's coming up, give them a warning.
+Horace: You've gotta be joking. That is, the worst idea-
+Player: I will do it anonymously.
 Player: Do you know how to encrypt archive files on this terminal?
-Player: So that the servers can't detect when and what...
-Player: ... and from or to whom something is sent?
+Player: So that the servers can't detect what was sent and by whom.
 Horace: Type in the "encrypt" command.
-Horace: You'll need a code, but-
+Horace: You'll need an authorization code, but-
 Horace: But no, you're not sending it anywhere.
 Horace: I'm not going to be a party in this.
 goto-dialog Horace11
 @2
-Horace: You'd need to use the Terminal.
+Horace: You'll need to open the Terminal.
 Horace: Type in the "encrypt" command.
-Horace: You'll need a code, but-
+Horace: You'll need an authorization code, but-
 Horace: But this can NOT come back to me. I will not be a part in this.
 goto-dialog Horace11
 ]]></Script>
                 <DialogOptions>
                   <DialogOption>
                     <ID>1</ID>
-                    <Text xml:space="preserve">What if I can leak it. You know, to the press. Just- tell them what's coming up, give them a warning.</Text>
+                    <Text xml:space="preserve">What if I can leak it. You know, to the press.</Text>
                     <Show>True</Show>
                     <Say>True</Say>
                   </DialogOption>
@@ -4524,6 +4523,7 @@ goto-dialog Justin3
 Justin: What do you mean?
 goto-dialog Justin3
 @3
+Player: Excuse me I must, attend to something.
 Justin: I- Alright?? Until next time.
   SignOut(Chat2);
 stop
@@ -4537,13 +4537,13 @@ stop
                   </DialogOption>
                   <DialogOption>
                     <ID>2</ID>
-                    <Text xml:space="preserve">That is. Patently untrue, unfortunately.</Text>
+                    <Text xml:space="preserve">That is patently untrue.</Text>
                     <Show>True</Show>
                     <Say>True</Say>
                   </DialogOption>
                   <DialogOption>
                     <ID>3</ID>
-                    <Text xml:space="preserve">Yes. Yes. It's, everything's fantastic. Excuse me I must, attend to something.</Text>
+                    <Text xml:space="preserve">Yes. Yes, everything's fantastic.</Text>
                     <Show>True</Show>
                     <Say>True</Say>
                   </DialogOption>
@@ -4615,6 +4615,7 @@ stop
   SaveJustinChatState(this);
 return
 @1
+Player: And the employees, and at least 30 ships of equipment and resources. No more.
 Justin: Oh. Oh I see.
 Justin: I must let the readers know. 
 Justin: How would you like to be identified as.
@@ -4631,7 +4632,7 @@ goto-dialog Justin6
                 <DialogOptions>
                   <DialogOption>
                     <ID>1</ID>
-                    <Text xml:space="preserve">Just the last of the prioritized applicants, the employees, and at least 30 ships of equipment and resources. No more.</Text>
+                    <Text xml:space="preserve">Just the last of the prioritized applicants.</Text>
                     <Show>True</Show>
                     <Say>True</Say>
                   </DialogOption>
@@ -4654,7 +4655,6 @@ return
 @1
 Justin: Thank you.
 Justin: Now to publish this terrible news, and to make it convincing.
-Justin: We must tell the world what is happening.
 Justin: Do you have any solid evidence of this accusation?
 goto-dialog Justin6
 @2
@@ -4689,9 +4689,10 @@ goto-dialog Justin6
   SaveJustinChatState(this);
 return
 @1
-Justin: Then how do I know you're not falsifying information and incriminating the program inaccurately?
-Justin: You must give me enough information to make this story credible.
-Justin: _______,  7 billion lives are at stake. 
+Player: I can't give evidence or a testimony, they will know who is responsible. This must be off-record.
+Justin: Then how do I know you're not falsifying information and incriminating ARK out of some personal vendetta?
+Justin: You must give me concrete evidence to make this story credible. Don't you want them to believe you?
+Justin: 7 billion lives are at stake. 
 goto-dialog Justin7
 @2
 Justin: Wait! What about the evidence!
@@ -4702,13 +4703,13 @@ stop
                 <DialogOptions>
                   <DialogOption>
                     <ID>1</ID>
-                    <Text xml:space="preserve">No I can't. I can't give evidence or a testimony, they will know who is responsible. This must be off-record.</Text>
+                    <Text xml:space="preserve">They can't know I leaked it.</Text>
                     <Show>True</Show>
-                    <Say>True</Say>
+                    <Say>False</Say>
                   </DialogOption>
                   <DialogOption>
                     <ID>2</ID>
-                    <Text xml:space="preserve">Uh, fuck. I should - excuse me.</Text>
+                    <Text xml:space="preserve">Uh, I should - excuse me.</Text>
                     <Show>True</Show>
                     <Say>True</Say>
                   </DialogOption>
@@ -4780,7 +4781,7 @@ stop
                 <ShowTextParser>False</ShowTextParser>
                 <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
-Justin: Hello ________, are you alone in the office right now?
+Justin: Are you alone in the office right now?
 Player: Yes.
 Justin: Great! We're sending someone over now to consult with you about the leak.
 Justin: Please stay where you are.
@@ -8978,7 +8979,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-20 07:45:50Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-20 03:45:50Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>Print</ScriptName>
@@ -8990,7 +8991,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-20 12:55:11Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-20 08:55:11Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>Type</ScriptName>
@@ -9002,7 +9003,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-04-22 15:55:59Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-04-22 11:55:59Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>Train</ScriptName>
@@ -9014,7 +9015,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-13 21:07:06Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-13 17:07:06Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>BreatheRun</ScriptName>
@@ -9026,7 +9027,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-13 23:43:23Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-13 19:43:23Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>Tinnitus</ScriptName>
@@ -9038,7 +9039,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-14 15:07:34Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-14 11:07:34Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>Error</ScriptName>
@@ -9050,7 +9051,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-18 00:15:01Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-17 20:15:01Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>ComputerHum</ScriptName>
@@ -9062,7 +9063,7 @@ stop
             <DefaultVolume>5</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-18 04:46:21Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-18 00:46:21Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>ForcedShutdown</ScriptName>
@@ -9074,7 +9075,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-18 04:53:02Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-18 00:53:02Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>Airplane</ScriptName>
@@ -9086,7 +9087,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-18 05:00:11Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-18 01:00:11Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>SeatBelt</ScriptName>
@@ -9098,7 +9099,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-18 05:34:43Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-18 01:34:43Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>ManualShutdown</ScriptName>
@@ -9110,7 +9111,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-18 09:41:52Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-18 05:41:52Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>NewsSound</ScriptName>
@@ -9122,7 +9123,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-18 09:49:38Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-18 05:49:38Z</FileLastModifiedDate>
           </AudioClip>
           <AudioClip>
             <ScriptName>Glados</ScriptName>
@@ -9134,7 +9135,7 @@ stop
             <DefaultVolume>-1</DefaultVolume>
             <DefaultPriority>Inherit</DefaultPriority>
             <DefaultRepeat>Inherit</DefaultRepeat>
-            <FileLastModifiedDate>2014-05-18 11:17:12Z</FileLastModifiedDate>
+            <FileLastModifiedDate>2014-05-18 07:17:12Z</FileLastModifiedDate>
           </AudioClip>
         </AudioClips>
         <AudioClipFolder>
